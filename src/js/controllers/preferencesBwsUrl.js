@@ -36,6 +36,20 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
           bws = 'http://localhost:3232/bws/api'
           break;
       };
+      // switch ($scope.bwsurl.value) {
+      //   case 'prod':
+      //   case 'production':
+      //     bws = 'http://blockchain.browser.tiny-calf.com:3232/bws/api'
+      //     break;
+      //   case 'sta':
+      //   case 'staging':
+      //     bws = 'http://blockchain.browser.tiny-calf.com:3232/bws/api'
+      //     break;
+      //   case 'loc':
+      //   case 'local':
+      //     bws = 'http://blockchain.browser.tiny-calf.com:3232/bws/api'
+      //     break;
+      // };
       if (bws) {
         $log.info('Using BWS URL Alias to ' + bws);
         $scope.bwsurl.value = bws;
