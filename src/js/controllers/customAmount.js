@@ -37,7 +37,7 @@ angular.module('copayApp.controllers').controller('customAmountController', func
       var currency = parsedAmount.currency;
       $scope.amountUnitStr = parsedAmount.amountUnitStr;
 
-      if (currency != 'BTC') {
+      if (currency != 'MBC') { //Jonathan
         // Convert to BTC
         var config = configService.getSync().wallet.settings;
         var amountUnit = txFormatService.satToUnit(parsedAmount.amountSat);

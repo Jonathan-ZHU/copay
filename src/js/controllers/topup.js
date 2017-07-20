@@ -161,7 +161,7 @@ angular.module('copayApp.controllers').controller('topUpController', function($s
 
         var maxAmountBtc = Number((maxValues.amount / 100000000).toFixed(8));
 
-        createInvoice({amount: maxAmountBtc, currency: 'BTC'}, function(err, inv) {
+        createInvoice({amount: maxAmountBtc, currency: 'MBC'}, function(err, inv) {  //Jonathan
           if (err) return cb(err);
 
           var invoiceFeeSat = parseInt((inv.buyerPaidBtcMinerFee * 100000000).toFixed());
