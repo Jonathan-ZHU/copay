@@ -1,3 +1,4 @@
+<!-- MBC Jonathan hide alt currency -->
 <ion-view id="walletDetails" hide-tabs>
 
   <ion-nav-bar ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color': wallet.color}">
@@ -43,13 +44,14 @@
           ng-style="{'transform': amountScale}"
           ng-class="{amount__balance: amountIsCollapsible}">
           <strong class="size-36">{{status.totalBalanceStr}}</strong>
-          <div
+          <!-- MBC Jonathan hide altcurrency -->
+          <!-- <div
             class="size-14 amount-alternative"
             ng-if="status.totalBalanceAlternative"
             ng-style="{opacity: altAmountOpacity}"
             >
             {{status.totalBalanceAlternative}} {{status.alternativeIsoCode}}
-          </div>
+          </div> -->
         </div>
 
         <div ng-style="{'transform': amountScale}"
@@ -69,9 +71,9 @@
               {{status.spendableBalanceStr}}
             </strong>
             &nbsp;
-            <span>
+            <!-- <span>
               {{status.spendableBalanceAlternative}} {{status.alternativeIsoCode}}
-            </span>
+            </span> -->
           </button>
         </div>
 
@@ -119,7 +121,8 @@
 
           <div ng-click='updateAll(true)' ng-show="!updateStatusError && !wallet.balanceHidden" on-hold="hideToggle()" ng-style="{'transform': amountScale}">
             <strong class="size-36">{{status.totalBalanceStr}}</strong>
-            <div class="size-14 amount-alternative" ng-if="status.totalBalanceAlternative">{{status.totalBalanceAlternative}} {{status.alternativeIsoCode}}</div>
+            <!-- MBC Jonathan hide alt currency -->
+            <!-- <div class="size-14 amount-alternative" ng-if="status.totalBalanceAlternative">{{status.totalBalanceAlternative}} {{status.alternativeIsoCode}}</div> -->
           </div>
 
           <div ng-if="!wallet.balanceHidden && showBalanceButton" ng-style="{'opacity': altAmountOpacity, 'transform': amountScale}">
@@ -129,9 +132,9 @@
                 {{status.spendableBalanceStr}}
               </strong>
               &nbsp;
-              <span>
+              <!-- <span>
                 {{status.spendableBalanceAlternative}} {{status.alternativeIsoCode}}
-              </span>
+              </span> -->
             </button>
           </div>
 
@@ -160,7 +163,7 @@
 
 
     <a class="wallet-not-backed-up-warning" ng-if="lowUtxosWarning" ui-sref="tabs.wallet.addresses({walletId:wallet.id,from: 'tabs.wallet'})" translate>
-      Spending this balance will need significant Bitcoin network fees
+      Spending this balance will need significant Mobicoin network fees
     </a>
 
 
@@ -184,7 +187,7 @@
         <div class="item item-footer description" ng-show="status.lockedBalanceSat" style="background: white;">
           <span translate>Total Locked Balance</span>:
           <b>{{status.lockedBalanceStr}} </b>
-          <span> {{status.lockedBalanceAlternative}} {{status.alternativeIsoCode}} </span>
+          <!-- <span> {{status.lockedBalanceAlternative}} {{status.alternativeIsoCode}} </span> -->
         </div>
       </div>
 

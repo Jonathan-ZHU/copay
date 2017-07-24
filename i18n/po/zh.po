@@ -170,12 +170,12 @@ msgid "All Addresses"
 msgstr "所有地址"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
-msgstr "所有您的比特币的钱包余额可能无法用于直接支出。"
+msgid "All of your Mobicoin wallet balance may not be available for immediate spending."
+msgstr "所有您的魔币的钱包余额可能无法用于直接支出。"
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
-msgstr "比特币地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
+msgid "All signing devices must be added to this multisig wallet before Mobicoin addresses can be created."
+msgstr "魔币地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -218,11 +218,11 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr "本程序有一个可用的更新。为了您的安全，请更新到最新版本。"
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
-msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
+msgid "Anyone with your backup phrase can access or spend your Mobicoin."
+msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的魔币。"
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate Mobicoin network fee to transfer wallet's balance (with normal priority)"
 msgstr ""
 
 #: www/views/backupWarning.html:10
@@ -230,7 +230,7 @@ msgid "Are you being watched?"
 msgstr "你正在被监视吗？"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your Mobicoin."
 msgstr ""
 
 #: src/js/controllers/copayers.js:56
@@ -337,38 +337,38 @@ msgid "BitPay Visa&reg; Cards"
 msgstr "BitPay Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
-msgid "Bitcoin Address"
-msgstr "比特币地址"
+msgid "Mobicoin Address"
+msgstr "魔币地址"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
-msgstr "比特币网络手续费策略"
+msgid "Mobicoin Network Fee Policy"
+msgstr "魔币网络手续费策略"
 
 #: www/views/paymentUri.html:10
-msgid "Bitcoin URI is NOT valid!"
-msgstr "比特币 URI 无效！"
+msgid "Mobicoin URI is NOT valid!"
+msgstr "魔币 URI 无效！"
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
-msgstr "比特币单位"
+msgid "Mobicoin Unit"
+msgstr "魔币单位"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
-msgstr "比特币是一种货币。"
+msgid "Mobicoin is a currency."
+msgstr "魔币是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "比特币是不同 — — 它不能安全地举行以银行或 web 服务。"
+msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "魔币是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
-msgstr "比特币是安全的 <br>数字货币。"
+msgid "Mobicoin is secure,<br>digital money."
+msgstr "魔币是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "比特币交易包括在网络上被矿工所收取的费用。"
+msgid "Mobicoin transactions include a fee collected by miners on the network."
+msgstr "魔币交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -388,16 +388,16 @@ msgid "Browser unsupported"
 msgstr "不受支持的浏览器"
 
 #: www/views/includes/buyAndSellCard.html:4
-msgid "Buy &amp; Sell Bitcoin"
-msgstr "购买或出售比特币"
+msgid "Buy &amp; Sell Mobicoin"
+msgstr "购买或出售魔币"
 
 #: www/views/tab-send.html:35
-msgid "Buy Bitcoin"
-msgstr "购买比特币"
+msgid "Buy Mobicoin"
+msgstr "购买魔币"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
-msgstr "正在发送 比特币..."
+msgid "Buying Mobicoin..."
+msgstr "正在发送 魔币..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -710,8 +710,8 @@ msgstr "创建自己的免费钱包"
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create bitcoin wallet"
-msgstr "创建比特币的钱包"
+msgid "Create Mobicoin wallet"
+msgstr "创建魔币的钱包"
 
 #: www/views/tab-create-personal.html:129
 msgid "Create new wallet"
@@ -816,8 +816,8 @@ msgid "Download"
 msgstr "下载"
 
 #: www/views/addresses.html:19
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "每个比特币钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和显示每个时间你收到付款。"
+msgid "Each Mobicoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgstr "每个魔币钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和显示每个时间你收到付款。"
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -1271,8 +1271,8 @@ msgid "I understand"
 msgstr "我知道了"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
-msgstr "我明白是否这个应用程序是搬到另一个设备或删除，我比特币可以只能进行恢复与备份的短语。"
+msgid "I understand that if this app is moved to another device or deleted, my Mobicoin can only be recovered with the backup phrase."
+msgstr "我明白是否这个应用程序是搬到另一个设备或删除，我魔币可以只能进行恢复与备份的短语。"
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1414,8 +1414,8 @@ msgid "Is this email address correct?"
 msgstr "此电子邮件地址是正确的？"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的比特币安全假设攻击由量子计算机。"
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your Mobicoins secure against hypothetical attacks by quantum computers."
+msgstr "它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的魔币安全假设攻击由量子计算机。"
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1610,8 +1610,8 @@ msgid "No Wallet"
 msgstr "没钱包"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
-msgstr "没有备份，没有比特币。"
+msgid "No backup, no Mobicoin."
+msgstr "没有备份，没有魔币。"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1687,8 +1687,8 @@ msgid "Note"
 msgstr "备注"
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
-msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖比特币"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell Mobicoin"
+msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖魔币"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:46
@@ -1802,8 +1802,8 @@ msgid "Paste the backup plain text code"
 msgstr "粘贴备份的纯文本代码"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "0%付费以比特币变成美元。"
+msgid "Pay 0% fees to turn Mobicoin into dollars."
+msgstr "0%付费以魔币变成美元。"
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2173,8 +2173,8 @@ msgid "Search Transactions"
 msgstr "搜索交易"
 
 #: www/views/tab-send.html:13
-msgid "Search or enter bitcoin address"
-msgstr "搜索或输入比特币地址"
+msgid "Search or enter Mobicoin address"
+msgstr "搜索或输入魔币地址"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2202,8 +2202,8 @@ msgid "Self-signed Certificate"
 msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
-msgstr "出售比特币......"
+msgid "Selling Mobicoin..."
+msgstr "出售魔币......"
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2342,8 +2342,8 @@ msgid "Show advanced options"
 msgstr "显示高级选项"
 
 #: www/views/tab-send.html:37
-msgid "Show bitcoin address"
-msgstr "显示比特币地址"
+msgid "Show Mobicoin address"
+msgstr "显示魔币地址"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
@@ -2393,12 +2393,12 @@ msgid "Spending Password needed"
 msgstr "需要支付密码"
 
 #: www/views/walletDetails.html:162
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Mobicoin network fees"
 msgstr ""
 
 #: www/views/tab-send.html:28
-msgid "Start sending bitcoin"
-msgstr "开始发送比特币"
+msgid "Start sending Mobicoin"
+msgstr "开始发送魔币"
 
 #: src/js/routes.js:118
 msgid "Starting..."
@@ -2433,8 +2433,8 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "此操作无法撤消"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with bitcoin."
-msgstr "把你的钱，<br>得到控制开始用比特币。"
+msgid "Take control of your money,<br>get started with Mobicoin."
+msgstr "把你的钱，<br>得到控制开始用魔币。"
 
 #: www/views/walletDetails.html:140
 #: www/views/walletDetails.html:60
@@ -2482,16 +2482,16 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "Ledger Chrome 应用程序未安装"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "比特币立即可从这个钱包的金额。"
+msgid "The amount of Mobicoin immediately spendable from this wallet."
+msgstr "魔币立即可从这个钱包的金额。"
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "比特币存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超过。"
+msgid "The amount of Mobicoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "魔币存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超过。"
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "比特币存储在与小于 1 blockchain 确认这个钱包中的金额。"
+msgid "The amount of Mobicoin stored in this wallet with less than 1 blockchain confirmation."
+msgstr "魔币存储在与小于 1 blockchain 确认这个钱包中的金额。"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2545,8 +2545,8 @@ msgid "The spend proposal is not pending"
 msgstr "花费提议不是未决"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "比特币存储在这个钱包的总量。"
+msgid "The total amount of Mobicoin stored in this wallet."
+msgstr "魔币存储在这个钱包的总量。"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2580,12 +2580,12 @@ msgid "This app is fantastic!"
 msgstr "这个应用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
-msgstr "此应用程序商店你比特币与尖端的安全。"
+msgid "This app stores your Mobicoin with cutting-edge security."
+msgstr "此应用程序商店你魔币与尖端的安全。"
 
 #: src/js/controllers/confirm.js:464
-msgid "This bitcoin payment request has expired."
-msgstr "这比特币付款请求已过期。"
+msgid "This Mobicoin payment request has expired."
+msgstr "这魔币付款请求已过期。"
 
 #: www/views/join.html:130
 #: www/views/tab-create-personal.html:101
@@ -2598,7 +2598,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复短语和密码。"
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Mobicoin network fees. Spending these funds will need a Mobicoin network fee cost comparable to the funds itself."
 msgstr ""
 
 #: www/views/tx-details.html:89
@@ -2625,12 +2625,12 @@ msgid "To"
 msgstr "发送到"
 
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
-msgstr "若要开始，请买比特币或共享您的地址。你可以从任何钱包或服务接收比特币。"
+msgid "To get started, buy Mobicoin or share your address. You can receive Mobicoin from any wallet or service."
+msgstr "若要开始，请买魔币或共享您的地址。你可以从任何钱包或服务接收魔币。"
 
 #: www/views/tab-send.html:33
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
-msgstr "若要开始，您将需要创建一个比特币的钱包，并获得一些比特币。"
+msgid "To get started, you'll need to create a Mobicoin wallet and get some Mobicoin."
+msgstr "若要开始，您将需要创建一个魔币的钱包，并获得一些魔币。"
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -2713,8 +2713,8 @@ msgid "Try again in {{expires}}"
 msgstr ""
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "比特币变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
+msgid "Turn Mobicoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "魔币变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3070,16 +3070,16 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr "您可以通过签约我们 Crowdin 社区翻译网站作出贡献。我们期待你的听力 ！"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "您可以扫描比特币地址、 付款申请、 纸钱包和更多。"
+msgid "You can scan Mobicoin addresses, payment requests, paper wallets, and more."
+msgstr "您可以扫描魔币地址、 付款申请、 纸钱包和更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程序通过在 GitHub 上访问我们的项目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgstr "你可以花比特币在数以百万计的网站和世界各地的商店。"
+msgid "You can spend Mobicoin at millions of websites and stores worldwide."
+msgstr "你可以花魔币在数以百万计的网站和世界各地的商店。"
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
@@ -3090,8 +3090,8 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "你可以换其他货币，如美元、 欧元或英镑。"
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your bitcoin."
-msgstr "您可以控制您的比特币。"
+msgid "You control your Mobicoin."
+msgstr "您可以控制您的魔币。"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
@@ -3106,12 +3106,12 @@ msgid "Your BitPay Card is ready. Add funds to your card to start using it at st
 msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
-msgstr "你的比特币钱包被备份 ！"
+msgid "Your Mobicoin wallet is backed up!"
+msgstr "你的魔币钱包被备份 ！"
 
 #: www/views/tab-home.html:36
-msgid "Your bitcoin wallet is ready!"
-msgstr "你的比特币钱包是准备好了 ！"
+msgid "Your Mobicoin wallet is ready!"
+msgstr "你的魔币钱包是准备好了 ！"
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
@@ -3186,8 +3186,8 @@ msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain inform
 msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 https://bws.bitpay.com (BitPay 的公共 BWS 实例)。"
 
 #: src/js/controllers/confirm.js:354
-msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgstr "{{fee}} 将比特币网络费用中扣除。"
+msgid "{{fee}} will be deducted for Mobicoin networking fees."
+msgstr "{{fee}} 将魔币网络费用中扣除。"
 
 #: www/views/confirm.html:87
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"

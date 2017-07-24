@@ -25,15 +25,16 @@
         </div>
         <div class="amount-label">
           <div class="amount">{{btx.amountValueStr}} <span class="unit">{{btx.amountUnitStr}}</span></div>
-          <div class="alternative" ng-click="showRate = !showRate">
+          <!-- <div class="alternative" ng-click="showRate = !showRate">
             <span ng-if="!showRate">{{btx.alternativeAmountStr}}</span>
             <span ng-if="showRate">
-              <span ng-if="!rate">...</span>
+              <span ng-if="!rate">...</span> 
               <span ng-if="rate">
                 {{rate| currency:'':2}} {{alternativeIsoCode}} ({{rateDate | amDateFormat:'MM/DD/YYYY HH:mm a'}})
               </span>
+              MBC Jonathan
             </span>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="info">
@@ -91,7 +92,7 @@
         <div class="item low-fees" ng-if="btx.lowAmount">
           <i class="icon"><img src="img/icon-warning.png" width="20px"></i>
           <span translate>
-This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself. </span>
+This transaction amount is too small compared to current Mobicoin network fees. Spending these funds will need a Mobicoin network fee cost comparable to the funds itself. </span>
         </div>
  
         <div class="item single-line">
