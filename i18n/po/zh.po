@@ -542,6 +542,10 @@ msgstr "联系人"
 msgid "Continue"
 msgstr "继续"
 
+#: www/views/onboarding/collectEmail.html:18
+msgid "Continue"
+msgstr "继续"
+
 #: www/views/preferencesLanguage.html:26
 msgid "Contribute Translations"
 msgstr "参与翻译"
@@ -881,7 +885,7 @@ msgstr "输入恢复短语 (BIP39)"
 
 #: www/views/onboarding/collectEmail.html:13
 msgid "Enter your email"
-msgstr ""
+msgstr "输入你的邮箱地址"
 
 #: www/views/backup.html:62
 msgid "Enter your password"
@@ -1697,7 +1701,7 @@ msgstr "通知"
 
 #: www/views/onboarding/collectEmail.html:9
 msgid "Notifications by email"
-msgstr ""
+msgstr "邮箱认证"
 
 #: www/views/tx-details.html:116
 msgid "Notify me if confirmed"

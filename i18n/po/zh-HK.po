@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: copay\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: copay\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: template.pot\n"
+"Last-Translator: cmgustavo83\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh\n"
+"PO-Revision-Date: 2017-06-29 07:15-0400\n"
+
+#: www/views/modals/paypro.html:34
+msgid "(Trusted)"
+msgstr "（可信的）"
+
+#: www/views/includes/txp.html:23
+#: www/views/includes/walletHistory.html:64
+msgid "(possible double spend)"
+msgstr "（重複支付）"
+
+#: www/views/modals/txp-details.html:161
+msgid "* A payment proposal can be deleted if 1) you are the creator, and no other copayer has signed, or 2) 24 hours have passed since the proposal was created."
+msgstr "* 如果 1) 你是創造者，及沒有其他 copayer 簽名，或 2) 24 小時已經過去，支付提議將被刪除。 "
+
+#: www/views/tx-details.html:84
+msgid "- {{btx.feeRateStr}} of the transaction"
+msgstr ""
+
+#: www/views/modals/txp-details.html:104
+msgid "- {{tx.feeRateStr}} of the transaction"
+msgstr ""
+
+#: www/views/feedback/rateApp.html:7
+msgid "5-star ratings help us get {{appName}} into more hands, and more users means more resources can be committed to the app!"
+msgstr "5 星評級説明我們進入更多的人手, {{appName}} 和更多的使用者意味著的的資源可以致力于應用!"
+
+#: src/js/controllers/feedback/send.js:27
+#: www/views/feedback/complete.html:21
+msgid "A member of the team will review your feedback as soon as possible."
+msgstr "團隊的成員將儘快審查您的回饋意見。 "
+
+#: src/js/controllers/confirm.js:347
+msgid "A total of {{amountAboveMaxSizeStr}} were excluded. The maximum size allowed for a transaction was exceeded."
+msgstr "備註︰共有{{amountAboveMaxSizeStr}} 被排除了。 超出了交易允許的最大體積"
+
+#: src/js/controllers/confirm.js:341
+msgid "A total of {{amountBelowFeeStr}} were excluded. These funds come from UTXOs smaller than the network fee provided."
+msgstr "備註：共有{{amountBelowFeeStr}} 被排除了。 這些來自 UTXOs 的資金小於提供的網路費用。 "
+
+#: src/js/controllers/preferencesAbout.js:6
+#: www/views/tab-settings.html:156
+msgid "About"
+msgstr "關於"
+
+#: src/js/controllers/modals/txpDetails.js:52
+#: src/js/controllers/tx-details.js:60
+msgid "Accepted"
+msgstr "同意"
+
+#: www/views/preferencesInformation.html:66
+msgid "Account"
+msgstr "帳戶"
+
+#: www/views/join.html:69
+#: www/views/tab-create-personal.html:43
+#: www/views/tab-create-shared.html:72
+#: www/views/tab-import-hardware.html:19
+msgid "Account Number"
+msgstr "帳號"
+
+#: www/views/preferencesBitpayServices.html:23
+msgid "Accounts"
+msgstr "帳戶"
+
+#: www/views/bitpayCard.html:56
+msgid "Activity"
+msgstr "活動"
+
+#: src/js/services/bitpayAccountService.js:83
+msgid "Add Account"
+msgstr "添加帳戶"
+
+#: src/js/services/bitpayAccountService.js:69
+msgid "Add BitPay Account?"
+msgstr "添加 BitPay 帳戶嗎？ "
+
+#: www/views/addressbook.add.html:4
+#: www/views/addressbook.html:22
+msgid "Add Contact"
+msgstr "添加連絡人"
+
+#: www/views/bitpayCard.html:28
+msgid "Add Funds"
+msgstr "添加金額"
+
+#: www/views/confirm.html:96
+msgid "Add Memo"
+msgstr "添加備註"
+
+#: www/views/join.html:84
+#: www/views/tab-create-personal.html:57
+#: www/views/tab-create-shared.html:86
+msgid "Add a password"
+msgstr "添加密碼"
+
+#: www/views/includes/accountSelector.html:27
+msgid "Add account"
+msgstr "添加帳戶"
+
+#: www/views/join.html:87
+#: www/views/tab-create-personal.html:60
+#: www/views/tab-create-shared.html:89
+msgid "Add an optional password to secure the recovery phrase"
+msgstr "添加可選的密碼，以保護恢復短語"
+
+#: src/js/controllers/confirm.js:370
+msgid "Add description"
+msgstr "添加描述"
+
+#: www/views/topup.html:6
+msgid "Add funds"
+msgstr ""
+
+#: src/js/services/bitpayAccountService.js:78
+msgid "Add this BitPay account ({{email}})?"
+msgstr ""
+
+#: www/views/add.html:3
+msgid "Add wallet"
+msgstr "添加錢包"
+
+#: www/views/addressbook.view.html:26
+#: www/views/customAmount.html:28
+#: www/views/modals/paypro.html:24
+#: www/views/paymentUri.html:15
+msgid "Address"
+msgstr "位址"
+
+#: www/views/addressbook.html:6
+#: www/views/tab-settings.html:13
+msgid "Address Book"
+msgstr "位址簿"
+
+#: www/views/preferencesInformation.html:35
+msgid "Address Type"
+msgstr "網址類別型"
+
+#: www/views/addresses.html:64
+msgid "Addresses With Balance"
+msgstr "位址與餘額"
+
+#: www/views/tab-settings.html:149
+msgid "Advanced"
+msgstr "進階"
+
+#: www/views/advancedSettings.html:3
+msgid "Advanced Settings"
+msgstr "進階設置"
+
+#: www/views/bitpayCard.html:62
+msgid "All"
+msgstr "全選"
+
+#: www/views/allAddresses.html:3
+msgid "All Addresses"
+msgstr "所有位址"
+
+#: www/views/modals/wallet-balance.html:18
+msgid "All of your Mobicoin wallet balance may not be available for immediate spending."
+msgstr "所有您的魔幣的錢包餘額可能無法用於直接支出。 "
+
+#: www/views/tab-receive.html:25
+msgid "All signing devices must be added to this multisig wallet before Mobicoin addresses can be created."
+msgstr "魔幣位址可以創建之前，簽名的所有設備都必須都添加到這個對數錢包。 "
+
+#: www/views/tab-scan.html:21
+msgid "Allow Camera Access"
+msgstr "允許訪問相機"
+
+#: www/views/onboarding/notifications.html:7
+msgid "Allow notifications"
+msgstr "允許通知"
+
+#: www/views/onboarding/disclaimer.html:14
+msgid "Almost done! Let's review."
+msgstr "差不多完成了 ！ 讓我們回顧一下。 "
+
+#: www/views/pre
