@@ -15,16 +15,16 @@ msgstr ""
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
-msgstr "(Fidato)"
+msgstr "（可信的）"
 
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
 msgid "(possible double spend)"
-msgstr "(possibile doppia spesa)"
+msgstr "（重複支付）"
 
 #: www/views/modals/txp-details.html:161
 msgid "* A payment proposal can be deleted if 1) you are the creator, and no other copayer has signed, or 2) 24 hours have passed since the proposal was created."
-msgstr "* Una proposta di pagamento può essere eliminata se 1) Tu sei il creatore e nessun altro copayer ha firmato, oppure 2) Sono passate 24 ore da quando la proposta e' stata creata."
+msgstr "* 如果 1) 你是創造者，及沒有其他 copayer 簽名，或 2) 24 小時已經過去，支付提議將被刪除。"
 
 #: www/views/tx-details.html:84
 msgid "- {{btx.feeRateStr}} of the transaction"
@@ -36,90 +36,90 @@ msgstr ""
 
 #: www/views/feedback/rateApp.html:7
 msgid "5-star ratings help us get {{appName}} into more hands, and more users means more resources can be committed to the app!"
-msgstr "Darci un voto a 5 stelle ci aiuta a portare {{appName}} a più mani, e più utenti significa più risorse possono essere impegnate sull'app!"
+msgstr "5 星評級幫助我們進入更多的人手, {{appName}} 和更多的用戶意味着的的資源可以致力於應用!"
 
 #: src/js/controllers/feedback/send.js:27
 #: www/views/feedback/complete.html:21
 msgid "A member of the team will review your feedback as soon as possible."
-msgstr "Un membro del team esaminerà il tuo feedback appena possibile."
+msgstr "團隊的成員將儘快審查您的反饋意見。"
 
 #: src/js/controllers/confirm.js:347
 msgid "A total of {{amountAboveMaxSizeStr}} were excluded. The maximum size allowed for a transaction was exceeded."
-msgstr "Un totale di{{amountAboveMaxSizeStr}} sono state escluse. La dimensione massima consentita per una transazione è stata superata."
+msgstr "備註︰共有{{amountAboveMaxSizeStr}} 被排除了。超出了交易允許的最大體積"
 
 #: src/js/controllers/confirm.js:341
 msgid "A total of {{amountBelowFeeStr}} were excluded. These funds come from UTXOs smaller than the network fee provided."
-msgstr "Un totale di {{amountBelowFeeStr}} è stato escluso. Questi fondi provengono da UTXO più piccole rispetto alla commissione di rete fornita."
+msgstr "備註：共有{{amountBelowFeeStr}} 被排除了。這些來自 UTXOs 的資金小於提供的網絡費用。"
 
 #: src/js/controllers/preferencesAbout.js:6
 #: www/views/tab-settings.html:156
 msgid "About"
-msgstr "Informazioni"
+msgstr "關於"
 
 #: src/js/controllers/modals/txpDetails.js:52
 #: src/js/controllers/tx-details.js:60
 msgid "Accepted"
-msgstr "Accettata"
+msgstr "同意"
 
 #: www/views/preferencesInformation.html:66
 msgid "Account"
-msgstr "Conto"
+msgstr "帳戶"
 
 #: www/views/join.html:69
 #: www/views/tab-create-personal.html:43
 #: www/views/tab-create-shared.html:72
 #: www/views/tab-import-hardware.html:19
 msgid "Account Number"
-msgstr "Numero del Conto"
+msgstr "帳號"
 
 #: www/views/preferencesBitpayServices.html:23
 msgid "Accounts"
-msgstr "Account"
+msgstr "帳戶"
 
 #: www/views/bitpayCard.html:56
 msgid "Activity"
-msgstr "Attività"
+msgstr "活動"
 
 #: src/js/services/bitpayAccountService.js:83
 msgid "Add Account"
-msgstr "Aggiungere Account"
+msgstr "添加帳戶"
 
 #: src/js/services/bitpayAccountService.js:69
 msgid "Add BitPay Account?"
-msgstr "Aggiungere il conto BitPay?"
+msgstr "添加 BitPay 帳戶嗎？"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
 msgid "Add Contact"
-msgstr "Aggiungi Contatto"
+msgstr "添加聯繫人"
 
 #: www/views/bitpayCard.html:28
 msgid "Add Funds"
-msgstr "Aggiungere fondi"
+msgstr "添加金額"
 
 #: www/views/confirm.html:96
 msgid "Add Memo"
-msgstr "Aggiungi Memo"
+msgstr "添加備註"
 
 #: www/views/join.html:84
 #: www/views/tab-create-personal.html:57
 #: www/views/tab-create-shared.html:86
 msgid "Add a password"
-msgstr "Aggiungi una password"
+msgstr "添加密碼"
 
 #: www/views/includes/accountSelector.html:27
 msgid "Add account"
-msgstr "Aggiungere account"
+msgstr "添加帳戶"
 
 #: www/views/join.html:87
 #: www/views/tab-create-personal.html:60
 #: www/views/tab-create-shared.html:89
 msgid "Add an optional password to secure the recovery phrase"
-msgstr "Aggiungere una password facoltativa per proteggere la frase di recupero"
+msgstr "添加可選的密碼，以保護恢復短語"
 
 #: src/js/controllers/confirm.js:370
 msgid "Add description"
-msgstr "Aggiungi descrizione"
+msgstr "添加描述"
 
 #: www/views/topup.html:6
 msgid "Add funds"
@@ -131,83 +131,83 @@ msgstr ""
 
 #: www/views/add.html:3
 msgid "Add wallet"
-msgstr "Aggiungi un portafoglio"
+msgstr "添加錢包"
 
 #: www/views/addressbook.view.html:26
 #: www/views/customAmount.html:28
 #: www/views/modals/paypro.html:24
 #: www/views/paymentUri.html:15
 msgid "Address"
-msgstr "Indirizzo"
+msgstr "地址"
 
 #: www/views/addressbook.html:6
 #: www/views/tab-settings.html:13
 msgid "Address Book"
-msgstr "Rubrica Indirizzi"
+msgstr "地址簿"
 
 #: www/views/preferencesInformation.html:35
 msgid "Address Type"
-msgstr "Tipo di indirizzo"
+msgstr "地址類型"
 
 #: www/views/addresses.html:64
 msgid "Addresses With Balance"
-msgstr "Indirizzi con saldo"
+msgstr "地址與餘額"
 
 #: www/views/tab-settings.html:149
 msgid "Advanced"
-msgstr "Avanzato"
+msgstr "進階"
 
 #: www/views/advancedSettings.html:3
 msgid "Advanced Settings"
-msgstr "Impostazioni avanzate"
+msgstr "進階設置"
 
 #: www/views/bitpayCard.html:62
 msgid "All"
-msgstr "Tutto"
+msgstr "全選"
 
 #: www/views/allAddresses.html:3
 msgid "All Addresses"
-msgstr "Tutti gli indirizzi"
+msgstr "所有地址"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
-msgstr "Tutto il bilancio del tuo portafoglio potrebbe non essere disponibile ad essere speso nell'immediato."
+msgid "All of your Mobicoin wallet balance may not be available for immediate spending."
+msgstr "所有您的魔幣的錢包餘額可能無法用於直接支出。"
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
-msgstr "Tutti i dispositivi firmanti devono essere aggiunti a questo portafoglio multisig prima che si possano creare indirizzi bitcoin."
+msgid "All signing devices must be added to this multisig wallet before Mobicoin addresses can be created."
+msgstr "魔幣地址可以創建之前，簽名的所有設備都必須都添加到這個對數錢包。"
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
-msgstr "Abilita accesso macchina fotografica"
+msgstr "允許訪問相機"
 
 #: www/views/onboarding/notifications.html:7
 msgid "Allow notifications"
-msgstr "Consenti notifiche"
+msgstr "允許通知"
 
 #: www/views/onboarding/disclaimer.html:14
 msgid "Almost done! Let's review."
-msgstr "Quasi finito! Ripassiamo."
+msgstr "差不多完成了 ！讓我們回顧一下。"
 
 #: www/views/preferencesAltCurrency.html:4
 #: www/views/tab-settings.html:74
 msgid "Alternative Currency"
-msgstr "Valuta alternativa"
+msgstr "替代貨幣"
 
 #: www/views/amount.html:44
 #: www/views/customAmount.html:34
 #: www/views/includes/output.html:7
 #: www/views/paymentUri.html:16
 msgid "Amount"
-msgstr "Ammontare"
+msgstr "數額"
 
 #: src/js/services/bwcError.js:110
 msgid "Amount below minimum allowed"
-msgstr "Importo inferiore al minimo consentito"
+msgstr "數額低於最低允許值"
 
 #: src/js/controllers/confirm.js:188
 msgid "Amount too big"
-msgstr "Quantità troppo grande"
+msgstr "量太大"
 
 #: www/views/includes/walletHistory.html:31
 msgid "Amount too low to spend"
@@ -215,193 +215,193 @@ msgstr ""
 
 #: src/js/controllers/tab-home.js:147
 msgid "An update to this app is available. For your security, please update to the latest version."
-msgstr "Un aggiornamento dell'app è disponibile. Per la tua sicurezza è consigliato aggiornare all'ultima versione."
+msgstr "本程序有一個可用的更新。為了您的安全，請更新到最新版本。"
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
-msgstr "Qualcuno con il tuo backup phrase potrebbe avere accesso o spendere i tuoi bitcoin."
+msgid "Anyone with your backup phrase can access or spend your Mobicoin."
+msgstr "任何人只要持有你的備份短語，就可以訪問或者花掉你的魔幣。"
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate Mobicoin network fee to transfer wallet's balance (with normal priority)"
 msgstr ""
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
-msgstr "Sei osservato?"
+msgstr "你正在被監視嗎？"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
-msgstr "Siete osservati? Chiunque con la vostra frase di recupero può accedere o spendere i vostri bitcoin."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your Mobicoin."
+msgstr ""
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
-msgstr "Sei sicuro di voler eliminare questo portafoglio?"
+msgstr "確定取消和刪除這個錢包？"
 
 #: src/js/controllers/addressbookView.js:24
 msgid "Are you sure you want to delete this contact?"
-msgstr "Sei sicuro di voler cancellare questo contatto?"
+msgstr ""
 
 #: src/js/controllers/preferencesDelete.js:26
 msgid "Are you sure you want to delete this wallet?"
-msgstr "Sei sicuro di voler eliminare questo portafoglio?"
+msgstr "確定要刪除這錢包？"
 
 #: src/js/controllers/modals/txpDetails.js:144
 msgid "Are you sure you want to reject this transaction?"
-msgstr "Sei sicuro di voler rifiutare questa transazione?"
+msgstr "確定拒絕這筆交易？"
 
 #: src/js/controllers/modals/txpDetails.js:161
 msgid "Are you sure you want to remove this transaction?"
-msgstr "Sei sicuro di voler rimuovere questa transazione?"
+msgstr "確定要刪除這項交易嗎？"
 
 #: src/js/controllers/onboarding/backupRequest.js:23
 msgid "Are you sure you want to skip it?"
-msgstr "Sei sicuro di voler saltare?"
+msgstr "你確定你想跳過它？"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
 msgid "Are you sure you would like to log out of your BitPay Card account?"
-msgstr "Sei sicuro che vuoi uscire dal tuo account BitPay Card?"
+msgstr ""
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
 msgid "Are you sure you would like to remove your BitPay Card ({{lastFourDigits}}) from this device?"
-msgstr "Sei certo di volere rimuovere la tua BitPay Card ({{lastFourDigits}}) da questo dispositivo?"
+msgstr "你確定你想要從這個設備中刪除您的 BitPay 卡 ({{lastFourDigits}})嗎？"
 
 #: www/views/includes/walletInfo.html:5
 msgid "Auditable"
-msgstr "Controllabile"
+msgstr "可審核"
 
 #: www/views/modals/wallet-balance.html:42
 msgid "Available"
-msgstr "Disponibile"
+msgstr "可用空間"
 
 #: www/views/includes/available-balance.html:3
 msgid "Available Balance"
-msgstr "Saldo disponibile"
+msgstr "可用餘額"
 
 #: www/views/modals/chooseFeeLevel.html:14
 #: www/views/preferencesFee.html:15
 msgid "Average confirmation time"
-msgstr "Tempo previsto per la conferma"
+msgstr "平均確認時間"
 
 #: www/views/join.html:140
 #: www/views/tab-create-personal.html:111
 #: www/views/tab-create-shared.html:140
 #: www/views/tab-import-phrase.html:48
 msgid "BIP32 path for address derivation"
-msgstr "Percorso BIP32 per generare l'indirizzo"
+msgstr "BIP32 路徑的地址衍生"
 
 #: www/views/preferences.html:39
 msgid "Backup"
-msgstr "Backup"
+msgstr "備份"
 
 #: www/views/includes/backupNeededPopup.html:7
 msgid "Backup Needed"
-msgstr "Backup necessario"
+msgstr "需要備份"
 
 #: src/js/controllers/lockSetup.js:87
 msgid "Backup all livenet wallets before using this function"
-msgstr "Fai un backup di tutti i portafogli sulla livenet prima di utilizzare questa funzione"
+msgstr ""
 
 #: www/views/preferences.html:41
 #: www/views/tab-settings.html:120
 msgid "Backup needed"
-msgstr "Backup necessario"
+msgstr "需要備份"
 
 #: www/views/includes/backupNeededPopup.html:9
 msgid "Backup now"
-msgstr "Esegui backup ora"
+msgstr "現在備份"
 
 #: www/views/onboarding/backupRequest.html:11
 #: www/views/tab-export-file.html:89
 msgid "Backup wallet"
-msgstr "Backup portafoglio"
+msgstr "備份錢包"
 
 #: src/js/controllers/lockSetup.js:84
 msgid "Backup your wallet before using this function"
-msgstr "Eseguire il backup del tuo portafoglio prima di utilizzare questa funzione"
+msgstr "在使用此功能之前，請備份你的錢包。"
 
 #: src/js/services/profileService.js:430
 msgid "Bad wallet invitation"
-msgstr "Invito al wallet non corretto"
+msgstr "壞錢包邀請"
 
 #: www/views/preferencesInformation.html:96
 msgid "Balance By Address"
-msgstr "Bilancio per indirizzo"
+msgstr "地址餘額"
 
 #: www/views/includes/confirmBackupPopup.html:7
 msgid "Be sure to store your recovery phrase in a secure place. If this app is deleted, your money cannot be recovered without it."
-msgstr "Assicurati di salvare la frase di recupero in un luogo sicuro. Senza di essa, se rimuovi questa applicazione il tuo denaro non potrà essere recuperato."
+msgstr "請務必將您的恢復短語存儲在一個安全的地方。如果這個程序被刪除，不能沒有它恢復你的錢。"
 
 #: www/views/preferencesBitpayServices.html:9
 msgid "BitPay Visa&reg; Cards"
-msgstr "Carte di BitPay Visa®"
+msgstr "BitPay Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
-msgid "Bitcoin Address"
-msgstr "Indirizzo Bitcoin"
+msgid "Mobicoin Address"
+msgstr "魔幣地址"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
-msgstr "Criterio delle Commissioni del Bitcoin Network"
+msgid "Mobicoin Network Fee Policy"
+msgstr "魔幣網絡手續費策略"
 
 #: www/views/paymentUri.html:10
-msgid "Bitcoin URI is NOT valid!"
-msgstr "Il Bitcoin URI NON è valido!"
+msgid "Mobicoin URI is NOT valid!"
+msgstr "魔幣 URI 無效！"
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
-msgstr "Unità di Bitcoin"
+msgid "Mobicoin Unit"
+msgstr "魔幣單位"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
-msgstr "Bitcoin è una moneta."
+msgid "Mobicoin is a currency."
+msgstr "魔幣是一種貨幣。"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Bitcoin è differente e non può essere custodito in una banca o con un servizio web."
+msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "魔幣是不同 — — 它不能安全地舉行以銀行或 web 服務。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
-msgstr "Bitcoin è sicuro,<br>moneta digitale."
+msgid "Mobicoin is secure,<br>digital money."
+msgstr "魔幣是安全的 <br>數字貨幣。"
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "Le transazioni Bitcoin comprendono un supplemento che viene raccolto dai mines nella rete."
+msgid "Mobicoin transactions include a fee collected by miners on the network."
+msgstr "魔幣交易包括在網絡上被礦工所收取的費用。"
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
-msgstr "Diffusione del Pagamento"
+msgstr "廣播支付"
 
 #: src/js/controllers/modals/txpDetails.js:54
 #: src/js/controllers/tx-details.js:62
 msgid "Broadcasted"
-msgstr "Trasmesso"
+msgstr "廣播商"
 
 #: src/js/services/onGoingProcess.js:11
 msgid "Broadcasting transaction"
-msgstr "Diffondendo la transazione"
+msgstr "正在廣播交易"
 
 #: www/views/unsupported.html:6
 msgid "Browser unsupported"
-msgstr "Browser non supportato"
+msgstr "不受支持的瀏覽器"
 
 #: www/views/includes/buyAndSellCard.html:4
-msgid "Buy &amp; Sell Bitcoin"
-msgstr "Comprare &amp; Vendere Bitcoin"
+msgid "Buy &amp; Sell Mobicoin"
+msgstr "購買或出售魔幣"
 
 #: www/views/tab-send.html:35
-msgid "Buy Bitcoin"
-msgstr "Acquista Bitcoin"
+msgid "Buy Mobicoin"
+msgstr "購買魔幣"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
-msgstr "Comprare Bitcoin..."
+msgid "Buying Mobicoin..."
+msgstr "正在發送 魔幣..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
-msgstr "Calcolo commissione"
+msgstr "正在計算費用"
 
 #: src/js/controllers/confirm.js:491
 #: src/js/controllers/topup.js:277
@@ -412,55 +412,55 @@ msgstr "Calcolo commissione"
 #: www/views/modals/bitpay-card-confirmation.html:8
 #: www/views/modals/confirmation.html:13
 msgid "Cancel"
-msgstr "Annulla"
+msgstr "取消"
 
 #: www/views/copayers.html:37
 msgid "Cancel invitation"
-msgstr "Annulla invito"
+msgstr ""
 
 #: src/js/controllers/onboarding/tour.js:52
 msgid "Cannot Create Wallet"
-msgstr "Impossibile creare portafoglio"
+msgstr "不能創建錢包"
 
 #: src/js/services/profileService.js:426
 msgid "Cannot join the same wallet more that once"
-msgstr "Non è possibile aggiungere un portafoglio più di una volta"
+msgstr "無法重複加入同一個錢包"
 
 #: www/views/includes/bitpayCardsCard.html:4
 msgid "Cards"
-msgstr "Carte"
+msgstr "卡"
 
 #: www/views/modals/paypro.html:30
 msgid "Certified by"
-msgstr "Certificato da"
+msgstr "通過認證："
 
 #: www/views/preferencesExternal.html:19
 msgid "Check installation and retry."
-msgstr "Verifica installazione e riprovare."
+msgstr ""
 
 #: www/views/tab-import-file.html:4
 msgid "Choose a backup file from your computer"
-msgstr "Seleziona un file di backup dal tuo computer"
+msgstr "從你的計算機選擇一個備份文件"
 
 #: www/views/modals/wallets.html:9
 msgid "Choose your destination wallet"
-msgstr "Scegli il tuo portafoglio di destinazione"
+msgstr "選擇你的目的地錢包"
 
 #: www/views/modals/wallets.html:10
 msgid "Choose your source wallet"
-msgstr "Scegli il tuo portafoglio di origine"
+msgstr "選擇源錢包"
 
 #: www/views/backup.html:54
 msgid "Clear"
-msgstr "Elimina"
+msgstr "清除"
 
 #: www/views/preferencesHistory.html:24
 msgid "Clear cache"
-msgstr "Svuota la cache"
+msgstr "清空緩存"
 
 #: src/js/controllers/modals/txpDetails.js:33
 msgid "Click"
-msgstr "Click"
+msgstr "點擊"
 
 #: www/views/customAmount.html:4
 #: www/views/modals/paypro.html:4
@@ -468,23 +468,23 @@ msgstr "Click"
 #: www/views/modals/wallet-balance.html:3
 #: www/views/modals/wallets.html:5
 msgid "Close"
-msgstr "Chiudi"
+msgstr "關閉"
 
 #: www/views/preferences.html:22
 msgid "Color"
-msgstr "Colore"
+msgstr "顏色"
 
 #: www/views/preferencesAbout.html:21
 msgid "Commit hash"
-msgstr "Commit hash"
+msgstr "提交哈希"
 
 #: www/views/preferences.html:53
 msgid "Complete the backup process to use this option"
-msgstr "Completare il processo di backup per utilizzare questa opzione"
+msgstr "完成備份過程以使用此選項"
 
 #: www/views/bitpayCard.html:93
 msgid "Completed"
-msgstr "Completato"
+msgstr ""
 
 #: src/js/controllers/confirm.js:490
 #: src/js/controllers/copayers.js:55
@@ -494,73 +494,77 @@ msgstr "Completato"
 #: www/views/confirm.html:4
 #: www/views/onboarding/collectEmail.html:32
 msgid "Confirm"
-msgstr "Conferma"
+msgstr "確定"
 
 #: www/views/modals/terms.html:26
 #: www/views/onboarding/disclaimer.html:44
 msgid "Confirm &amp; Finish"
-msgstr "Confirm &amp; concludi"
+msgstr "確認並完成"
 
 #: www/views/modals/pin.html:10
 msgid "Confirm your PIN"
-msgstr "Conferma il tuo PIN"
+msgstr ""
 
 #: src/js/services/walletService.js:1034
 msgid "Confirm your new spending password"
-msgstr "Conferma la tua nuova password di spesa"
+msgstr ""
 
 #: www/views/tx-details.html:98
 msgid "Confirmations"
-msgstr "Conferme"
+msgstr "確認"
 
 #: www/views/bitpayCard.html:68
 #: www/views/modals/wallet-balance.html:61
 msgid "Confirming"
-msgstr "Confermando"
+msgstr "確認"
 
 #: www/views/bitpayCardIntro.html:37
 msgid "Connect my BitPay Card"
-msgstr "Collegare la mia Carta BitPay"
+msgstr "我 BitPay 卡連接"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
-msgstr "Connessione a Coinbase..."
+msgstr "正在連接 Coinbase..."
 
 #: src/js/services/onGoingProcess.js:14
 msgid "Connecting to Glidera..."
-msgstr "Connessione a Glidera..."
+msgstr "正在連接 Glidera..."
 
 #: src/js/services/bwcError.js:53
 msgid "Connection reset by peer"
-msgstr "Connessione ripristinata dall'utente"
+msgstr "連接被對方重置"
 
 #: www/views/tab-send.html:45
 msgid "Contacts"
-msgstr "Contatti"
+msgstr "聯繫人"
 
 #: www/views/onboarding/notifications.html:9
 msgid "Continue"
-msgstr "Continua"
+msgstr "繼續"
+
+#: www/views/onboarding/collectEmail.html:18
+msgid "Continue"
+msgstr "繼續"
 
 #: www/views/preferencesLanguage.html:26
 msgid "Contribute Translations"
-msgstr "Contribuisci alle traduzioni"
+msgstr "參與翻譯"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
-msgstr "Copayer già in questo portafoglio"
+msgstr "Copayer 已經在這個錢包里"
 
 #: src/js/services/bwcError.js:77
 msgid "Copayer already voted on this spend proposal"
-msgstr "Copayer già votato su questa proposta"
+msgstr "Copayer 已經表決此花費提議"
 
 #: src/js/services/bwcError.js:107
 msgid "Copayer data mismatch"
-msgstr "Mancata corrispondenza dei dati del copayer"
+msgstr "Copayer 的數據不匹配"
 
 #: www/views/includes/walletActivity.html:2
 msgid "Copayer joined"
-msgstr "Copayer iscritto"
+msgstr "Copayer 加入"
 
 #: www/views/preferencesInformation.html:88
 msgid "Copayer {{$index}}"
@@ -570,40 +574,40 @@ msgstr "Copayer {{$index}}"
 #: src/js/controllers/export.js:193
 #: www/views/includes/copyToClipboard.html:4
 msgid "Copied to clipboard"
-msgstr "Copiato negli appunti"
+msgstr "已複製到剪貼板"
 
 #: www/views/tab-export-file.html:94
 msgid "Copy this text as it is to a safe place (notepad or email)"
-msgstr "Copia questo testo cosí com'è in un posto sicuro (blocco note o email)"
+msgstr "將此文本複製到一個安全的地方（記事本或電子郵件）"
 
 #: www/views/preferencesLogs.html:10
 #: www/views/tab-export-file.html:78
 msgid "Copy to clipboard"
-msgstr "Copia negli appunti"
+msgstr "複製到剪貼板"
 
 #: www/views/tab-import-phrase.html:2
 msgid "Could not access the wallet at the server. Please check:"
-msgstr "Non può accedere al portafoglio sul server. Si prega di controllare:"
+msgstr "無法訪問服務器上的錢包。請確認︰"
 
 #: src/js/services/profileService.js:493
 msgid "Could not access wallet"
-msgstr "Impossibile accedere al portafoglio"
+msgstr "無法訪問錢包"
 
 #: src/js/controllers/confirm.js:182
 msgid "Could not add message to imported wallet without shared encrypting key"
-msgstr "Non puoi aggiungere un messaggio da importare nel portafoglio senza condividere la chiave criptata"
+msgstr "無法將消息添加到進口錢包沒有共享的加密密鑰"
 
 #: src/js/controllers/modals/txpDetails.js:189
 msgid "Could not broadcast payment"
-msgstr "Impossibile trasmettere il pagamento"
+msgstr "無法廣播支付"
 
 #: src/js/services/bwcError.js:41
 msgid "Could not build transaction"
-msgstr "Non è possibile generare la transazione"
+msgstr "無法建立交易"
 
 #: src/js/services/walletService.js:857
 msgid "Could not create address"
-msgstr "Impossibile creare un indirizzo"
+msgstr "無法創建地址"
 
 #: src/js/controllers/topup.js:86
 msgid "Could not create the invoice"
@@ -615,31 +619,31 @@ msgstr ""
 
 #: src/js/services/profileService.js:342
 msgid "Could not create using the specified extended private key"
-msgstr "Non posso crearlo utilizzando la chiave privata estesa specificata"
+msgstr "無法使用指定的擴展私人密鑰創建"
 
 #: src/js/services/profileService.js:353
 msgid "Could not create using the specified extended public key"
-msgstr "Non è possibile creare usando questa chiave estesa pubblica"
+msgstr "無法使用指定的擴展的公鑰創建"
 
 #: src/js/services/profileService.js:335
 msgid "Could not create: Invalid wallet recovery phrase"
-msgstr "Impossibile creare: Frase di recupero portafoglio non valida"
+msgstr "無法創建 ︰ 無效的錢包恢復短語"
 
 #: src/js/controllers/import.js:99
 msgid "Could not decrypt file, check your password"
-msgstr "Impossibile decifrare il file, controlla la tua password"
+msgstr "無法解密文件，請檢查你的密碼"
 
 #: src/js/controllers/modals/txpDetails.js:171
 msgid "Could not delete payment proposal"
-msgstr "Impossibile eliminare la proposta di pagamento"
+msgstr "無法刪除支付提議"
 
 #: src/js/services/feeService.js:68
 msgid "Could not get dynamic fee"
-msgstr "Impossibile avere commissioni dinamiche"
+msgstr "不能動態費用"
 
 #: src/js/services/feeService.js:38
 msgid "Could not get dynamic fee for level: {{feeLevel}}"
-msgstr "Impossibile avere la commissione per il livello: {{feeLevel}}"
+msgstr "無法獲取水平動態費用︰ {{feeLevel}}"
 
 #: src/js/controllers/topup.js:94
 msgid "Could not get the invoice"
@@ -647,42 +651,42 @@ msgstr ""
 
 #: src/js/controllers/bitpayCard.js:69
 msgid "Could not get transactions"
-msgstr "Non è possibile ottenere le transazioni"
+msgstr "不能交易"
 
 #: src/js/services/profileService.js:595
 #: src/js/services/profileService.js:629
 #: src/js/services/profileService.js:652
 msgid "Could not import"
-msgstr "Impossibile importare"
+msgstr "無法導入"
 
 #: src/js/services/profileService.js:564
 msgid "Could not import. Check input file and spending password"
-msgstr "Impossibile importare. Controlla il file da importare e la password di spesa"
+msgstr "無法導入。請檢查輸入文件和支付密碼"
 
 #: src/js/services/profileService.js:439
 msgid "Could not join wallet"
-msgstr "Impossibile partecipare al portafoglio"
+msgstr "無法加入錢包"
 
 #: src/js/controllers/modals/txpDetails.js:151
 msgid "Could not reject payment"
-msgstr "Impossibile rifiutare il pagamento"
+msgstr "無法拒絕支付"
 
 #: src/js/controllers/preferencesBitpayServices.js:33
 msgid "Could not remove account"
-msgstr "Rimozione account non riuscita"
+msgstr "無法刪除帳戶"
 
 #: src/js/controllers/preferencesBitpayCard.js:20
 #: src/js/controllers/preferencesBitpayServices.js:50
 msgid "Could not remove card"
-msgstr "Impossibile rimuovere la carta"
+msgstr "無法刪除卡"
 
 #: src/js/services/walletService.js:776
 msgid "Could not save preferences on the server"
-msgstr "Impossibile salvare le preferenze nel server"
+msgstr "無法在服務器上保存首選項"
 
 #: src/js/controllers/modals/txpDetails.js:137
 msgid "Could not send payment"
-msgstr "Impossibile inviare il pagamento"
+msgstr "無法發送支付"
 
 #: src/js/controllers/topup.js:289
 msgid "Could not send transaction"
@@ -690,103 +694,103 @@ msgstr ""
 
 #: www/views/walletDetails.html:199
 msgid "Could not update transaction history"
-msgstr "Impossibile aggiornare la cronologia delle transazioni"
+msgstr "無法更新交易歷史記錄"
 
 #: src/js/controllers/addresses.js:34
 #: src/js/controllers/addresses.js:42
 #: src/js/controllers/copayers.js:30
 #: src/js/controllers/walletDetails.js:78
 msgid "Could not update wallet"
-msgstr "Impossibile aggiornare il portafoglio"
+msgstr "無法更新錢包"
 
 #: www/views/tab-create-personal.html:3
 msgid "Create Personal Wallet"
-msgstr "Creare il portafoglio personale"
+msgstr "創建個人的錢包"
 
 #: www/views/tab-create-shared.html:3
 msgid "Create Shared Wallet"
-msgstr "Creare portafoglio condiviso"
+msgstr "創建自己的免費錢包"
 
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
-msgid "Create bitcoin wallet"
-msgstr "Creare portafoglio bitcoin"
+msgid "Create Mobicoin wallet"
+msgstr "創建魔幣的錢包"
 
 #: www/views/tab-create-personal.html:129
 msgid "Create new wallet"
-msgstr "Crea nuovo portafoglio"
+msgstr "創建新錢包"
 
 #: www/views/add.html:22
 msgid "Create shared wallet"
-msgstr "Creare portafoglio condiviso"
+msgstr "創建共享的錢包"
 
 #: www/views/tab-create-shared.html:158
 msgid "Create {{formData.requiredCopayers}}-of-{{formData.totalCopayers}} wallet"
-msgstr "Creare il portafoglio di {{formData.requiredCopayers}}-di-{{formData.totalCopayers}}"
+msgstr "創建 {{formData.requiredCopayers}} 的{{formData.totalCopayers}} 錢包"
 
 #: www/views/modals/txp-details.html:83
 #: www/views/tx-details.html:62
 msgid "Created by"
-msgstr "Creato da"
+msgstr "創建者:"
 
 #: src/js/services/onGoingProcess.js:18
 msgid "Creating Wallet..."
-msgstr "Creazione Portafoglio..."
+msgstr "正在創建錢包..."
 
 #: src/js/services/onGoingProcess.js:17
 msgid "Creating transaction"
-msgstr "Creazione transazione"
+msgstr "正在創建交易"
 
 #: www/views/modals/chooseFeeLevel.html:19
 #: www/views/preferencesFee.html:20
 msgid "Current fee rate for this policy"
-msgstr "Attuale commissione con questa politica"
+msgstr "此策略的當前費用率"
 
 #: www/views/customAmount.html:9
 msgid "Custom Amount"
-msgstr "Importo personalizzato"
+msgstr "自定義金額"
 
 #: www/views/modals/txp-details.html:89
 #: www/views/tx-details.html:68
 msgid "Date"
-msgstr "Data"
+msgstr "日期"
 
 #: www/views/preferencesDeleteWallet.html:21
 msgid "Delete"
-msgstr "Elimina"
+msgstr "刪除"
 
 #: www/views/modals/txp-details.html:166
 msgid "Delete Payment Proposal"
-msgstr "Elimina Proposta di Pagamento"
+msgstr "刪除支付提議"
 
 #: www/views/preferencesAdvanced.html:33
 #: www/views/preferencesDeleteWallet.html:3
 msgid "Delete Wallet"
-msgstr "Elimina Portafoglio"
+msgstr "刪除錢包"
 
 #: www/views/copayers.html:60
 msgid "Delete it and create a new one"
-msgstr "Eliminalo e creane uno nuovo"
+msgstr "刪除並創建新的"
 
 #: src/js/services/onGoingProcess.js:19
 msgid "Deleting Wallet..."
-msgstr "Eliminazione del portafoglio..."
+msgstr "正在刪除錢包..."
 
 #: src/js/services/onGoingProcess.js:28
 msgid "Deleting payment proposal"
-msgstr "Cancello la richiesta di pagamento"
+msgstr "刪除付款方案"
 
 #: www/views/join.html:138
 #: www/views/tab-create-personal.html:109
 #: www/views/tab-create-shared.html:138
 #: www/views/tab-import-phrase.html:46
 msgid "Derivation Path"
-msgstr "Percorso derivato"
+msgstr "衍生路徑"
 
 #: www/views/preferencesInformation.html:41
 msgid "Derivation Strategy"
-msgstr "Strategia di derivazione"
+msgstr "衍生策略"
 
 #: www/views/topup.html:45
 msgid "Details"
@@ -795,97 +799,97 @@ msgstr ""
 #: src/js/controllers/lockSetup.js:9
 #: src/js/controllers/tab-settings.js:60
 msgid "Disabled"
-msgstr "Disabilitato"
+msgstr ""
 
 #: www/views/includes/backupNeededPopup.html:10
 #: www/views/onboarding/backupRequest.html:12
 msgid "Do it later"
-msgstr "Farlo in seguito"
+msgstr "以後再做"
 
 #: www/views/tab-export-file.html:29
 msgid "Do not include private key"
-msgstr "Non includere la chiave privata"
+msgstr "不包括私鑰"
 
 #: www/views/preferencesLanguage.html:21
 msgid "Don't see your language on Crowdin? Contact the Owner on Crowdin! We'd love to support your language."
-msgstr "Non vedi la tua lingua su Crowdin? Contatta il proprietario su Crowdin! Ci piacerebbe supportare la lingua."
+msgstr "在 Crowdin 找不到你的語言？請聯繫 Crowdin 的所有者！我們很樂意支持你的語言。"
 
 #: www/views/tab-export-file.html:59
 #: www/views/tab-home.html:22
 msgid "Download"
-msgstr "Download"
+msgstr "下載"
 
 #: www/views/addresses.html:19
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "Ogni portafoglio bitcoin è in grado di generare miliardi di indirizzi dal tuo backup di 12 parole. Un nuovo indirizzo verrà automaticamente generato e mostrato ogni volta che riceverai un pagamento."
+msgid "Each Mobicoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgstr "每個魔幣錢包可以從您的 12 字備份生成億萬個地址。一個新的地址是自動生成和顯示每個時間你收到付款。"
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
-msgstr "Economia"
+msgstr "經濟"
 
 #: www/views/onboarding/collectEmail.html:27
 msgid "Edit"
-msgstr "Modifica"
+msgstr ""
 
 #: www/views/addressbook.add.html:29
 #: www/views/addressbook.view.html:22
 msgid "Email"
-msgstr "Email"
+msgstr "電子郵件"
 
 #: www/views/preferencesNotifications.html:36
 msgid "Email Address"
-msgstr "Indirizzo Email"
+msgstr "電子郵件地址"
 
 #: src/js/services/bwcError.js:122
 msgid "Empty addresses limit reached. New addresses cannot be generated."
-msgstr "Raggiunto il limite degli indirizzi vuoti. Non possono essere generati nuovi indirizzi."
+msgstr "已達到空地址限制。無法生成新的地址。"
 
 #: www/views/tab-scan.html:19
 msgid "Enable camera access in your device settings to get started."
-msgstr "Abilita l'accesso alla fotocamera dalle impostazioni del tuo dispositivo per iniziare."
+msgstr "相機中啟用訪問您的設備設置入門。"
 
 #: www/views/preferencesNotifications.html:23
 msgid "Enable email notifications"
-msgstr "Attiva Notifiche Email"
+msgstr "啟用電子郵件通知"
 
 #: www/views/preferencesNotifications.html:12
 msgid "Enable push notifications"
-msgstr "Abilitare le notifiche push"
+msgstr "啟用推式通知"
 
 #: www/views/tab-scan.html:18
 msgid "Enable the camera to get started."
-msgstr "Abilita la fotocamera per iniziare."
+msgstr "使該攝像機開始。"
 
 #: www/views/amount.html:4
 msgid "Enter Amount"
-msgstr "Inserisci importo"
+msgstr "輸入金額"
 
 #: src/js/services/walletService.js:1048
 #: src/js/services/walletService.js:1063
 msgid "Enter Spending Password"
-msgstr "Inserisci Password di spesa"
+msgstr "輸入支出密碼"
 
 #: src/js/services/bitpayAccountService.js:110
 msgid "Enter Two Factor for your BitPay account"
-msgstr "Inserisci Due Fattori per il tuo account BitPay"
+msgstr "為您的 BitPay 帳戶輸入兩個因素"
 
 #: src/js/services/walletService.js:1030
 msgid "Enter new spending password"
-msgstr "Inserisci la nuova password di spesa"
+msgstr "輸入新的消費密碼"
 
 #: www/views/join.html:76
 #: www/views/tab-create-personal.html:49
 #: www/views/tab-create-shared.html:78
 msgid "Enter the recovery phrase (BIP39)"
-msgstr "Inserire la frase di recupero (BIP39)"
+msgstr "輸入恢復短語 (BIP39)"
 
 #: www/views/onboarding/collectEmail.html:13
 msgid "Enter your email"
-msgstr "Inserisci la tua e-mail"
+msgstr "輸入你的郵箱地址"
 
 #: www/views/backup.html:62
 msgid "Enter your password"
-msgstr "Inserisci la tua password"
+msgstr "請輸入你的密碼"
 
 #. Trying to import a malformed wallet export QR code
 #: src/js/controllers/activity.js:45
@@ -953,15 +957,15 @@ msgstr "Inserisci la tua password"
 #: src/js/controllers/tx-details.js:100
 #: src/js/services/incomingData.js:98
 msgid "Error"
-msgstr "Errore"
+msgstr "錯誤！"
 
 #: src/js/controllers/confirm.js:443
 msgid "Error at confirm"
-msgstr "Errore di conferma"
+msgstr "在確認錯誤"
 
 #: src/js/services/profileService.js:396
 msgid "Error creating wallet"
-msgstr "Errore creazione portafoglio"
+msgstr "創建錢包時出現錯誤"
 
 #: src/js/controllers/confirm.js:261
 msgid "Error getting SendMax information"
@@ -973,60 +977,60 @@ msgstr ""
 
 #: src/js/controllers/bitpayCardIntro.js:14
 msgid "Error pairing BitPay Account"
-msgstr "Errore di accoppiamento BitPay Account"
+msgstr ""
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
-msgstr "Errore di scansione dei fondi:"
+msgstr "錯誤掃描資金︰"
 
 #: src/js/controllers/paperWallet.js:91
 msgid "Error sweeping wallet:"
-msgstr "Errore nello spazzolamento del portafoglio:"
+msgstr "錯誤清掃錢包︰"
 
 #: src/js/controllers/bitpayCardIntro.js:20
 msgid "Error updating Debit Cards"
-msgstr "Errore durante l'aggiornamento delle carte di debito"
+msgstr "更新借記卡時出錯"
 
 #: src/js/services/bwcError.js:143
 msgid "Exceeded daily limit of $500 per user"
-msgstr "Superato il limite giornaliero di $500 per utente"
+msgstr "超過 500 美元，每個用戶的每日限額"
 
 #: src/js/controllers/confirm.js:407
 #: www/views/confirm.html:27
 #: www/views/modals/txp-details.html:121
 msgid "Expired"
-msgstr "Scaduta"
+msgstr "已過期"
 
 #: www/views/modals/paypro.html:54
 #: www/views/modals/txp-details.html:127
 msgid "Expires"
-msgstr "Scadenza"
+msgstr "到期"
 
 #: www/views/preferencesAdvanced.html:21
 msgid "Export Wallet"
-msgstr "Esporta portafoglio"
+msgstr "導出錢包"
 
 #: www/views/preferencesHistory.html:11
 #: www/views/preferencesHistory.html:14
 msgid "Export to file"
-msgstr "Esporta in un file"
+msgstr "導出到文件"
 
 #: www/views/export.html:3
 msgid "Export wallet"
-msgstr "Esporta portafoglio"
+msgstr "導出錢包"
 
 #: src/js/services/walletService.js:1175
 #: www/views/tab-export-qrCode.html:9
 msgid "Exporting via QR not supported for this wallet"
-msgstr "Per questo portafoglio non è supportata l'esportazione tramite QR"
+msgstr "此錢包不支持通過 QR 的導出"
 
 #: www/views/preferencesInformation.html:83
 msgid "Extended Public Keys"
-msgstr "Chiave pubblica estesa"
+msgstr "擴展的公鑰"
 
 #: src/js/services/onGoingProcess.js:20
 msgid "Extracting Wallet Information..."
-msgstr "Estrazione delle informazioni sul portafoglio..."
+msgstr "正在獲取錢包信息..."
 
 #: src/js/controllers/export.js:115
 #: src/js/controllers/export.js:126
@@ -1034,64 +1038,64 @@ msgstr "Estrazione delle informazioni sul portafoglio..."
 #: src/js/controllers/export.js:171
 #: www/views/tab-export-file.html:4
 msgid "Failed to export"
-msgstr "Esportazione non riuscita"
+msgstr "導出失敗"
 
 #: www/views/tab-create-personal.html:14
 #: www/views/tab-create-shared.html:14
 msgid "Family vacation funds"
-msgstr "Fondi vacanza di famiglia"
+msgstr "家庭度假資金"
 
 #: www/views/tx-details.html:81
 msgid "Fee"
-msgstr "Tassa"
+msgstr "費用"
 
 #: www/views/confirm.html:81
 #: www/views/modals/txp-details.html:101
 msgid "Fee:"
-msgstr "Commissione:"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:23
 msgid "Feedback could not be submitted. Please try again later."
-msgstr "Il feedback non può essere sottoscritto. Riprova più tardi."
+msgstr "無法提交反饋。請稍後再試。"
 
 #: src/js/services/onGoingProcess.js:42
 msgid "Fetching BitPay Account..."
-msgstr "Recupero Account BitPay..."
+msgstr ""
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching Payment Information"
-msgstr "Recuperando le informazioni del pagamento"
+msgstr "獲取支付信息"
 
 #: www/views/export.html:14
 #: www/views/import.html:16
 msgid "File/Text"
-msgstr "File/Testo"
+msgstr "文件/文本"
 
 #: src/js/services/fingerprintService.js:43
 #: src/js/services/fingerprintService.js:48
 msgid "Finger Scan Failed"
-msgstr "Scansione dito fallita"
+msgstr "指紋掃描失敗"
 
 #: src/js/controllers/feedback/send.js:34
 #: www/views/feedback/complete.html:7
 msgid "Finish"
-msgstr "Fine"
+msgstr "完成"
 
 #: www/views/tab-create-personal.html:121
 #: www/views/tab-create-shared.html:150
 msgid "For audit purposes"
-msgstr "Per finalità di controllo"
+msgstr "供審計目的"
 
 #: www/views/confirm.html:65
 #: www/views/modals/txp-details.html:74
 #: www/views/topup.html:34
 #: www/views/tx-details.html:52
 msgid "From"
-msgstr "Da"
+msgstr "來自"
 
 #: src/js/controllers/bitpayCardIntro.js:71
 msgid "From BitPay account"
-msgstr "Dal conto BitPay"
+msgstr "從 BitPay 帳戶"
 
 #: www/views/tab-import-phrase.html:54
 msgid "From Hardware Wallet"
@@ -1099,15 +1103,15 @@ msgstr ""
 
 #: www/views/tab-export-qrCode.html:5
 msgid "From the destination device, go to Add wallet &gt; Import wallet and scan this QR code"
-msgstr "Dal dispositivo di destinazione, andare in Aggiungi portafoglio &gt; Importare portafoglio e scansionare questo codice QR"
+msgstr "從目標設備，請到添加錢包 &gt; 導入錢包和掃描此 QR 代碼"
 
 #: src/js/services/bwcError.js:74
 msgid "Funds are locked by pending spend proposals"
-msgstr "I fondi sono bloccati in attesa della proposta di pagamento"
+msgstr "資金由未決的花費提議鎖定"
 
 #: www/views/paperWallet.html:16
 msgid "Funds found:"
-msgstr "Fondi trovati:"
+msgstr "找到資金"
 
 #: www/views/topup.html:49
 msgid "Funds to be added"
@@ -1115,7 +1119,7 @@ msgstr ""
 
 #: www/views/paperWallet.html:53
 msgid "Funds transferred"
-msgstr "Fondi trasferiti"
+msgstr "資金轉移"
 
 #: www/views/topup.html:103
 msgid "Funds were added to debit card"
@@ -1123,40 +1127,40 @@ msgstr ""
 
 #: www/views/paperWallet.html:22
 msgid "Funds will be transferred to"
-msgstr "I fondi saranno trasferiti a"
+msgstr "資金將會轉移到"
 
 #: www/views/tab-receive.html:51
 msgid "Generate new address"
-msgstr "Genera un nuovo indirizzo"
+msgstr "生成新地址"
 
 #: src/js/services/onGoingProcess.js:22
 msgid "Generating .csv file..."
-msgstr "Genera un file .csv..."
+msgstr "正在生成 .csv 文件..."
 
 #: src/js/services/onGoingProcess.js:37
 msgid "Generating new address..."
-msgstr "Generando un nuovo indirizzo..."
+msgstr "正在生成新的地址..."
 
 #: www/views/bitpayCardIntro.html:23
 msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible ATM. ATM bank fees may apply."
-msgstr "Ottieni contante locale ovunque tu vada, da qualsiasi ATM bancomat compatibile con Visa<sup>&reg;</sup>. Possibili commissioni bancarie da ATM."
+msgstr "得到當地現金任何地方您去，從任何 Visa<sup>®</sup> 兼容的自動取款機 ATM 銀行費用可能適用。"
 
 #: www/views/onboarding/collectEmail.html:15
 msgid "Get news and updates from BitPay"
-msgstr "Ricevi notizie e aggiornamenti da BitPay"
+msgstr "從 BitPay 獲取新聞和更新"
 
 #: www/views/bitpayCard.html:49
 #: www/views/onboarding/welcome.html:8
 msgid "Get started"
-msgstr "Inizia"
+msgstr "馬上體驗"
 
 #: www/views/addressbook.html:20
 msgid "Get started by adding your first one."
-msgstr "Inizia aggiungendo il tuo primo."
+msgstr "通過添加您的第一個開始。"
 
 #: src/js/services/onGoingProcess.js:23
 msgid "Getting fee levels..."
-msgstr "Ottenendo i livelli di commissione..."
+msgstr "正在獲取收費水平..."
 
 #: src/js/controllers/bitpayCard.js:181
 #: src/js/controllers/bitpayCard.js:191
@@ -1167,53 +1171,53 @@ msgstr "Ottenendo i livelli di commissione..."
 #: src/js/controllers/tab-settings.js:48
 #: src/js/controllers/tx-details.js:174
 msgid "Go Back"
-msgstr "Indietro"
+msgstr "返回	#"
 
 #: src/js/controllers/onboarding/backupRequest.js:20
 #: src/js/controllers/onboarding/backupRequest.js:26
 #: src/js/services/bitpayAccountService.js:84
 msgid "Go back"
-msgstr "Indietro"
+msgstr "上一頁"
 
 #: www/views/backupWarning.html:15
 #: www/views/includes/confirmBackupPopup.html:8
 #: www/views/onboarding/tour.html:23
 msgid "Got it"
-msgstr "Ok"
+msgstr "收到！"
 
 #: www/views/preferencesInformation.html:47
 #: www/views/preferencesInformation.html:53
 msgid "Hardware Wallet"
-msgstr "Portafoglio Hardware"
+msgstr "硬件錢包"
 
 #: www/views/preferencesExternal.html:18
 msgid "Hardware not connected."
-msgstr "Hardware non collegato."
+msgstr ""
 
 #: www/views/import.html:20
 msgid "Hardware wallet"
-msgstr "Portafoglio hardware"
+msgstr "硬件錢包"
 
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
-msgstr "Aiuto e Assistenza"
+msgstr "幫助與支持"
 
 #: src/js/controllers/bitpayCard.js:179
 #: src/js/controllers/tab-settings.js:46
 msgid "Help and support information is available at the website."
-msgstr "Guida e informazioni di supporto tecnico sono disponibili sul sito web."
+msgstr ""
 
 #: www/views/addresses.html:25
 msgid "Hide"
-msgstr "Nascondere"
+msgstr "隱藏"
 
 #: www/views/preferences.html:32
 msgid "Hide Balance"
-msgstr "Nascondere saldo"
+msgstr "隱藏的平衡"
 
 #: www/views/advancedSettings.html:29
 msgid "Hide Next Steps Card"
-msgstr "Nascondere le successive procedure per la carta"
+msgstr "隱藏下一個步驟卡"
 
 #: www/views/join.html:46
 #: www/views/tab-create-personal.html:26
@@ -1223,133 +1227,133 @@ msgstr "Nascondere le successive procedure per la carta"
 #: www/views/tab-import-hardware.html:31
 #: www/views/tab-import-phrase.html:33
 msgid "Hide advanced options"
-msgstr "Nascondi opzioni avanzate"
+msgstr "隱藏高級選項"
 
 #: www/views/tabs.html:3
 msgid "Home"
-msgstr "Home"
+msgstr "主屏幕"
 
 #: src/js/controllers/feedback/send.js:61
 #: src/js/controllers/feedback/send.js:65
 #: src/js/controllers/feedback/send.js:69
 msgid "How could we improve your experience?"
-msgstr "Come potremmo migliorare la tua esperienza?"
+msgstr "我們如何可以改善您的體驗？"
 
 #: www/views/feedback/rateCard.html:3
 msgid "How do you like {{appName}}?"
-msgstr "Come ti piace {{appName}}?"
+msgstr ""
 
 #: src/js/controllers/feedback/rateCard.js:29
 msgid "I don't like it"
-msgstr "Non mi piace"
+msgstr "我不喜歡"
 
 #: www/views/onboarding/disclaimer.html:43
 msgid "I have read, understood, and agree to the <a ng-click=\"openTerms()\" translate=\"\">Terms of Use</a>."
-msgstr "Ho letto, compreso, e sono d'accordo con <a ng-click=\"openTerms()\" translate=\"\"> Condizioni d'uso</a>."
+msgstr "我已經閱讀、 理解並同意 <a ng-click=\"openTerms()\"translate=\"\"> 使用條款</a>。"
 
 #: www/views/modals/terms.html:22
 msgid "I have read, understood, and agree with the Terms of use."
-msgstr "Ho letto, compreso, e sono d'accordo con le Condizioni d'uso."
+msgstr "我已經閱讀、 理解並同意本使用條款。"
 
 #: www/views/join.html:134
 #: www/views/tab-create-personal.html:105
 #: www/views/tab-create-shared.html:134
 msgid "I have written it down"
-msgstr "L'ho scritto"
+msgstr "我有把它寫下來"
 
 #: src/js/controllers/feedback/rateCard.js:35
 msgid "I like the app"
-msgstr "Mi piace l'app"
+msgstr "我喜歡這個應用程序"
 
 #: src/js/controllers/feedback/rateCard.js:26
 msgid "I think this app is terrible."
-msgstr "Penso che questa app sia terribile."
+msgstr "這個應用程序是可怕。"
 
 #: src/js/controllers/onboarding/backupRequest.js:19
 #: www/views/includes/screenshotWarningModal.html:9
 msgid "I understand"
-msgstr "Ho capito"
+msgstr "我知道了"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
-msgstr "Ho compreso che se questa app sarà trasferita ad un altro dispositivo o cancellata, i miei bitcoin potranno essere recuperati solo tramite il backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my Mobicoin can only be recovered with the backup phrase."
+msgstr "我明白是否這個應用程序是搬到另一個設備或刪除，我魔幣可以只能進行恢復與備份的短語。"
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
-msgstr "Ho capito che i miei fondi sono custoditi in sicurezza in questa dispositivo, non da un'azienda."
+msgstr "我明白，我的資金安全地在此設備上，不由公司舉行。"
 
 #: www/views/backup.html:29
 msgid "I've written it down"
-msgstr "L'ho scritto"
+msgstr "我已經把它寫下來"
 
 #: www/views/preferences.html:50
 msgid "If enabled, all sensitive information (private key and recovery phrase) and actions (spending and exporting) associated with this wallet will be protected."
-msgstr "Se attivata, tutte le informazioni sensibili (chiavi private e recupero della passhphrase) e azioni (spesa ed esportazione) associate a questo portafoglio saranno protette."
+msgstr "如果啟用, 將保護與此錢包相關的所有敏感信息 (私鑰和恢復短語) 和操作 (支出和導出)。"
 
 #: www/views/advancedSettings.html:22
 msgid "If enabled, the Recent Transactions card - a list of transactions occuring across all wallets - will appear in the Home tab."
-msgstr "Se abilitata, la scheda delle Transazioni Recenti - una lista di transazioni che avvengono attraverso tutti i portafogli - apparirà nella scheda Home."
+msgstr "如果啟用，最近的交易卡-交易發生跨所有錢包名單-將出現在主頁選項卡。"
 
 #: www/views/advancedSettings.html:13
 msgid "If enabled, wallets will also try to spend unconfirmed funds. This option may cause transaction delays."
-msgstr "Se abilitata, i portafogli cercheranno di spendere anche fondi non ancora confermati. Questa opzione può causare ritardi delle transazioni."
+msgstr "如果啟用了，錢包也嘗試使用未經證實的資金。此選項可能會導致事務延遲。"
 
 #: src/js/controllers/onboarding/backupRequest.js:18
 msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
-msgstr "Se questo dispositivo viene sostituito o eliminato questa app, né tu né BitPay può recuperare i fondi senza una copia di backup."
+msgstr "如果此設備被替換或刪除此應用程序，你和 BitPay 都不可以恢復你的資金，也沒有備份。"
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
-msgstr "Se si dispone di ulteriori feedback, fatecelo sapere toccando l'opzione \"Invia feedback\" nella scheda Impostazioni."
+msgstr "如果你有額外的反饋，請讓我們知道通過點擊設置選項卡中的\"發送反饋\"選項。"
 
 #: www/views/includes/screenshotWarningModal.html:8
 msgid "If you take a screenshot, your backup may be viewed by other apps. You can make a safe backup with physical paper and a pen."
-msgstr "Se esegui uno screenshot, il backup può essere visualizzato da altre applicazioni. Si può fare un backup sicuro con la carta fisica e una penna."
+msgstr "如果你拿一張截圖，您的備份可能會被其他應用程序。您可以安全備份與物理紙和一支鋼筆。"
 
 #: www/views/tab-import-hardware.html:42
 #: www/views/tab-import-phrase.html:77
 msgid "Import"
-msgstr "Importa"
+msgstr "導入"
 
 #: www/views/import.html:3
 msgid "Import Wallet"
-msgstr "Importa Portafoglio"
+msgstr "導入錢包"
 
 #: www/views/tab-import-file.html:39
 msgid "Import backup"
-msgstr "Importa backup"
+msgstr "導入備份"
 
 #: www/views/add.html:38
 msgid "Import wallet"
-msgstr "Importa un portafoglio"
+msgstr "導入錢包"
 
 #: src/js/services/onGoingProcess.js:24
 msgid "Importing Wallet..."
-msgstr "Importazione del Portafoglio..."
+msgstr "正在導入錢包..."
 
 #: www/views/backup.html:65
 msgid "In order to verify your wallet backup, please type your password."
-msgstr "Per verificare il backup del tuo portafoglio, inserire la password."
+msgstr "為了驗證您的錢包的備份，請鍵入您的密碼。"
 
 #: www/views/includes/walletItem.html:11
 #: www/views/includes/walletSelector.html:18
 #: www/views/tab-home.html:90
 #: www/views/tab-settings.html:117
 msgid "Incomplete"
-msgstr "Incompleto"
+msgstr "不完整"
 
 #: www/views/tab-receive.html:22
 msgid "Incomplete wallet"
-msgstr "Portafoglio incompleto"
+msgstr "不完整的錢包"
 
 #: www/views/modals/pin.html:12
 msgid "Incorrect PIN, try again."
-msgstr "PIN errato, riprovare."
+msgstr ""
 
 #. Trying to import a malformed wallet export QR code
 #: src/js/controllers/import.js:70
 msgid "Incorrect code format"
-msgstr "Formato qrcode non corretto"
+msgstr "代碼格式不正確"
 
 #: src/js/services/bwcError.js:113
 msgid "Incorrect network address"
@@ -1357,17 +1361,17 @@ msgstr ""
 
 #: src/js/services/bwcError.js:44
 msgid "Insufficient funds"
-msgstr "Fondi insufficienti"
+msgstr "資金不足"
 
 #: src/js/controllers/topup.js:159
 #: src/js/controllers/topup.js:171
 #: src/js/services/bwcError.js:71
 msgid "Insufficient funds for fee"
-msgstr "Fondi insufficienti per la commissione"
+msgstr "費用的資金不足"
 
 #: www/views/includes/walletHistory.html:49
 msgid "Invalid"
-msgstr "Invalido"
+msgstr "無效"
 
 #: src/js/controllers/topup.js:109
 msgid "Invalid URL"
@@ -1377,25 +1381,25 @@ msgstr ""
 #: src/js/controllers/import.js:327
 #: src/js/controllers/join.js:142
 msgid "Invalid account number"
-msgstr "Numero di conto non valido"
+msgstr "帳戶號無效"
 
 #: src/js/services/bwcError.js:119
 msgid "Invalid address"
-msgstr "Indirizzo non valido"
+msgstr "地址無效"
 
 #: src/js/controllers/tabsController.js:7
 msgid "Invalid data"
-msgstr "Dati non validi"
+msgstr "無效的數據"
 
 #: src/js/controllers/create.js:155
 #: src/js/controllers/import.js:249
 #: src/js/controllers/join.js:121
 msgid "Invalid derivation path"
-msgstr "Percorso di derivazione non valido"
+msgstr "衍生路徑無效"
 
 #: src/js/controllers/copayers.js:90
 msgid "Invitation to share a {{appName}} Wallet"
-msgstr "Invito a condividere un {{appName}} portafoglio"
+msgstr "邀請分享 {{appName}} 錢包"
 
 #: www/views/topup.html:56
 msgid "Invoice Fee"
@@ -1403,98 +1407,98 @@ msgstr ""
 
 #: src/js/controllers/feedback/send.js:79
 msgid "Is there anything we could do better?"
-msgstr "C'è qualcosa che potevamo fare meglio?"
+msgstr "有什麼我們可以做得更好嗎？"
 
 #: www/views/backup.html:47
 msgid "Is this correct?"
-msgstr "È corretto?"
+msgstr "這是正確的嗎？"
 
 #: www/views/onboarding/collectEmail.html:22
 msgid "Is this email address correct?"
-msgstr "Questo indirizzo email è corretto?"
+msgstr "此電子郵件地址是正確的？"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "È una buona idea evitare di riutilizzare gli indirizzi - questo protegge la tua privacy e mantiene i Bitcoin al sicuro da ipotetici attacchi di computer quantistici."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your Mobicoins secure against hypothetical attacks by quantum computers."
+msgstr "它是一個好主意，以避免重用地址 — — 這既能保護您的隱私又保持您的魔幣安全假設攻擊由量子計算機。"
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
-msgstr "È importante annotare la frase di backup correttamente. Se succede qualcosa al tuo portafoglio, allora avrai bisogno di questo backup per ripristinare il tuo denaro. Si prega di rivedere il backup e riprovare."
+msgstr "它是重要的你寫你備份的短語正確。如果發生什麼事情到你的錢包，你會需要此備份來恢復你的錢。請檢查您的備份並再試一次。"
 
 #: www/views/join.html:148
 msgid "Join"
-msgstr "Unisciti"
+msgstr "加入"
 
 #: src/js/controllers/copayers.js:85
 msgid "Join my {{appName}} Wallet. Here is the invitation code: {{secret}} You can download {{appName}} for your phone or desktop at {{appUrl}}"
-msgstr "Iscriviti a mio {{appName}} portafoglio. Ecco il codice di invito: {{secret}} è possibile scaricare {{appName}} per il vostro telefono o desktop su {{appUrl}}"
+msgstr "加入我的 {{appName}} 的錢包。這裡是邀請碼︰ {{secret}} 你可以下載為您的電話或桌面的 {{appUrl}} {{appName}}"
 
 #: www/views/add.html:30
 #: www/views/join.html:5
 msgid "Join shared wallet"
-msgstr "Unisciti al portafoglio condiviso"
+msgstr "加入共享錢包"
 
 #: src/js/services/onGoingProcess.js:25
 msgid "Joining Wallet..."
-msgstr "Unendo al portafoglio..."
+msgstr "正在加入錢包..."
 
 #: www/views/onboarding/tour.html:22
 msgid "Just scan the code to pay."
-msgstr "Scansiona giusto il codice per pagare."
+msgstr "只是掃描代碼來支付。"
 
 #: src/js/services/bwcError.js:116
 msgid "Key already associated with an existing wallet"
-msgstr "Chiave già associata ad un portafoglio esistente"
+msgstr "鑰已經關聯現有的錢包"
 
 #: www/views/preferencesLanguage.html:4
 #: www/views/tab-settings.html:53
 msgid "Language"
-msgstr "Lingua"
+msgstr "語言"
 
 #: www/views/bitpayCard.html:61
 msgid "Last Month"
-msgstr "Scorso Mese"
+msgstr "上個月"
 
 #: www/views/backup.html:36
 msgid "Let's verify your backup phrase."
-msgstr "Verifichiamo la tua frase di backup."
+msgstr "讓我們驗證您備份的短語。"
 
 #: www/views/addresses.html:45
 #: www/views/allAddresses.html:14
 msgid "Loading addresses..."
-msgstr "Caricamento indirizzi..."
+msgstr "正在加載地址..."
 
 #: src/js/services/onGoingProcess.js:35
 msgid "Loading transaction info..."
-msgstr "Caricamento info della transazione..."
+msgstr "正在加載交易信息..."
 
 #: www/views/tab-settings.html:95
 msgid "Lock App"
-msgstr "Blocca app"
+msgstr ""
 
 #: src/js/controllers/lockSetup.js:23
 msgid "Lock by Fingerprint"
-msgstr "Blocco con impronte digitali"
+msgstr ""
 
 #: src/js/controllers/lockSetup.js:14
 msgid "Lock by PIN"
-msgstr "Blocca tramite PIN"
+msgstr ""
 
 #: www/views/modals/wallet-balance.html:80
 msgid "Locked"
-msgstr "Bloccato"
+msgstr "鎖定"
 
 #: src/js/services/bwcError.js:86
 msgid "Locktime in effect. Please wait to create a new spend proposal"
-msgstr "Locktime in effetto. Si prega di attendere per creare una nuova proposta di pagamento"
+msgstr "Locktime 在進行中。請稍等以創建新的花費提議"
 
 #: src/js/services/bwcError.js:89
 msgid "Locktime in effect. Please wait to remove this spend proposal"
-msgstr "Locktime in effetto. Si prega di attendere per rimuovere questa proposta di pagamento"
+msgstr "Locktime 在進行中。請稍等以刪除花費提議"
 
 #: www/views/modals/bitpay-card-confirmation.html:14
 msgid "Log out"
-msgstr "Esci"
+msgstr ""
 
 #: www/views/addresses.html:87
 msgid "Low amount inputs"
@@ -1502,84 +1506,84 @@ msgstr ""
 
 #: www/views/includes/walletHistory.html:27
 msgid "Low fees"
-msgstr "Commissioni basse"
+msgstr ""
 
 #: www/views/paymentUri.html:13
 msgid "Make a payment to"
-msgstr "Effettuare un pagamento a"
+msgstr "支付給"
 
 #: www/views/onboarding/tour.html:38
 msgid "Makes sense"
-msgstr "Ho capito"
+msgstr "有道理"
 
 #: src/js/controllers/modals/search.js:61
 msgid "Matches:"
-msgstr "Corrispondenze:"
+msgstr "匹配："
 
 #: www/views/includes/copayers.html:4
 #: www/views/preferencesInformation.html:79
 msgid "Me"
-msgstr "Io"
+msgstr "我"
 
 #: src/js/controllers/feedback/rateCard.js:32
 msgid "Meh - it's alright"
-msgstr "Beh - è tutto ok"
+msgstr "咩-沒關係"
 
 #: src/js/controllers/tx-details.js:146
 #: www/views/modals/paypro.html:48
 #: www/views/modals/txp-details.html:95
 #: www/views/tx-details.html:74
 msgid "Memo"
-msgstr "Nota"
+msgstr "便簽"
 
 #: www/views/modals/txp-details.html:133
 msgid "Merchant Message"
-msgstr "Messaggio dal commerciante"
+msgstr "商人的消息"
 
 #: www/views/paymentUri.html:17
 msgid "Message"
-msgstr "Messaggio"
+msgstr "信息"
 
 #: src/js/services/bwcError.js:134
 msgid "Missing parameter"
-msgstr "Parametro mancante"
+msgstr "缺失參數"
 
 #: src/js/services/bwcError.js:32
 msgid "Missing private keys to sign"
-msgstr "Chiavi private per la firma mancanti"
+msgstr "遺失需要簽名的私鑰"
 
 #: www/views/preferences.html:65
 #: www/views/preferencesAdvanced.html:3
 msgid "More Options"
-msgstr "Altre Opzioni"
+msgstr "更多的選擇"
 
 #: www/views/includes/walletHistory.html:47
 #: www/views/tx-details.html:19
 msgid "Moved"
-msgstr "Spostato"
+msgstr "已調動"
 
 #: src/js/controllers/tx-details.js:112
 msgid "Moved Funds"
-msgstr "Fondi trasferiti"
+msgstr "轉移資金"
 
 #: www/views/modals/txp-details.html:57
 msgid "Multiple recipients"
-msgstr "Più destinatari"
+msgstr "多個接收者"
 
 #: www/views/tab-import-phrase.html:8
 msgid "NOTE: To import a wallet from a 3rd party software, please go to Add Wallet &gt; Create Wallet, and specify the Recovery Phrase there."
-msgstr "Nota: Per importare un portafoglio da un software di terze parti, si prega di andare in Aggiungi portafoglio &gt; Crea portafoglio, e specificare la frase di recupero."
+msgstr "注意︰欲從第三方軟件導入錢包，請到添加錢包 &gt; 創建錢包，並指定恢復短語。"
 
 #: www/views/addressbook.add.html:21
 #: www/views/addressbook.view.html:18
 #: www/views/preferences.html:15
 #: www/views/preferencesAlias.html:17
 msgid "Name"
-msgstr "Nome"
+msgstr "名稱"
 
 #: www/views/paymentUri.html:18
 msgid "Network"
-msgstr "Network"
+msgstr "網絡"
 
 #: www/views/topup.html:63
 msgid "Network Fee"
@@ -1587,51 +1591,51 @@ msgstr ""
 
 #: src/js/services/bwcError.js:47
 msgid "Network error"
-msgstr "Errore di rete"
+msgstr "網絡錯誤"
 
 #: www/views/includes/walletActivity.html:43
 msgid "New Proposal"
-msgstr "Nuova proposta"
+msgstr "新建議"
 
 #: src/js/controllers/addresses.js:131
 msgid "New address could not be generated. Please try again."
-msgstr "Il nuovo indirizzo non può essere generato. Si prega di riprovare."
+msgstr "無法生成新的地址。請再試一次。"
 
 #: www/views/add.html:14
 msgid "New personal wallet"
-msgstr "Nuovo portafoglio personale"
+msgstr "新的個人錢包"
 
 #: www/views/includes/nextSteps.html:3
 msgid "Next steps"
-msgstr "Prossimi passi"
+msgstr "接下來的步驟"
 
 #: www/views/tab-receive.html:16
 msgid "No Wallet"
-msgstr "Nessun Portafoglio"
+msgstr "沒錢包"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
-msgstr "Nessun backup, nessun bitcoin."
+msgid "No backup, no Mobicoin."
+msgstr "沒有備份，沒有魔幣。"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
-msgstr "Ancora nessun contatto"
+msgstr "然而沒有聯繫人"
 
 #: www/views/preferencesExternal.html:12
 msgid "No hardware information available."
-msgstr "Nessuna informazione del'hardware disponibile."
+msgstr ""
 
 #: www/views/tab-import-hardware.html:3
 msgid "No hardware wallets supported on this device"
-msgstr "Nessun portafoglio hardware supportato da questo dispositivo"
+msgstr "此設備不支持硬件錢包"
 
 #: www/views/proposals.html:25
 msgid "No pending proposals"
-msgstr "Nessuna proposta in attesa"
+msgstr "沒有掛起的建議"
 
 #: www/views/activity.html:25
 msgid "No recent transactions"
-msgstr "Nessuna transazione recente"
+msgstr "沒有最近的交易"
 
 #: src/js/controllers/topup.js:41
 msgid "No signing proposal: No private key"
@@ -1639,15 +1643,15 @@ msgstr ""
 
 #: www/views/walletDetails.html:193
 msgid "No transactions yet"
-msgstr "Ancora nessuna transazione"
+msgstr "沒有交易記錄"
 
 #: src/js/controllers/preferencesDelete.js:15
 msgid "No wallet found"
-msgstr "Nessun portafoglio trovato"
+msgstr "發現沒有錢包"
 
 #: src/js/controllers/preferencesDelete.js:8
 msgid "No wallet selected"
-msgstr "Nessun portafoglio selezionato"
+msgstr "沒有選定的錢包"
 
 #: src/js/controllers/topup.js:255
 msgid "No wallets available"
@@ -1655,128 +1659,128 @@ msgstr ""
 
 #: www/views/paperWallet.html:47
 msgid "No wallets available to receive funds"
-msgstr "Nessun portafoglo disponibile per ricevere i fondi"
+msgstr "沒有可用於接收資金的錢包"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
-msgstr "Normale"
+msgstr "常規"
 
 #: src/js/services/bwcError.js:80
 msgid "Not authorized"
-msgstr "Non autorizzato"
+msgstr "尚未授權"
 
 #: src/js/controllers/confirm.js:271
 msgid "Not enough funds for fee"
-msgstr "Non ci sono abbastanza fondi per la commissione"
+msgstr "費用的資金不足"
 
 #: www/views/onboarding/tour.html:50
 msgid "Not even BitPay can access it."
-msgstr "Nemmeno BitPay può accedervi."
+msgstr "甚至沒有 BitPay 可以訪問它。"
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
-msgstr "Fondi non trovati"
+msgstr "沒有資金髮現"
 
 #: www/views/feedback/rateApp.html:3
 #: www/views/onboarding/notifications.html:8
 msgid "Not now"
-msgstr "Non ora"
+msgstr "不是現在"
 
 #: www/views/includes/output.html:15
 msgid "Note"
-msgstr "Nota"
+msgstr "備註"
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
-msgstr "Avviso: solo i portafogli 1-1 (con singola firma) possono essere utilizzati per vendere bitcoin"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell Mobicoin"
+msgstr "注意︰ 只有 1-1 （單簽名） 錢包可以用於賣魔幣"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:46
 msgid "Notifications"
-msgstr "Notifiche"
+msgstr "通知"
 
 #: www/views/onboarding/collectEmail.html:9
 msgid "Notifications by email"
-msgstr "Notifiche via email"
+msgstr "郵箱認證"
 
 #: www/views/tx-details.html:116
 msgid "Notify me if confirmed"
-msgstr "Notificami se confermato"
+msgstr ""
 
 #: www/views/includes/backupNeededPopup.html:8
 msgid "Now is a good time to backup your wallet. If this device is lost, it is impossible to access your funds without a backup."
-msgstr "Ora è un buon momento per effettuare un backup del tuo portafoglio. Se questo dispositivo andasse perso, sarebbe impossibile accedere ai tuoi fondi senza una copia di backup."
+msgstr "現在是很好的時間進行備份你的錢包。如果此設備丟失，它是無法訪問您沒有備份的資金。"
 
 #: www/views/backupWarning.html:11
 msgid "Now is a perfect time to assess your surroundings. Nearby windows? Hidden cameras? Shoulder-spies?"
-msgstr "È il momento perfetto per valutare l'ambiente circostante. Finestre nelle vicinanze? Telecamere nascoste? Spie alle spalle?"
+msgstr "現在是一個完美的時間來評估你的周圍。附近的窗戶嗎？隱藏的攝像機？肩-間諜嗎？"
 
 #: src/js/controllers/topup.js:276
 #: src/js/services/popupService.js:16
 #: src/js/services/popupService.js:59
 msgid "OK"
-msgstr "Ok"
+msgstr "好的"
 
 #: www/views/modals/tx-status.html:12
 #: www/views/modals/tx-status.html:24
 #: www/views/modals/tx-status.html:36
 #: www/views/modals/tx-status.html:46
 msgid "OKAY"
-msgstr "VA BENE"
+msgstr "OKAY"
 
 #: www/views/modals/terms.html:15
 msgid "Official English Disclaimer"
-msgstr "Dichiarazione di esclusione di responsabilità ufficiale in inglese"
+msgstr "官方英文免責聲明"
 
 #: src/js/controllers/feedback/send.js:64
 msgid "Oh no!"
-msgstr "Oh no!"
+msgstr "出錯。"
 
 #: www/views/tab-home.html:39
 msgid "On this screen you can see all your wallets, accounts, and assets."
-msgstr "In questa schermata puoi vedere tutti i portafogli, gli account e i beni."
+msgstr "在此屏幕上您可以看到您的錢包、 帳戶和資產。"
 
 #: src/js/controllers/bitpayCard.js:180
 #: src/js/controllers/tab-settings.js:47
 msgid "Open"
-msgstr "Apri"
+msgstr "打開"
 
 #: src/js/controllers/preferencesLanguage.js:13
 msgid "Open Crowdin"
-msgstr "Aprire Crowdin"
+msgstr "打開 Crowdin"
 
 #: src/js/controllers/preferencesAbout.js:15
 msgid "Open GitHub"
-msgstr "Aprire Github"
+msgstr "打開 GitHub"
 
 #: src/js/controllers/preferencesAbout.js:13
 msgid "Open GitHub Project"
-msgstr "Aprire il progetto GitHub"
+msgstr "打開 GitHub 項目"
 
 #: src/js/controllers/bitpayCard.js:190
 #: src/js/controllers/tx-details.js:173
 msgid "Open Insight"
-msgstr "Aprire Insight"
+msgstr "開放的洞察力"
 
 #: www/views/tab-scan.html:22
 msgid "Open Settings"
-msgstr "Apri Impostazioni"
+msgstr "打開設置"
 
 #: src/js/controllers/preferencesLanguage.js:11
 msgid "Open Translation Community"
-msgstr "Aprire comunità traduttori"
+msgstr "開放式翻譯社區"
 
 #: src/js/controllers/onboarding/terms.js:22
 msgid "Open Website"
-msgstr "Apri sito"
+msgstr "打開網站"
 
 #: www/views/tab-receive.html:27
 msgid "Open wallet"
-msgstr "Apri Portafoglio"
+msgstr "打開錢包"
 
 #: www/views/bitpayCardIntro.html:34
 msgid "Order the BitPay Card"
-msgstr "Ordinare la carta BitPay"
+msgstr "訂單 BitPay 卡"
 
 #: www/views/join.html:102
 #: www/views/join.html:93
@@ -1787,132 +1791,132 @@ msgstr "Ordinare la carta BitPay"
 #: www/views/tab-import-file.html:18
 #: www/views/tab-import-phrase.html:38
 msgid "Password"
-msgstr "Password"
+msgstr "密碼"
 
 #: src/js/controllers/import.js:83
 msgid "Password required. Make sure to enter your password in advanced options"
-msgstr "Password necessaria. Assicurarsi di immettere la password nelle impostazioni avanzate"
+msgstr "需要密碼。請務必在高級選項中輸入你的密碼"
 
 #: www/views/join.html:33
 msgid "Paste invitation here"
-msgstr "Incolla qui l'invito"
+msgstr "在此粘貼邀請"
 
 #: www/views/tab-import-file.html:13
 msgid "Paste the backup plain text code"
-msgstr "Incolla qui il codice di backup"
+msgstr "粘貼備份的純文本代碼"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "Pagare 0% di tasse per trasformare bitcoin in dollari."
+msgid "Pay 0% fees to turn Mobicoin into dollars."
+msgstr "0%付費以魔幣變成美元。"
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
-msgstr "Paga A"
+msgstr "支付給"
 
 #: www/views/modals/tx-status.html:33
 msgid "Payment Accepted"
-msgstr "Pagamento Accettato"
+msgstr "已接受支付"
 
 #: www/views/confirm.html:25
 msgid "Payment Expires:"
-msgstr "Scadenza del pagamento:"
+msgstr "付款到期︰"
 
 #: www/views/modals/txp-details.html:6
 msgid "Payment Proposal"
-msgstr "Proposta di Pagamento"
+msgstr "支付提議"
 
 #: www/views/modals/tx-status.html:21
 msgid "Payment Proposal Created"
-msgstr "Proposta di Pagamento Creata"
+msgstr "支付提議已創建"
 
 #: www/views/tab-home.html:46
 msgid "Payment Proposals"
-msgstr "Proposte di Pagamento"
+msgstr "支付提議"
 
 #: src/js/services/payproService.js:32
 msgid "Payment Protocol Invalid"
-msgstr "Protocollo di pagamento non valido"
+msgstr "支付協議無效"
 
 #: src/js/services/payproService.js:18
 msgid "Payment Protocol not supported on Chrome App"
-msgstr "Proposta di Pagamento non supportata dall'applicazione Chrome"
+msgstr "支付協議不支持 Chrome 應用程序"
 
 #: www/views/includes/walletActivity.html:20
 msgid "Payment Received"
-msgstr "Pagamento ricevuto"
+msgstr "收到付款"
 
 #: www/views/modals/tx-status.html:43
 #: www/views/modals/txp-details.html:43
 msgid "Payment Rejected"
-msgstr "Pagamento Rifiutato"
+msgstr "支付被拒絕"
 
 #: www/views/confirm.html:126
 #: www/views/includes/walletActivity.html:11
 #: www/views/modals/txp-details.html:188
 #: www/views/modals/txp-details.html:42
 msgid "Payment Sent"
-msgstr "Pagamento Inviato"
+msgstr "支付已發送"
 
 #: www/views/modals/txp-details.html:32
 msgid "Payment accepted, but not yet broadcasted"
-msgstr "Pagamento accettato, ma non ancora inviata alla rete"
+msgstr "支付已被接受，但尚未廣播"
 
 #: www/views/modals/txp-details.html:40
 msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a problem, it can be deleted 6 hours after it was created."
-msgstr "Pagamento accettato. Esso sarà trasmesso attraverso la rete Glidera. Nel caso in cui ci fosse un problema, si potrà eliminarlo 6 ore dopo che è stato creato."
+msgstr "支付以被接受。它將由 Glidera 廣播。如果出現問題，它可以在創建後的 6 個小時內刪除。"
 
 #: www/views/modals/txp-details.html:109
 msgid "Payment details"
-msgstr "Dettagli pagamento"
+msgstr "支付明細"
 
 #: www/views/modals/paypro.html:6
 msgid "Payment request"
-msgstr "Richiesta di pagamento"
+msgstr "支付請求"
 
 #: www/views/proposals.html:5
 msgid "Pending Proposals"
-msgstr "Proposte in attesa"
+msgstr "支付提議"
 
 #: www/views/preferencesDeleteWallet.html:13
 msgid "Permanently delete this wallet."
-msgstr "Eliminare definitivamente questo portafoglio."
+msgstr "永久刪除這個錢包。"
 
 #: src/js/services/profileService.js:388
 msgid "Personal Wallet"
-msgstr "Portafoglio Personale"
+msgstr "個人錢包"
 
 #: www/views/backup.html:18
 msgid "Please carefully write down this phrase."
-msgstr "Si prega di annotare accuratamente questa frase."
+msgstr "請仔細記下這句話。"
 
 #: www/views/tab-scan.html:20
 msgid "Please connect a camera to get started."
-msgstr "Si prega di collegare una telecamera per iniziare."
+msgstr "請連接相機入門。"
 
 #: src/js/controllers/import.js:260
 msgid "Please enter the recovery phrase"
-msgstr "Si prega di inserire la frase di recupero"
+msgstr "請輸入恢復短語"
 
 #: src/js/controllers/create.js:168
 #: src/js/controllers/join.js:135
 msgid "Please enter the wallet recovery phrase"
-msgstr "Si prega di inserire la frase di recupero del portafoglio"
+msgstr "請輸入錢包恢復短語"
 
 #: www/views/modals/pin.html:9
 msgid "Please enter your PIN"
-msgstr "Inserisci il tuo PIN"
+msgstr ""
 
 #: www/views/backup.html:46
 msgid "Please tap each word in the correct order."
-msgstr "Si prega di toccare ogni parola nell'ordine corretto."
+msgstr "請點擊每個單詞按照正確的順序。"
 
 #: src/js/services/bwcError.js:101
 msgid "Please upgrade Copay to perform this action"
-msgstr "Si prega di aggiornare Copay per eseguire questa azione"
+msgstr "請升級 Copay 以執行此操作"
 
 #: src/js/controllers/import.js:222
 msgid "Please, select your backup file"
-msgstr "Per favore, selezione il tuo file di backup"
+msgstr "請選擇你的備份文件"
 
 #: www/views/bitpayCard.html:81
 msgid "Pre-Auth Holds"
@@ -1920,170 +1924,170 @@ msgstr ""
 
 #: www/views/tab-settings.html:40
 msgid "Preferences"
-msgstr "Preferenze"
+msgstr "偏好"
 
 #: src/js/services/onGoingProcess.js:38
 msgid "Preparing addresses..."
-msgstr "Preparazione indirizzi..."
+msgstr "正在準備地址..."
 
 #: src/js/controllers/export.js:198
 msgid "Preparing backup..."
-msgstr "Preparando il backup..."
+msgstr "正在準備備份..."
 
 #: src/js/routes.js:1196
 msgid "Press again to exit"
-msgstr "Premi ancora per uscire"
+msgstr "再按一次退出"
 
 #: src/js/services/feeService.js:11
 msgid "Priority"
-msgstr "Priorità"
+msgstr "優先"
 
 #: src/js/controllers/paperWallet.js:137
 msgid "Private key encrypted. Enter password"
-msgstr "Chiave privata crittografata. Inserisci la password"
+msgstr "私鑰加密。輸入密碼"
 
 #: src/js/services/bwcError.js:35
 msgid "Private key is encrypted, cannot sign"
-msgstr "La chiave privata è crittografata, non è possibile accedere"
+msgstr "私鑰已加密，無法簽名"
 
 #: www/views/includes/walletActivity.html:51
 msgid "Proposal Accepted"
-msgstr "Proposta accettata"
+msgstr "提案被接受"
 
 #: src/js/controllers/modals/txpDetails.js:51
 #: src/js/controllers/tx-details.js:59
 #: www/views/confirm.html:127
 msgid "Proposal Created"
-msgstr "Proposta creata"
+msgstr "建議創建"
 
 #: www/views/includes/walletActivity.html:27
 msgid "Proposal Deleted"
-msgstr "Proposta eliminata"
+msgstr "建議刪除"
 
 #: www/views/includes/walletActivity.html:35
 msgid "Proposal Rejected"
-msgstr "Proposta respinta"
+msgstr "被拒絕的建議"
 
 #: www/views/walletDetails.html:178
 msgid "Proposals"
-msgstr "Proposte"
+msgstr "建議"
 
 #: www/views/onboarding/notifications.html:3
 msgid "Push Notifications"
-msgstr "Notifiche push"
+msgstr "推式通知"
 
 #: www/views/preferencesNotifications.html:17
 msgid "Push notifications for {{appName}} are currently disabled. Enable them in the Settings app."
-msgstr "Le notifiche push per {{appName}} sono attualmente disabilitate. Abilitale nelle impostazioni app."
+msgstr "{{appName}} 的推式通知當前已禁用。在設置應用程序啟用它們。"
 
 #: www/views/export.html:17
 msgid "QR Code"
-msgstr "Codice QR"
+msgstr "QR 碼"
 
 #: www/views/onboarding/disclaimer.html:13
 msgid "Quick review!"
-msgstr "Breve recensione!"
+msgstr "快速審查 ！"
 
 #: src/js/controllers/create.js:79
 #: src/js/controllers/join.js:65
 msgid "Random"
-msgstr "Casuale"
+msgstr "隨機"
 
 #: www/views/feedback/rateApp.html:14
 msgid "Rate on the app store"
-msgstr "Valuta su App Store"
+msgstr "率的應用程序商店"
 
 #: www/views/addresses.html:52
 msgid "Read less"
-msgstr "Riduci"
+msgstr "閱讀少"
 
 #: www/views/addresses.html:51
 msgid "Read more"
-msgstr "Ulteriori informazioni"
+msgstr "閱讀更多"
 
 #: www/views/tab-receive.html:3
 #: www/views/tabs.html:7
 msgid "Receive"
-msgstr "Ricevi"
+msgstr "接收"
 
 #: www/views/includes/walletHistory.html:24
 #: www/views/tx-details.html:18
 msgid "Received"
-msgstr "Ricevuti"
+msgstr "已接收"
 
 #: src/js/controllers/tx-details.js:111
 msgid "Received Funds"
-msgstr "Fondi ricevuti"
+msgstr "收到的資金"
 
 #: www/views/includes/walletHistory.html:57
 #: www/views/tx-details.html:24
 msgid "Receiving"
-msgstr "Ricezione"
+msgstr "接收"
 
 #: www/views/bitpayCard.html:60
 #: www/views/includes/walletHistory.html:3
 msgid "Recent"
-msgstr "Recente"
+msgstr "最近"
 
 #: www/views/advancedSettings.html:20
 msgid "Recent Transaction Card"
-msgstr "Transazione recente della carta"
+msgstr "最近交易卡"
 
 #: www/views/activity.html:4
 #: www/views/tab-home.html:58
 msgid "Recent Transactions"
-msgstr "Transazioni recenti"
+msgstr "最近的交易"
 
 #: www/views/amount.html:18
 #: www/views/tab-send.html:9
 msgid "Recipient"
-msgstr "Destinatario"
+msgstr "收件人"
 
 #: www/views/modals/txp-details.html:62
 msgid "Recipients"
-msgstr "Destinatari"
+msgstr "接收者"
 
 #: www/views/import.html:12
 msgid "Recovery phrase"
-msgstr "Frase di Recupero"
+msgstr "恢復短語"
 
 #: www/views/walletDetails.html:117
 #: www/views/walletDetails.html:36
 msgid "Recreate"
-msgstr "Ricrea"
+msgstr "重新創建"
 
 #: src/js/services/onGoingProcess.js:26
 msgid "Recreating Wallet..."
-msgstr "Ricreando Portafoglio..."
+msgstr "正在重新創建的錢包..."
 
 #: src/js/controllers/modals/txpDetails.js:53
 #: src/js/controllers/tx-details.js:61
 msgid "Rejected"
-msgstr "Respinto"
+msgstr "拒絕"
 
 #: src/js/services/onGoingProcess.js:27
 msgid "Rejecting payment proposal"
-msgstr "Respingendo proposta di pagamento"
+msgstr "拒絕付款方案"
 
 #: www/views/preferencesAbout.html:9
 msgid "Release information"
-msgstr "Informazioni sul rilascio"
+msgstr "發布信息"
 
 #: www/views/addressbook.view.html:36
 msgid "Remove"
-msgstr "Rimuovere"
+msgstr ""
 
 #: src/js/controllers/preferencesBitpayServices.js:7
 msgid "Remove BitPay Account?"
-msgstr "Rimuovere il conto BitPay?"
+msgstr "刪除 BitPay 帳戶嗎？"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
 msgid "Remove BitPay Card?"
-msgstr "Rimuovere la Carta BitPay?"
+msgstr "刪除 BitPay 卡嗎？"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
 msgid "Removing your BitPay account will remove all associated BitPay account data from this device. Are you sure you would like to remove your BitPay Account ({{email}}) from this device?"
-msgstr "La rimozione dell'account BitPay eliminerà tutti i dati del conto BitPay associati da questo dispositivo. Sei sicuro che vuoi rimuovere il tuo conto BitPay ({{email}}) da questo dispositivo?"
+msgstr ""
 
 #: www/views/join.html:113
 #: www/views/join.html:121
@@ -2093,43 +2097,43 @@ msgstr "La rimozione dell'account BitPay eliminerà tutti i dati del conto BitPa
 #: www/views/tab-create-shared.html:121
 #: www/views/tab-export-file.html:17
 msgid "Repeat password"
-msgstr "Ripeti password"
+msgstr "重複輸入密碼"
 
 #: www/views/tab-export-file.html:16
 msgid "Repeat the password"
-msgstr "Ripeti la password"
+msgstr "重複密碼"
 
 #: www/views/preferences.html:60
 msgid "Request Fingerprint"
-msgstr "Richiesta delle impronte digitali"
+msgstr "請求指紋"
 
 #: www/views/tab-receive.html:45
 msgid "Request Specific amount"
-msgstr "Richiedi un importo specifico"
+msgstr "請求特定量"
 
 #: www/views/preferences.html:47
 msgid "Request Spending Password"
-msgstr "Richiedere Password di spesa"
+msgstr "請求支付密碼"
 
 #: www/views/tab-create-shared.html:42
 msgid "Required number of signatures"
-msgstr "Selezionare il numero necessario di firme"
+msgstr "所需的簽名數"
 
 #: www/views/onboarding/welcome.html:9
 msgid "Restore from backup"
-msgstr "Ripristinare da backup"
+msgstr "從備份中還原"
 
 #: src/js/services/onGoingProcess.js:29
 msgid "Retrieving inputs information"
-msgstr "Recupero delle informazioni iniziali"
+msgstr "正在獲取輸入的信息。"
 
 #: src/js/controllers/onboarding/tour.js:56
 msgid "Retry"
-msgstr "Riprova"
+msgstr "重試"
 
 #: www/views/tab-scan.html:23
 msgid "Retry Camera"
-msgstr "Riprova con fotocamera"
+msgstr "重試相機"
 
 #: www/views/addressbook.add.html:56
 #: www/views/includes/note.html:9
@@ -2137,20 +2141,20 @@ msgstr "Riprova con fotocamera"
 #: www/views/preferencesBwsUrl.html:25
 #: www/views/preferencesNotifications.html:40
 msgid "Save"
-msgstr "Salva"
+msgstr "保存"
 
 #: www/views/tab-scan.html:3
 #: www/views/tabs.html:11
 msgid "Scan"
-msgstr "Scansione"
+msgstr "掃描"
 
 #: www/views/tab-scan.html:15
 msgid "Scan QR Codes"
-msgstr "Scansiona il codici QR"
+msgstr "掃描 QR 碼"
 
 #: www/views/addresses.html:31
 msgid "Scan addresses for funds"
-msgstr "Scansione degli indirizzi per fondi"
+msgstr "掃描資金的地址"
 
 #: www/views/modals/fingerprintCheck.html:11
 msgid "Scan again"
@@ -2158,178 +2162,178 @@ msgstr ""
 
 #: src/js/services/fingerprintService.js:56
 msgid "Scan your fingerprint please"
-msgstr "Per cortesia procedere alla scansione dell'impronta digitale"
+msgstr "請掃描你的指紋"
 
 #: src/js/services/onGoingProcess.js:30
 msgid "Scanning Wallet funds..."
-msgstr "Scansione fondi Portafoglio..."
+msgstr "正在掃描錢包資金..."
 
 #: www/views/includes/screenshotWarningModal.html:7
 msgid "Screenshots are not secure"
-msgstr "Gli screenshot non sono sicuri"
+msgstr "截圖是不安全的"
 
 #: www/views/modals/search.html:6
 msgid "Search Transactions"
-msgstr "Cerca Transazioni"
+msgstr "搜索交易"
 
 #: www/views/tab-send.html:13
-msgid "Search or enter bitcoin address"
-msgstr "Cerca o inserisci indirizzo bitcoin"
+msgid "Search or enter Mobicoin address"
+msgstr "搜索或輸入魔幣地址"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
-msgstr "Ricerca transazioni"
+msgstr "搜索交易"
 
 #: www/views/preferencesAltCurrency.html:14
 msgid "Search your currency"
-msgstr "Cerca la tua valuta"
+msgstr "搜索您的貨幣"
 
 #: www/views/preferences.html:35
 msgid "Security"
-msgstr "Sicurezza"
+msgstr "安全"
 
 #: www/views/tab-import-file.html:7
 msgid "Select a backup file"
-msgstr "Seleziona un file di backup"
+msgstr "選擇備份文件"
 
 #: src/js/controllers/tab-receive.js:133
 #: www/views/paymentUri.html:30
 msgid "Select a wallet"
-msgstr "Selezionare un portafoglio"
+msgstr "選擇錢包"
 
 #: www/views/modals/paypro.html:38
 msgid "Self-signed Certificate"
-msgstr "Certificato autofirmato"
+msgstr "自簽名證書"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
-msgstr "Vendere Bitcoin..."
+msgid "Selling Mobicoin..."
+msgstr "出售魔幣......"
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
 #: www/views/tab-send.html:3
 #: www/views/tabs.html:15
 msgid "Send"
-msgstr "Invia"
+msgstr "發送"
 
 #: www/views/feedback/send.html:3
 #: www/views/tab-settings.html:29
 msgid "Send Feedback"
-msgstr "Invia Feedback"
+msgstr "發送反饋"
 
 #: www/views/addressbook.view.html:31
 msgid "Send Money"
-msgstr "Invia denaro"
+msgstr "寄錢"
 
 #: www/views/allAddresses.html:19
 msgid "Send addresses by email"
-msgstr "Invia indirizzi via Email"
+msgstr "通過電郵發送地址"
 
 #: www/views/preferencesLogs.html:13
 #: www/views/tab-export-file.html:82
 msgid "Send by email"
-msgstr "Invia via email"
+msgstr "通過電郵發送"
 
 #: src/js/controllers/confirm.js:148
 msgid "Send from"
-msgstr "Inviata Da"
+msgstr "從發送"
 
 #: www/views/includes/itemSelector.html:8
 msgid "Send max amount"
-msgstr "Inviare l'importo massimo"
+msgstr "發送最大數量"
 
 #: www/views/feedback/rateApp.html:17
 msgid "Send us feedback instead"
-msgstr "Inviaci invece i tuoi pareri"
+msgstr "而是向我們發送反饋"
 
 #: www/views/confirm.html:15
 #: www/views/includes/txp.html:12
 #: www/views/modals/txp-details.html:19
 #: www/views/tx-details.html:23
 msgid "Sending"
-msgstr "Invio in corso"
+msgstr "正在發送"
 
 #: src/js/services/onGoingProcess.js:39
 msgid "Sending 2FA code..."
-msgstr "Invio codice 2FA..."
+msgstr "正在發送 2FA 代碼..."
 
 #: src/js/services/onGoingProcess.js:36
 msgid "Sending feedback..."
-msgstr "Invio feedback..."
+msgstr "發送反饋信息..."
 
 #: www/views/confirm.html:16
 msgid "Sending maximum amount"
-msgstr "Invio dell'importo massimo"
+msgstr "發送的最大金額"
 
 #: src/js/services/onGoingProcess.js:31
 msgid "Sending transaction"
-msgstr "Invio transazione"
+msgstr "正在發送交易"
 
 #: src/js/controllers/confirm.js:486
 msgid "Sending {{amountStr}} from your {{name}} wallet"
-msgstr "L'invio di {{amountStr}} dal tuo portafoglio {{name}}"
+msgstr "從你的 {{name}} 錢包發送 {{amountStr}}"
 
 #: www/views/includes/walletHistory.html:42
 #: www/views/modals/tx-status.html:9
 #: www/views/topup.html:100
 #: www/views/tx-details.html:17
 msgid "Sent"
-msgstr "Inviato"
+msgstr "已發送"
 
 #: src/js/controllers/tx-details.js:110
 msgid "Sent Funds"
-msgstr "Inviare Fondi"
+msgstr "已發送的資金"
 
 #: src/js/services/bwcError.js:38
 msgid "Server response could not be verified"
-msgstr "La risposta del server non può essere verificata"
+msgstr "無法驗證服務器響應"
 
 #: www/views/includes/homeIntegrations.html:3
 msgid "Services"
-msgstr "Servizi"
+msgstr "服務"
 
 #: www/views/preferencesLogs.html:3
 msgid "Session Log"
-msgstr "Registro di sessione"
+msgstr "會話日誌"
 
 #: www/views/preferencesAbout.html:35
 msgid "Session log"
-msgstr "Registro sessione"
+msgstr "會話日誌"
 
 #: www/views/tab-export-file.html:10
 msgid "Set up a password"
-msgstr "Imposta una password"
+msgstr "設置密碼"
 
 #: www/views/tab-settings.html:3
 #: www/views/tabs.html:19
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr "設置"
 
 #: www/views/feedback/complete.html:17
 #: www/views/feedback/complete.html:26
 msgid "Share the love by inviting your friends."
-msgstr "Condividi il piacere invitando i tuoi amici."
+msgstr "邀請您的朋友分享愛。"
 
 #: www/views/copayers.html:21
 msgid "Share this invitation with your copayers"
-msgstr "Condividi questo invito con i tuoi copayers"
+msgstr "將此邀請與你的 copayers 共享"
 
 #: src/js/controllers/feedback/complete.js:5
 #: www/views/tab-settings.html:36
 msgid "Share {{appName}}"
-msgstr "Condividi {{appName}}"
+msgstr "分享 {{appName}}"
 
 #: www/views/tab-import-hardware.html:24
 msgid "Shared Wallet"
-msgstr "Portafoglio Condiviso"
+msgstr "共享的錢包"
 
 #: www/views/preferencesExternal.html:34
 msgid "Show Recovery Phrase"
-msgstr "Visualizza Frase di Recupero"
+msgstr "顯示恢復短語"
 
 #: www/views/tab-receive.html:34
 msgid "Show address"
-msgstr "Visualizza indirizzo"
+msgstr ""
 
 #: www/views/join.html:45
 #: www/views/tab-create-personal.html:25
@@ -2339,74 +2343,74 @@ msgstr "Visualizza indirizzo"
 #: www/views/tab-import-hardware.html:30
 #: www/views/tab-import-phrase.html:32
 msgid "Show advanced options"
-msgstr "Mostra opzioni avanzate"
+msgstr "顯示高級選項"
 
 #: www/views/tab-send.html:37
-msgid "Show bitcoin address"
-msgstr "Visualizza indirizzo bitcoin"
+msgid "Show Mobicoin address"
+msgstr "顯示魔幣地址"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
-msgstr "Mostra di più"
+msgstr "顯示更多"
 
 #: src/js/services/bwcError.js:104
 msgid "Signatures rejected by server"
-msgstr "Firme rifiutate dal server"
+msgstr "簽名被服務器拒絕"
 
 #: src/js/services/onGoingProcess.js:32
 msgid "Signing transaction"
-msgstr "Firmando transazione"
+msgstr "簽名交易"
 
 #: www/views/onboarding/backupRequest.html:6
 msgid "Since only you control your money, you’ll need to save your backup phrase in case this app is deleted."
-msgstr "Dal momento che solo tu controlli il tuo denaro, avrai allora bisogno di salvare la tua frase di backup nel caso in cui questa applicazione venga eliminata."
+msgstr "因為只有你控制你的錢，你會需要刪除此應用程序的情況下保存您備份的短語。"
 
 #: www/views/tab-create-personal.html:120
 #: www/views/tab-create-shared.html:149
 msgid "Single Address Wallet"
-msgstr "Singolo indirizzo di portafoglio"
+msgstr "單一地址錢包"
 
 #: www/views/onboarding/collectEmail.html:40
 #: www/views/onboarding/tour.html:11
 msgid "Skip"
-msgstr "Salta"
+msgstr "跳過"
 
 #: src/js/controllers/modals/txpDetails.js:33
 msgid "Slide"
-msgstr "Trascina"
+msgstr "滑動"
 
 #: src/js/controllers/create.js:83
 #: src/js/controllers/join.js:68
 msgid "Specify Recovery Phrase..."
-msgstr "Specificare la frase di recupero..."
+msgstr "指定恢復短語......"
 
 #: src/js/services/bwcError.js:92
 msgid "Spend proposal is not accepted"
-msgstr "La proposta di pagamento non è accettata"
+msgstr "花費提議不被接受"
 
 #: src/js/services/bwcError.js:95
 msgid "Spend proposal not found"
-msgstr "Proposta di pagamento non trovata"
+msgstr "找不到花費提議"
 
 #: src/js/services/bwcError.js:137
 msgid "Spending Password needed"
-msgstr "Necessaria password di spesa"
+msgstr "需要支付密碼"
 
 #: www/views/walletDetails.html:162
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Mobicoin network fees"
 msgstr ""
 
 #: www/views/tab-send.html:28
-msgid "Start sending bitcoin"
-msgstr "Iniziare a inviare bitcoin"
+msgid "Start sending Mobicoin"
+msgstr "開始發送魔幣"
 
 #: src/js/routes.js:118
 msgid "Starting..."
-msgstr "Avvio..."
+msgstr "正在啟動..."
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
-msgstr "Blocco all'avvio"
+msgstr ""
 
 #: www/views/topup.html:101
 msgid "Success"
@@ -2414,48 +2418,48 @@ msgstr ""
 
 #: src/js/services/feeService.js:14
 msgid "Super Economy"
-msgstr "Super Economica"
+msgstr "超級經濟"
 
 #: www/views/paperWallet.html:7
 msgid "Sweep"
-msgstr "Spazzola"
+msgstr "掃描"
 
 #: www/views/paperWallet.html:3
 msgid "Sweep paper wallet"
-msgstr "Spazzare il portafoglio di carta"
+msgstr "Sweep 紙錢包"
 
 #: src/js/services/onGoingProcess.js:33
 msgid "Sweeping Wallet..."
-msgstr "Spazzolamento Portafoglio..."
+msgstr "正在導出錢包"
 
 #: www/views/preferencesDeleteWallet.html:16
 msgid "THIS ACTION CANNOT BE REVERSED"
-msgstr "QUESTA AZIONE NON PUÒ ESSERE INVERTITA"
+msgstr "此操作無法撤消"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with bitcoin."
-msgstr "Prendi il controllo del tuo denaro, <br>inizia con bitcoin."
+msgid "Take control of your money,<br>get started with Mobicoin."
+msgstr "把你的錢，<br>得到控制開始用魔幣。"
 
 #: www/views/walletDetails.html:140
 #: www/views/walletDetails.html:60
 msgid "Tap and hold to show"
-msgstr "Toccare e tenere premuto per mostrare"
+msgstr "點擊並按住以顯示"
 
 #: www/views/walletDetails.html:112
 #: www/views/walletDetails.html:31
 msgid "Tap to retry"
-msgstr "Tocca per riprovare"
+msgstr "點擊以重試"
 
 #: www/views/termsOfUse.html:3
 msgid "Terms Of Use"
-msgstr "Termini di utilizzo"
+msgstr "使用條件"
 
 #: www/views/modals/terms.html:3
 #: www/views/onboarding/disclaimer.html:29
 #: www/views/onboarding/disclaimer.html:43
 #: www/views/preferencesAbout.html:30
 msgid "Terms of Use"
-msgstr "Termini di Utilizzo"
+msgstr "使用條款"
 
 #: www/views/tab-create-personal.html:116
 #: www/views/tab-import-phrase.html:65
@@ -2467,153 +2471,153 @@ msgstr "Testnet"
 #: www/views/feedback/complete.html:20
 #: www/views/feedback/rateApp.html:4
 msgid "Thank you!"
-msgstr "Grazie!"
+msgstr "謝謝！"
 
 #: src/js/controllers/feedback/send.js:72
 msgid "Thanks!"
-msgstr "Grazie!"
+msgstr "謝謝你 ！"
 
 #: src/js/controllers/feedback/send.js:73
 msgid "That's exciting to hear. We'd love to earn that fifth star from you – how could we improve your experience?"
-msgstr "Questo è eccitante da sentire. Ci piacerebbe guadagnare quella quinta stella da te - come potremmo migliorare la tua esperienza?"
+msgstr "這是令人興奮的聽到。我們願意賺五明星從你 — — 我們如何可以改善您的體驗嗎？"
 
 #: src/js/services/ledger.js:152
 msgid "The Ledger Chrome application is not installed"
-msgstr "Non è installata l'applicazione di contabilità Chrome"
+msgstr "Ledger Chrome 應用程序未安裝"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "La quantità di bitcoin immediatamente spendibile da questo portafoglio."
+msgid "The amount of Mobicoin immediately spendable from this wallet."
+msgstr "魔幣立即可從這個錢包的金額。"
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "La quantità di bitcoin memorizzati in questo portafoglio è allocata come input per le sue proposte di transazione in sospeso. L'importo è determinato usando le transazioni in uscita non spese associate a questo portafoglio e potrebbero essere superiori agli importi effettivi associati con le vostre proposte di transazione in sospeso."
+msgid "The amount of Mobicoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "魔幣存儲在分配作為你掛起的事務建議的輸入這個錢包中的金額。量確定使用未用餘額交易記錄輸出與這個錢包關聯，可能會與您掛起的事務建議相關聯的實際數額超過。"
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "La quantità di bitcoin memorizzati in questo portafoglio con meno di una conferma su blockchain."
+msgid "The amount of Mobicoin stored in this wallet with less than 1 blockchain confirmation."
+msgstr "魔幣存儲在與小於 1 blockchain 確認這個錢包中的金額。"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
-msgstr "Il percorso di derivazione"
+msgstr "衍生路徑"
 
 #: www/views/onboarding/tour.html:37
 msgid "The exchange rate changes with the market."
-msgstr "Le variazioni dei tassi di cambio con il mercato."
+msgstr "與市場匯率的變化。"
 
 #: www/views/preferencesFee.html:12
 msgid "The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
-msgstr "Più alta la commissione, maggiore sarà l'incentivo di un minatore ad includere tale transazione in un blocco. Le attuali commissioni sono determinate basandosi sul carico di rete e il criterio selezionato."
+msgstr "越高的費用、 更大的激勵礦工有要在一個塊中包含該事務。當前的費用是基於網絡負載和選定的策略來確定的。"
 
 #: www/views/addresses.html:51
 msgid "The maximum number of consecutive unused addresses (20) has been reached. When one of your unused addresses receives a payment, a new address will be generated and shown in your Receive tab."
-msgstr "È stato raggiunto il numero massimo di indirizzi consecutivi inutilizzati (20). Quando uno dei tuoi indirizzi inutilizzati riceve un pagamento, verrà generato un nuovo indirizzo e mostrato nella tua scheda di ricezione."
+msgstr "已連續未使用的地址 (20) 的最大數目。當您未使用的地址之一收到付款時，將生成一個新的地址，和您接收選項卡所示。"
 
 #: src/js/controllers/onboarding/terms.js:21
 msgid "The official English Terms of Service are available on the BitPay website."
-msgstr "I termini di servizio ufficiali in inglese sono disponibili sul sito web di BitPay."
+msgstr "官方的英語術語服務是可在 BitPay 網站上。"
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
-msgstr "La password della frase recupero (se impostata)"
+msgstr "恢復短語的密碼 (如已設置)"
 
 #: src/js/services/walletService.js:1140
 msgid "The payment was created but could not be completed. Please try again from home screen"
-msgstr "Il pagamento è stato creato ma è stato impossibile completarlo. Per favore prova di nuovo dalla schermata iniziale"
+msgstr "支付已創建，但無法完成。請從首頁再試一次"
 
 #: www/views/modals/txp-details.html:26
 msgid "The payment was removed by creator"
-msgstr "Il pagamento è stato rimosso dal creatore"
+msgstr "支付已被創建者移除"
 
 #: www/views/join.html:88
 #: www/views/tab-create-personal.html:61
 #: www/views/tab-create-shared.html:90
 #: www/views/tab-import-phrase.html:40
 msgid "The recovery phrase could require a password to be imported"
-msgstr "La frase di recupero potrebbe richiedere una password per essere importata"
+msgstr "恢復短語需要密碼才能導入"
 
 #: src/js/services/bwcError.js:56
 msgid "The request could not be understood by the server"
-msgstr "La richiesta potrebbe non essere compresa dal server"
+msgstr "服務器不理解此請求"
 
 #: www/views/addresses.html:52
 msgid "The restore process will stop when 20 addresses are generated in a row which contain no funds. To safely generate more addresses, make a payment to one of the unused addresses which has already been generated."
-msgstr "Il processo di ripristino verrà interrotto quando 20 indirizzi di fila verranno generati senza che contengano fondi. Per generare in modo sicuro più indirizzi, è necessario effettuare un pagamento ad uno degli indirizzi non utilizzati che è già stato generato."
+msgstr "還原過程將停止 20 地址生成行包含沒有資金中時。要安全地生成更多的地址，到未使用的地址已經產生之一進行付款。"
 
 #: src/js/services/bwcError.js:98
 msgid "The spend proposal is not pending"
-msgstr "La proposta di pagamento non è in sospeso"
+msgstr "花費提議不是未決"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "La quantità totale di bitcoin depositati su questo portafoglio."
+msgid "The total amount of Mobicoin stored in this wallet."
+msgstr "魔幣存儲在這個錢包的總量。"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
-msgstr "La cronologia delle transazioni e ogni nuova transazione in entrata vengono memorizzate nella cache nell'app. Questa funzionalità la ripulisce e sincronizza nuovamente dal server"
+msgstr "在應用程序緩存的交易歷史記錄和每個新傳入事務。此功能清潔，這點和再次從服務器進行同步"
 
 #: www/views/tab-import-phrase.html:6
 msgid "The wallet service URL"
-msgstr "L'URL del servizio di portafoglio"
+msgstr "錢包服務 URL"
 
 #: www/views/paymentUri.html:23
 msgid "There are no wallets to make this payment"
-msgstr "Non ci sono portafogli per effettuare questo pagamento"
+msgstr "沒有錢包以進行此支付"
 
 #: src/js/controllers/tab-home.js:38
 msgid "There is a new version of {{appName}} available"
-msgstr "C'è una nuova versione di {{appName}} disponibile"
+msgstr "有可用的新版本的 {{appName}}"
 
 #: src/js/controllers/import.js:213
 #: src/js/controllers/import.js:237
 #: src/js/controllers/import.js:317
 msgid "There is an error in the form"
-msgstr "C'è un errore nel form"
+msgstr "表格中有錯誤"
 
 #: src/js/controllers/feedback/send.js:61
 #: src/js/controllers/feedback/send.js:65
 msgid "There's obviously something we're doing wrong."
-msgstr "C'è evidentemente qualcosa che stiamo sbagliando."
+msgstr "顯然是我們正在做的事情錯了。"
 
 #: src/js/controllers/feedback/rateCard.js:38
 msgid "This app is fantastic!"
-msgstr "Questa applicazione è fantastica!"
+msgstr "這個應用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
-msgstr "Questa app memorizza i tuoi bitcoin con sicurezza all'avanguardia."
+msgid "This app stores your Mobicoin with cutting-edge security."
+msgstr "此應用程序商店你魔幣與尖端的安全。"
 
 #: src/js/controllers/confirm.js:464
-msgid "This bitcoin payment request has expired."
-msgstr "Questa richiesta di pagamento in bitcoin è scaduta."
+msgid "This Mobicoin payment request has expired."
+msgstr "這魔幣付款請求已過期。"
 
 #: www/views/join.html:130
 #: www/views/tab-create-personal.html:101
 #: www/views/tab-create-shared.html:130
 msgid "This password cannot be recovered. If the password is lost, there is no way you could recover your funds."
-msgstr "Questa password non può essere recuperata. Se si dimentica la password, non c'è alcun modo possibile per recuperare i fondi."
+msgstr "此密碼將無法恢復。如果密碼丟失，有是沒有辦法，你可以恢復您的資金。"
 
 #: www/views/backup.html:24
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
-msgstr "Questa frase di recupero è stata creata con una password. Per recuperare questo portafoglio sono necessari sia la frase di recupero e che la password."
+msgstr "此恢復短語是用密碼創建。為了恢復此錢包，需要恢復短語和密碼。"
 
 #: www/views/tx-details.html:93
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Mobicoin network fees. Spending these funds will need a Mobicoin network fee cost comparable to the funds itself."
 msgstr ""
 
 #: www/views/tx-details.html:89
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
-msgstr "Questa operazione potrebbe richiedere molto tempo per essere confermata o potrebbe essere abbandonata a causa delle commissioni basse impostate dal mittente"
+msgstr ""
 
 #: www/views/walletDetails.html:116
 #: www/views/walletDetails.html:35
 msgid "This wallet is not registered at the given Bitcore Wallet Service (BWS). You can recreate it from the local information."
-msgstr "Questo portafoglio non è registrato al Bitcore Wallet Service (BWS). Puoi ricrearlo dalle informazioni locali."
+msgstr "此錢包不在給定的 Bitcore Wallet Service (BWS) 註冊。你可以從本地信息重新創建它。"
 
 #: www/views/modals/txp-details.html:138
 #: www/views/tx-details.html:119
 msgid "Timeline"
-msgstr "Cronologia"
+msgstr "時間軸"
 
 #: www/views/confirm.html:31
 #: www/views/includes/output.html:2
@@ -2622,15 +2626,15 @@ msgstr "Cronologia"
 #: www/views/tx-details.html:41
 #: www/views/tx-details.html:53
 msgid "To"
-msgstr "A"
+msgstr "發送到"
 
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
-msgstr "Per iniziare, acquista bitcoin o condividi il tuo indirizzo. È possibile ricevere bitcoin da qualsiasi servizio o portafoglio."
+msgid "To get started, buy Mobicoin or share your address. You can receive Mobicoin from any wallet or service."
+msgstr "若要開始，請買魔幣或共享您的地址。你可以從任何錢包或服務接收魔幣。"
 
 #: www/views/tab-send.html:33
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
-msgstr "Per iniziare, è necessario che tu crei un portafoglio bitcoin e ottenerne qualcuno."
+msgid "To get started, you'll need to create a Mobicoin wallet and get some Mobicoin."
+msgstr "若要開始，您將需要創建一個魔幣的錢包，並獲得一些魔幣。"
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -2647,15 +2651,15 @@ msgstr ""
 #: www/views/modals/wallet-balance.html:23
 #: www/views/topup.html:70
 msgid "Total"
-msgstr "Totale"
+msgstr "總計"
 
 #: www/views/walletDetails.html:185
 msgid "Total Locked Balance"
-msgstr "Totale Importo Bloccato"
+msgstr "鎖定結餘的總額"
 
 #: www/views/tab-create-shared.html:33
 msgid "Total number of copayers"
-msgstr "Numero totale di copayer"
+msgstr "Copayers 的總數"
 
 #: www/views/addresses.html:81
 msgid "Total wallet inputs"
@@ -2664,24 +2668,24 @@ msgstr ""
 #: src/js/services/fingerprintService.js:63
 #: src/js/services/fingerprintService.js:68
 msgid "Touch ID Failed"
-msgstr "Touch ID Fallito"
+msgstr "觸摸 ID 失敗"
 
 #: src/js/controllers/tx-details.js:10
 msgid "Transaction"
-msgstr "Transazione"
+msgstr "交易"
 
 #: www/views/preferencesAdvanced.html:29
 #: www/views/preferencesHistory.html:3
 msgid "Transaction History"
-msgstr "Cronologia delle transazioni"
+msgstr "交易歷史記錄"
 
 #: src/js/services/bwcError.js:83
 msgid "Transaction already broadcasted"
-msgstr "Transazione già trasmessa"
+msgstr "交易已經廣播"
 
 #: www/views/confirm.html:128
 msgid "Transaction created"
-msgstr "Transazione creata"
+msgstr "創建的交易記錄"
 
 #: src/js/controllers/topup.js:271
 msgid "Transaction has not been created"
@@ -2693,84 +2697,84 @@ msgstr ""
 
 #: src/js/controllers/tx-details.js:100
 msgid "Transaction not available at this time"
-msgstr "Transazione non disponibile in questo momento"
+msgstr ""
 
 #: src/js/controllers/activity.js:45
 #: src/js/controllers/tab-home.js:174
 msgid "Transaction not found"
-msgstr "Transazione non trovata"
+msgstr "找不到交易"
 
 #: src/js/controllers/paperWallet.js:110
 msgid "Transfer to"
-msgstr "Trasferisci a"
+msgstr ""
 
 #: www/views/tab-send.html:67
 msgid "Transfer to Wallet"
-msgstr "Trasferire su portafoglio"
+msgstr "轉移到錢包"
 
 #: www/views/modals/pin.html:13
 msgid "Try again in {{expires}}"
-msgstr "Provare di nuovo in {{expires}}"
+msgstr ""
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Trasformare i bitcoin in dollari, fai scorrere la Visa<sup>&reg;</sup> ovunque sia accettata."
+msgid "Turn Mobicoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "魔幣變成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
-msgstr "Digitare la Frase di Recupero (tipicamente 12 parole)"
+msgstr "鍵入恢復短語 （通常 12 個字）"
 
 #: src/js/controllers/backup.js:75
 msgid "Uh oh..."
-msgstr "Oh oh..."
+msgstr "哦哦......"
 
 #: www/views/tx-details.html:100
 msgid "Unconfirmed"
-msgstr "Non confermato"
+msgstr "未確認"
 
 #: www/views/preferencesUnit.html:4
 msgid "Unit"
-msgstr "Unità"
+msgstr "單位"
 
 #: www/views/walletDetails.html:179
 msgid "Unsent transactions"
-msgstr "Transazioni non inviate"
+msgstr "未發送的交易"
 
 #: www/views/addresses.html:39
 msgid "Unused Addresses"
-msgstr "Indirizzi non utilizzati"
+msgstr "未使用的地址"
 
 #: www/views/addresses.html:50
 msgid "Unused Addresses Limit"
-msgstr "Limite di indirizzi non utilizzati"
+msgstr "未使用的地址"
 
 #: src/js/controllers/tab-home.js:146
 msgid "Update Available"
-msgstr "Aggiornamento Disponibile"
+msgstr "可用的更新"
 
 #: www/views/proposals.html:15
 msgid "Updating pending proposals. Please stand by"
-msgstr "Aggiornamento in attesa di proposte. Si prega di attendere"
+msgstr "正在更新掛起的建議。請袖手旁觀"
 
 #: www/views/walletDetails.html:211
 msgid "Updating transaction history. Please stand by."
-msgstr "Aggiornamento cronologia delle transazioni. Siete pregati di attendere."
+msgstr "更新交易歷史記錄。請等待。"
 
 #: www/views/activity.html:14
 msgid "Updating... Please stand by"
-msgstr "In aggiornamento... Attendere"
+msgstr "更新中… 請等待"
 
 #: src/js/services/feeService.js:10
 msgid "Urgent"
-msgstr "Urgente"
+msgstr ""
 
 #: www/views/advancedSettings.html:11
 msgid "Use Unconfirmed Funds"
-msgstr "Usa i fondi non confermati"
+msgstr "使用未經確認的資金"
 
 #: src/js/services/onGoingProcess.js:34
 msgid "Validating recovery phrase..."
-msgstr "Validazione della frase di recupero..."
+msgstr "正在驗證恢復短語。。。"
 
 #: www/views/modals/fingerprintCheck.html:4
 msgid "Verify your identity"
@@ -2779,90 +2783,90 @@ msgstr ""
 #: www/views/preferencesAbout.html:14
 #: www/views/preferencesExternal.html:25
 msgid "Version"
-msgstr "Versione"
+msgstr "版本"
 
 #: www/views/tab-export-file.html:69
 msgid "View"
-msgstr "Visualizza"
+msgstr "查看"
 
 #: www/views/addresses.html:34
 msgid "View All Addresses"
-msgstr "Mostra tutti gli indirizzi"
+msgstr "查看所有地址"
 
 #: src/js/controllers/onboarding/terms.js:20
 msgid "View Terms of Service"
-msgstr "Visualizza i termini di servizio"
+msgstr "查看服務條款"
 
 #: src/js/controllers/bitpayCard.js:189
 #: src/js/controllers/tx-details.js:172
 msgid "View Transaction on Insight"
-msgstr "Visualizzazione della transazione su Insight"
+msgstr "查看交易記錄的洞察"
 
 #: src/js/controllers/tab-home.js:148
 msgid "View Update"
-msgstr "Visualizza aggiornamenti"
+msgstr "查看更新"
 
 #: www/views/tx-details.html:145
 msgid "View on blockchain"
-msgstr "Mostra su blockchain"
+msgstr "在區塊鏈瀏覽器上查看"
 
 #: www/views/walletDetails.html:171
 msgid "WARNING: Key derivation is not working on this device/wallet. Actions cannot be performed on this wallet."
-msgstr "ATTENZIONE: La derivazione della chiave non funziona su questo dispositivo/portafoglio. Le operazioni non possono essere eseguite su questo portafoglio."
+msgstr "警告︰此設備/錢包無法運行鑰匙衍生。無法在此錢包上執行操作。"
 
 #: www/views/tab-export-file.html:45
 msgid "WARNING: Not including the private key allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
-msgstr "AVVISO: L'esclusione della chiave privata permette di controllare il bilancio del portafoglio, la cronologia delle transazioni e creare proposte di spesa dall'esportazione. Tuttavia, non consente di approvare le proposte (firma), così <b>fondi non saranno accessibili dall'esportazione</b>."
+msgstr "警告︰不包括私鑰，以檢查錢包餘額、交易歷史記錄，及從導出創建開銷提議。可是，不允許批准（簽名）提議，因此 <b>資金將無法從導出訪問</b>。"
 
 #: www/views/tab-export-file.html:36
 msgid "WARNING: The private key of this wallet is not available. The export allows to check the wallet balance, transaction history, and create spend proposals from the export. However, does not allow to approve (sign) proposals, so <b>funds will not be accessible from the export</b>."
-msgstr "AVVISO: La chiave privata di questo portafoglio non è disponibile. L'esportazione permette di controllare il bilancio del portafoglio, la cronologia delle transazioni e creare proposte di spesa dall'esportazione. Tuttavia, non consente di approvare le proposte (firma), così <b>fondi non saranno accessibili dall'esportazione</b>."
+msgstr "警告︰此錢包沒有可用的私鑰。導出可以檢查錢包餘額、交易歷史記錄，及從導出創建開銷提議。可是，不允許批准（簽名）提議，因此 <b>資金將無法從導出訪問</b>。"
 
 #: www/views/modals/paypro.html:42
 msgid "WARNING: UNTRUSTED CERTIFICATE"
-msgstr "ATTENZIONE: CERTIFICATO NON ATTENDIBILE"
+msgstr "警告︰不受信任的證書"
 
 #: src/js/services/onGoingProcess.js:15
 msgid "Waiting for Ledger..."
-msgstr "In attesa del Ledger..."
+msgstr "正在等待 Ledger..."
 
 #: src/js/services/onGoingProcess.js:16
 msgid "Waiting for Trezor..."
-msgstr "In attesa del Trezor..."
+msgstr "正在等待 Trezor..."
 
 #: www/views/copayers.html:49
 msgid "Waiting for copayers"
-msgstr "In attesa di copayers"
+msgstr "正在等待 copayers"
 
 #: www/views/copayers.html:54
 msgid "Waiting..."
-msgstr "In attesa..."
+msgstr "等待中..."
 
 #: www/views/addresses.html:3
 #: www/views/preferencesAdvanced.html:17
 msgid "Wallet Addresses"
-msgstr "Indirizzi del portafoglio"
+msgstr "錢包地址"
 
 #: www/views/preferencesColor.html:4
 msgid "Wallet Color"
-msgstr "Colore portafoglio"
+msgstr "錢包顏色"
 
 #: www/views/preferencesInformation.html:23
 msgid "Wallet Configuration (m-n)"
-msgstr "Configurazione di portafoglio (m-n)"
+msgstr "錢包配置 (m n)"
 
 #: www/views/onboarding/collectEmail.html:5
 msgid "Wallet Created"
-msgstr "Portafoglio creato"
+msgstr "創建的錢包"
 
 #: www/views/preferencesInformation.html:17
 msgid "Wallet Id"
-msgstr "Id portafoglio"
+msgstr "錢包 Id"
 
 #: www/views/preferencesAdvanced.html:13
 #: www/views/preferencesInformation.html:3
 msgid "Wallet Information"
-msgstr "Informazioni sul portafoglio"
+msgstr "錢包信息"
 
 #: www/views/addresses.html:76
 msgid "Wallet Inputs"
@@ -2870,119 +2874,119 @@ msgstr ""
 
 #: www/views/join.html:26
 msgid "Wallet Invitation"
-msgstr "Invito Portafoglio"
+msgstr "錢包邀請"
 
 #: www/views/join.html:57
 #: www/views/tab-create-personal.html:36
 #: www/views/tab-create-shared.html:65
 msgid "Wallet Key"
-msgstr "Chiave del portafoglio"
+msgstr "錢包鑰匙"
 
 #: www/views/preferencesAlias.html:4
 msgid "Wallet Name"
-msgstr "Nome Portafoglio"
+msgstr "錢包的名字"
 
 #: www/views/preferencesInformation.html:11
 msgid "Wallet Name (at creation)"
-msgstr "Nome portafoglio (al momento della creazione)"
+msgstr "錢包名稱（在創建時）"
 
 #: www/views/preferencesInformation.html:29
 msgid "Wallet Network"
-msgstr "Portafoglio di rete"
+msgstr "錢包網"
 
 #: www/views/join.html:74
 #: www/views/tab-create-personal.html:48
 #: www/views/tab-create-shared.html:77
 msgid "Wallet Recovery Phrase"
-msgstr "Frase di recupero del portafoglio"
+msgstr "錢包恢復短語"
 
 #: src/js/services/bwcError.js:26
 msgid "Wallet Recovery Phrase is invalid"
-msgstr "Frase di recupero del portafoglio non è valida"
+msgstr "無效的錢包恢復短語"
 
 #: www/views/preferencesAdvanced.html:25
 #: www/views/tab-import-phrase.html:70
 msgid "Wallet Service URL"
-msgstr "URL del servizio di portafoglio"
+msgstr "錢包服務 URL"
 
 #: www/views/preferences.html:4
 msgid "Wallet Settings"
-msgstr "Impostazioni del portafoglio"
+msgstr "錢包的設置"
 
 #: www/views/tab-import-hardware.html:11
 #: www/views/tab-import-phrase.html:58
 msgid "Wallet Type"
-msgstr "Tipo di portafoglio"
+msgstr "錢包類型"
 
 #: src/js/services/bwcError.js:59
 msgid "Wallet already exists"
-msgstr "Il portafoglio esiste già"
+msgstr "錢包已存在"
 
 #: src/js/services/profileService.js:498
 msgid "Wallet already in Copay"
-msgstr "Portafoglio già in Copay"
+msgstr "錢包已經在 Copay"
 
 #: www/views/includes/walletActivity.html:6
 msgid "Wallet created"
-msgstr "Portafoglio creato"
+msgstr "創建的錢包"
 
 #: www/views/copayers.html:59
 msgid "Wallet incomplete and broken"
-msgstr "Portafoglio incompleto e danneggiato"
+msgstr "錢包不完整和損壞"
 
 #: src/js/services/bwcError.js:65
 msgid "Wallet is full"
-msgstr "Portafoglio è pieno"
+msgstr "錢包已滿"
 
 #: src/js/services/bwcError.js:125
 msgid "Wallet is locked"
-msgstr "Il portafoglio è bloccato"
+msgstr "錢包被鎖定"
 
 #: src/js/services/bwcError.js:128
 msgid "Wallet is not complete"
-msgstr "Portafoglio non è completo"
+msgstr "錢包不完整"
 
 #: www/views/tab-create-personal.html:12
 #: www/views/tab-create-shared.html:12
 msgid "Wallet name"
-msgstr "Nome Portafoglio"
+msgstr "錢包名稱"
 
 #: src/js/services/bwcError.js:131
 msgid "Wallet needs backup"
-msgstr "Il portafoglio richiede password"
+msgstr "錢包需要備份"
 
 #: www/views/tab-receive.html:59
 #: www/views/walletDetails.html:157
 msgid "Wallet not backed up"
-msgstr "Portafoglio senza backup"
+msgstr "未備份的錢包"
 
 #: src/js/services/bwcError.js:68
 msgid "Wallet not found"
-msgstr "Portafoglio non trovato"
+msgstr "找不到錢包"
 
 #: src/js/controllers/tab-home.js:220
 msgid "Wallet not registered"
-msgstr "Portafoglio non registrato"
+msgstr "未註冊的錢包"
 
 #: src/js/services/bwcError.js:29
 msgid "Wallet not registered at the wallet service. Recreate it from \"Create Wallet\" using \"Advanced Options\" to set your recovery phrase"
-msgstr "Portafoglio non registrato presso il servizio di portafoglio. Ricrearlo da \"Creare portafoglio\" tramite \"Opzioni avanzate\" per impostare la tua frase di recupero"
+msgstr "錢包不在 Wallet Service 註冊。使用“創建錢包\"的\"高級選項\"設置你的恢復短語以重新創建它"
 
 #: www/views/backup.html:11
 msgid "Wallet recovery phrase not available."
-msgstr "Frase di recupero del portafoglio non disponibile."
+msgstr "錢包恢復短語不可用。"
 
 #: src/js/services/bwcError.js:50
 msgid "Wallet service not found"
-msgstr "Wallet service non trovato"
+msgstr "找不到 Wallet Service"
 
 #: www/views/tab-home.html:69
 msgid "Wallets"
-msgstr "Portafogli"
+msgstr "錢包"
 
 #: www/views/tab-settings.html:102
 msgid "Wallets & Integrations"
-msgstr "Portafogli & integrazioni"
+msgstr "錢包 & 集成"
 
 #: src/js/controllers/addressbookView.js:23
 #: src/js/controllers/modals/txpDetails.js:143
@@ -2991,152 +2995,152 @@ msgstr "Portafogli & integrazioni"
 #: src/js/controllers/preferencesExternal.js:14
 #: www/views/preferencesDeleteWallet.html:11
 msgid "Warning!"
-msgstr "Attenzione!"
+msgstr "警告！​​​​​"
 
 #: www/views/modals/txp-details.html:47
 msgid "Warning: this transaction has unconfirmed inputs"
-msgstr "Attenzione: questa transazione ha inputs non confermati"
+msgstr "警告︰此交易有未經確認的輸入"
 
 #: src/js/controllers/onboarding/backupRequest.js:17
 msgid "Watch out!"
-msgstr "Attento!"
+msgstr "小心 ！"
 
 #: src/js/controllers/feedback/send.js:69
 msgid "We'd love to do better."
-msgstr "Ci piacerebbe fare di più."
+msgstr "我們很樂意做得更好。"
 
 #: www/views/backup.html:28
 msgid "We'll confirm on the next screen."
-msgstr "Confermeremo la schermata successiva."
+msgstr "我們會在下一個屏幕上確認。"
 
 #: src/js/controllers/feedback/send.js:77
 msgid "We're always looking for ways to improve {{appName}}."
-msgstr "Siamo sempre alla ricerca di modi per migliorare {{appName}}."
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:83
 msgid "We're always looking for ways to improve {{appName}}. How could we improve your experience?"
-msgstr "Siamo sempre alla ricerca di modi per migliorare {{appName}}. Come potremmo migliorare la tua esperienza?"
+msgstr ""
 
 #: www/views/preferencesLanguage.html:16
 msgid "We’re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on Crowdin."
-msgstr "Stiamo sempre cercando contributi alla traduzione! Si possono apportare correzioni o contribuire a rendere questa app disponibile nella tua lingua nativa unendo le nostre comunità su Crowdin."
+msgstr "我們一直在尋找翻譯的貢獻 ！你可以作出更正或幫助使這個應用程序在你的母語中可用 Crowdin 上加入我們的社區。"
 
 #: www/views/preferencesAlias.html:11
 msgid "What do you call this wallet?"
-msgstr "Come chiameresti questo portafoglio?"
+msgstr "你叫這個錢包是什麼？"
 
 #: www/views/preferencesAlias.html:12
 msgid "When this wallet was created, it was called &ldquo;{{walletName}}&rdquo;. You can change the name displayed on this device below."
-msgstr "Quando è stato creato questo portafoglio, è stato chiamato &ldquo;{{walletName}}&rdquo;. È possibile modificare qui sotto il nome visualizzato su questo dispositivo."
+msgstr "這個錢包在創建時，它被稱為\"{{walletName}}\"。您可以更改顯示在這下面的設備的名稱。"
 
 #: www/views/onboarding/collectEmail.html:10
 msgid "Where would you like to receive email notifications about payments?"
-msgstr "Dove ti piacerebbe ricevere le notifiche sui pagamenti via email?"
+msgstr "在那裡你想要接收電子郵件通知有關付款？"
 
 #: www/views/addresses.html:19
 msgid "Why?"
-msgstr "Perche?"
+msgstr "為什麼？"
 
 #: www/views/feedback/rateApp.html:10
 msgid "Would you be willing to rate {{appName}} in the app store?"
-msgstr "Sareste disposti a votare {{appName}} sull'app store?"
+msgstr ""
 
 #: www/views/onboarding/notifications.html:4
 msgid "Would you like to receive push notifications about payments?"
-msgstr "Vorresti ricevere le notifiche push sui pagamenti?"
+msgstr "你想收到推式通知有關付款嗎？"
 
 #: src/js/controllers/import.js:270
 msgid "Wrong number of recovery words:"
-msgstr "Numero errato delle parole di recupero:"
+msgstr "恢複詞句數不正確："
 
 #: src/js/services/bwcError.js:140
 msgid "Wrong spending password"
-msgstr "Password per spesa errata"
+msgstr "支付密碼錯誤"
 
 #: www/views/modals/confirmation.html:7
 msgid "Yes"
-msgstr "Sì"
+msgstr "是"
 
 #: src/js/controllers/onboarding/backupRequest.js:25
 msgid "Yes, skip"
-msgstr "Sì, saltare"
+msgstr "是的跳過"
 
 #: src/js/controllers/onboarding/backupRequest.js:24
 msgid "You can create a backup later from your wallet settings."
-msgstr "È possibile creare più tardi una copia di backup dalle impostazioni del tuo portafoglio."
+msgstr "你可以從你的錢包設置以後創建備份。"
 
 #: src/js/controllers/preferencesLanguage.js:12
 msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
-msgstr "È possibile contribuire registrandovi sulla comunità di traduzione Crowdin. Non vediamo l'ora di sentirvi!"
+msgstr "您可以通過簽約我們 Crowdin 社區翻譯網站作出貢獻。我們期待你的聽力 ！"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "È possibile scansionare indirizzi bitcoin, richieste di pagamento, portafogli di carta e altro ancora."
+msgid "You can scan Mobicoin addresses, payment requests, paper wallets, and more."
+msgstr "您可以掃描魔幣地址、 付款申請、 紙錢包和更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
-msgstr "Potete vedere gli ultimi sviluppi e contribuire a questa applicazione open source andando al nostro progetto su GitHub."
+msgstr "你可以看到最新的事態發展和貢獻這個開放源碼應用程序通過在 GitHub 上訪問我們的項目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgstr "Si può spendere bitcoin in milioni di siti web e negozi in tutto il mondo."
+msgid "You can spend Mobicoin at millions of websites and stores worldwide."
+msgstr "你可以花魔幣在數以百萬計的網站和世界各地的商店。"
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
-msgstr "È comunque possibile esportare da Avanzate &gt; Esporta."
+msgstr "你仍然可以將其導出從高級 &gt; 出口。"
 
 #: www/views/onboarding/tour.html:32
 msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
-msgstr "È possibile scambiarlo con altre valute come i dollari USA, Euro o Sterline."
+msgstr "你可以換其他貨幣，如美元、 歐元或英鎊。"
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your bitcoin."
-msgstr "Controlli i tuoi bitcoin."
+msgid "You control your Mobicoin."
+msgstr "您可以控制您的魔幣。"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
-msgstr "Sarà necessario accedere nuovamente per riempire la vostra carta BitPay."
+msgstr ""
 
 #: www/views/preferencesNotifications.html:28
 msgid "You'll receive email notifications about payments sent and received from your wallets."
-msgstr "Riceverai notifiche e-mail per i pagamenti inviati e ricevuti dai tuoi portafogli."
+msgstr "在您的錢包進行付款操作時發送通知。"
 
 #: www/views/bitpayCard.html:50
 msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
 msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
-msgstr "Il tuo portafoglio bitcoin ha eseguito il backup!"
+msgid "Your Mobicoin wallet is backed up!"
+msgstr "你的魔幣錢包被備份 ！"
 
 #: www/views/tab-home.html:36
-msgid "Your bitcoin wallet is ready!"
-msgstr "Il tuo portafoglio bitcoin è pronto!"
+msgid "Your Mobicoin wallet is ready!"
+msgstr "你的魔幣錢包是準備好了 ！"
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
-msgstr "Vostre idee, feedback o commenti"
+msgstr "你的想法、 反饋或評論"
 
 #: www/views/tab-create-shared.html:22
 msgid "Your name"
-msgstr "Il tuo nome"
+msgstr "您的名字："
 
 #: www/views/join.html:16
 msgid "Your nickname"
-msgstr "Il tuo nickname"
+msgstr "你的昵稱"
 
 #: www/views/tab-export-file.html:11
 #: www/views/tab-import-file.html:20
 msgid "Your password"
-msgstr "La tua password"
+msgstr "你的密碼"
 
 #: www/views/onboarding/backupRequest.html:10
 msgid "Your wallet is never saved to cloud storage or standard device backups."
-msgstr "Il tuo portafoglio non viene mai salvato in archiviazione cloud o nel normale backup del dispositivo."
+msgstr "你的錢包是永遠不會保存到雲存儲或標準設備備份。"
 
 #: src/js/services/walletService.js:1031
 msgid "Your wallet key will be encrypted. The Spending Password cannot be recovered. Be sure to write it down."
-msgstr "La chiave del tuo portafoglio verrà cifrata. La Password Per Spendere non può essere recuperata. Assicurati di scrivertela."
+msgstr "你的錢包鑰匙將被加密。支付密碼不能恢復。必須把它抄寫下來"
 
 #: www/views/includes/walletSelector.html:23
 #: www/views/paperWallet.html:35
@@ -3145,49 +3149,49 @@ msgstr "La chiave del tuo portafoglio verrà cifrata. La Password Per Spendere n
 #: www/views/walletDetails.html:139
 #: www/views/walletDetails.html:59
 msgid "[Balance Hidden]"
-msgstr "[Fondi Nascosti]"
+msgstr "[隱藏餘額]"
 
 #: src/js/controllers/bitpayCardIntro.js:11
 msgid "add your BitPay Visa card(s)"
-msgstr "aggiungi la tua carta(e) BitPay Visa"
+msgstr "添加您的 BitPay 簽證卡"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
-msgstr "bloccati da pagamenti in sospeso"
+msgstr "被未決支付鎖定"
 
 #: src/js/services/profileService.js:389
 msgid "me"
-msgstr "io"
+msgstr "我"
 
 #: www/views/addressbook.add.html:32
 msgid "name@example.com"
-msgstr "nome@esempio.com"
+msgstr "name@example.com"
 
 #: www/views/preferencesHistory.html:15
 msgid "preparing..."
-msgstr "preparazione..."
+msgstr "準備中..."
 
 #: src/js/controllers/confirm.js:325
 #: src/js/controllers/modals/txpDetails.js:42
 msgid "to accept"
-msgstr "per accettare"
+msgstr "接受"
 
 #: src/js/controllers/confirm.js:323
 msgid "to pay"
-msgstr "a pagare"
+msgstr "付款"
 
 #: src/js/controllers/confirm.js:327
 #: src/js/controllers/modals/txpDetails.js:40
 msgid "to send"
-msgstr "per inviare"
+msgstr "發送"
 
 #: www/views/preferencesBwsUrl.html:21
 msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}} dipende dal servizio portafoglio di Bitcore (BWS) per informazioni blockchain, networking e sincronizzazione di Copayer. La configurazione predefinita fa riferimento a https://bws.bitpay.com (istanza di BitPay BWS pubblica)."
+msgstr "{{appName}} 中的區塊鏈信息依賴於 Bitcore Wallet Service (BWS)、網絡和 Copayer synchronization。默認配置指向 https://bws.bitpay.com (BitPay 的公共 BWS 實例)。"
 
 #: src/js/controllers/confirm.js:354
-msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgstr "{{fee}} verranno detratti come commissione per il network."
+msgid "{{fee}} will be deducted for Mobicoin networking fees."
+msgstr "{{fee}} 將魔幣網絡費用中扣除。"
 
 #: www/views/confirm.html:87
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
@@ -3195,10 +3199,9 @@ msgstr ""
 
 #: www/views/walletDetails.html:212
 msgid "{{updatingTxHistoryProgress}} transactions downloaded"
-msgstr "{{updatingTxHistoryProgress}} transazioni scaricate"
+msgstr "下載的 {{updatingTxHistoryProgress}} 交易"
 
 #: www/views/copayers.html:47
 #: www/views/includes/walletInfo.html:12
 msgid "{{wallet.m}}-of-{{wallet.n}}"
-msgstr "{{wallet.m}}-di-{{wallet.n}}"
-
+msgstr "{{wallet.m}}{{wallet.n}}"

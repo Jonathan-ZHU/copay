@@ -39,7 +39,7 @@ angular.module('copayApp.services')
 
     {
       name: '中文（繁體）',
-      isoCode: 'zh-HK',
+      isoCode: 'it',
       useIdeograms: true,
     }, 
 
@@ -91,7 +91,7 @@ angular.module('copayApp.services')
       gettextCatalog.setCurrentLanguage(lang);
       root.currentLanguage = lang;
 
-      if(lang=='zh-tw'  ||  lang=='zh-hk' ||  lang=='zh-TW' || lang=='zh-HK' ) lang =  'zh-HK';
+      if(lang=='zh-tw'  ||  lang=='zh-hk' ||  lang=='zh-TW' || lang=='zh-HK' ) lang =  'it';
 
       if (lang == 'zh') lang = lang + '-CN'; // Fix for Chinese Simplified
       amMoment.changeLocale(lang);
