@@ -480,7 +480,7 @@ msgstr "提交哈希"
 
 #: www/views/preferences.html:53
 msgid "Complete the backup process to use this option"
-msgstr ""
+msgstr "完成备份过程以使用此选项"
 
 #: www/views/bitpayCard.html:93
 msgid "Completed"
@@ -1127,7 +1127,7 @@ msgstr "资金将会转移到"
 
 #: www/views/tab-receive.html:51
 msgid "Generate new address"
-msgstr ""
+msgstr "生成新地址"
 
 #: src/js/services/onGoingProcess.js:22
 msgid "Generating .csv file..."
@@ -1284,7 +1284,7 @@ msgstr "我已经把它写下来"
 
 #: www/views/preferences.html:50
 msgid "If enabled, all sensitive information (private key and recovery phrase) and actions (spending and exporting) associated with this wallet will be protected."
-msgstr ""
+msgstr "如果启用, 将保护与此钱包相关的所有敏感信息 (私钥和恢复短语) 和操作 (支出和导出)。"
 
 #: www/views/advancedSettings.html:22
 msgid "If enabled, the Recent Transactions card - a list of transactions occuring across all wallets - will appear in the Home tab."
@@ -2804,7 +2804,7 @@ msgstr "查看更新"
 
 #: www/views/tx-details.html:145
 msgid "View on blockchain"
-msgstr "在 blockchain 上查看"
+msgstr "在区块链浏览器上查看"
 
 #: www/views/walletDetails.html:171
 msgid "WARNING: Key derivation is not working on this device/wallet. Actions cannot be performed on this wallet."
