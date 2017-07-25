@@ -26,7 +26,7 @@
 
   <div ng-if="type === 'bitcoinAddress'">
     <div class="incoming-data-menu__item head">
-      <div class="incoming-data-menu__header">Bitcoin Address</div>
+      <div class="incoming-data-menu__header" translate>Bitcoin Address</div>
       <div class="incoming-data-menu__url">
         <div class="incoming-data-menu__url__icon">
           <img src="img/icon-bitcoin-small.svg">
@@ -38,20 +38,20 @@
     </div>
     <a class="incoming-data-menu__item item item-icon-right" ng-click="addToAddressBook(data)">
       <img src="img/icon-contacts.svg">
-      <div class="incoming-data-menu__item__text">Add as a contact</div>
+      <div class="incoming-data-menu__item__text" translate>Add as a contact</div>
       <i class="icon bp-arrow-right"></i>
     </a>
     <a class="incoming-data-menu__item item item-icon-right" ng-click="sendPaymentToAddress(data)">
       <img src="img/icon-send-alt.svg">
-      <div class="incoming-data-menu__item__text">Send payment to this address</div>
+      <div class="incoming-data-menu__item__text" translate>Send payment to this address</div>
       <i class="icon bp-arrow-right"></i>
     </a>
     <a class="incoming-data-menu__item item item-icon-right" copy-to-clipboard="data">
       <img src="img/icon-paperclip.svg">
-      <div class="incoming-data-menu__item__text">Copy to clipboard</div>
+      <div class="incoming-data-menu__item__text" translate>Copy to clipboard</div>
       <i class="icon bp-arrow-right"></i>
     </a>
-    <a class="incoming-data-menu__cancel item" ng-click="hide()">
+    <a class="incoming-data-menu__cancel item" ng-click="hide()" translate>
       Cancel
     </a>
   </div>

@@ -3206,3 +3206,23 @@ msgstr "下载的 {{updatingTxHistoryProgress}} 交易"
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}{{wallet.n}}"
 
+
+#: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:29
+msgid "Bitcoin Address"
+msgstr "魔币地址"
+
+#: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:41
+msgid "Add as a contact"
+msgstr "添加到联系人"
+
+#: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:46
+msgid "Send payment to this address"
+msgstr "向该地址付款"
+
+#: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:51
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:55
+msgid "Cancel"
+msgstr "取消"
