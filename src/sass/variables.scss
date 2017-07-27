@@ -14,11 +14,11 @@ $v-mid-gray:                                         #667 !default;
 $v-light-gray:                                       #9b9bab !default;
 $v-subtle-gray:                                      darken(#ffffff, 5%) !default;
 
-$v-primary-color:                                    #1e3186 !default;
+$v-primary-color:                                    #f6f0db !default;
 $v-secondary-color:                                  #111b49 !default;
 $v-accent-color:                                     #647ce8 !default;
 
-$v-text-primary-color:                               #1e3186 !default;
+$v-text-primary-color:                               #f6f0db !default;
 $v-text-secondary-color:                             #ffffff !default;
 $v-text-accent-color:                                #647ce8 !default;
 
@@ -52,7 +52,7 @@ $v-visible-radius:                                   6px !default;
 $v-unmistakable-radius:                              12px !default;
 $v-scanner-background-color:                         $v-primary-color !default;
 $v-scanner-guide-color:                              $v-accent-color !default;
-$v-top-tabs-color:                                   $v-primary-color !default;
+$v-top-tabs-color:                                   #f6f0db !default;
 
 $v-wallet-backup-bg:                                 #ffffff !default;
 $v-wallet-backup-phrase-bg:                          $v-subtle-gray !default;
@@ -106,7 +106,7 @@ $v-onboarding-pane-bg:                               $v-primary-color !default;
 $v-onboarding-gradient-top-color:                    $v-primary-color !default;
 $v-onboarding-gradient-bottom-color:                 $v-secondary-color !default;
 $v-onboarding-welcome-bg:                            url(../img/onboarding-welcome-bg.png) !default;
-$v-onboarding-color:                                 #ffffff !default;
+$v-onboarding-color:                                 #aca488 !default;
 $v-onboarding-bar-header-color:                      #ffffff !default;
 $v-onboarding-bar-header-button-color:               #ffffff !default;
 $v-onboarding-tour-swiper-pagination-bg:             $v-accent-color !default;
@@ -183,7 +183,7 @@ $item-divider-bg:                                    $v-subtle-gray !default;
 $bar-default-border:                                 $v-subtle-gray !default;
 $bar-royal-bg:                                       $v-primary-color !default;
 $bar-royal-border:                                   $v-primary-color !default;
-$bar-royal-text:                                     #ffffff !default;
+$bar-royal-text:                                     #aca488 !default;
 
 $tabs-icon-size:                                     22px !default;
 
