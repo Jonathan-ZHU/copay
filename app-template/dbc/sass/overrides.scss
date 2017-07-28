@@ -3,25 +3,36 @@
  */
 
 /* Colors */
-$v-primary-color:                                    #192c3a;
-$v-secondary-color:                                  #31465b;
-$v-accent-color:                                     #1abb9b;
+//$v-primary-color:                                    #192c3a;
+//$v-secondary-color:                                  #31465b;
+//$v-accent-color:                                     #1abb9b;
 
-$v-text-primary-color:                               #192c3a;
-$v-text-secondary-color:                             #c2c9d1;
-$v-text-accent-color:                                #1abb9b;
+//$v-text-primary-color:                               #192c3a;
+//$v-text-secondary-color:                             #c2c9d1;
+//$v-text-accent-color:                                #1abb9b;
+
+//$v-success-color:                                    #1abb9b;
+//$v-warning-color:                                    #bb331a;
+
+$v-primary-color:                                    #f6f0db; //淡黄色
+$v-secondary-color:                                  #ffe06c; //亮黄色;
+$v-accent-color:                                     #dec04c; //
+
+$v-text-primary-color:                               #aca488; //淡褐色 主要字体
+$v-text-secondary-color:                             #8c8468; 
+$v-text-accent-color:                                #dec04c;
 
 $v-success-color:                                    #1abb9b;
 $v-warning-color:                                    #bb331a;
 
 /* Theme */ 
-$v-default-wallet-color-index:                       6;
-$v-top-tabs-color:                                   $v-accent-color;
+$v-default-wallet-color-index:                       1;
+$v-top-tabs-color:                                   $v-primary-color;
 $v-wallet-backup-phrase-color:                       $v-text-primary-color;
-$v-wallet-backup-select-phrase-color:                $v-secondary-color;
-$v-wallet-backup-select-word-bg:                     $v-accent-color;
+$v-wallet-backup-select-phrase-color:                $v-text-primary-color;
+$v-wallet-backup-select-word-bg:                     $v-primary-color;
 $v-wallet-backup-select-word-color:                  $v-text-primary-color;
-$v-wallet-backup-select-word-disabled-color:         $v-accent-color;
+$v-wallet-backup-select-word-disabled-color:         $v-secondary-color;
 $v-tou-bg:                                           $v-secondary-color;
 $v-tou-color:                                        $v-text-secondary-color;
 $v-icon-border-radius:                               3px;
@@ -42,7 +53,7 @@ $v-button-secondary-outline-active-color:            $v-accent-color;
 
 $v-slide-bg-color:                                   $v-accent-color;
 $v-slider-bg-color:                                  #069074;
-$v-slide-text-color:                                 #FFFFFF;
+$v-slide-text-color:                                 $v-text-primary-color;
 
 /* Onboarding */
 $v-onboarding-welcome-bg:                            none;
