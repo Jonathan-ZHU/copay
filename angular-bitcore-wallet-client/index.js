@@ -34,7 +34,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'https://bws.tiny-calf.com/bws/api',
+        baseUrl: opts.bwsurl || "{{BWSURL}}", //this {{BWS}} is to be replace by shell sed (Jonathan)
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],

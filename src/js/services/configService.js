@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.tiny-calf.com/bws/api',
+      url: '{{BWSURL}}',   //this {{}} is to be replace by shell sed (Jonathan)
     },
 
     download: {

@@ -25,15 +25,15 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'https://bws.tiny-calf.com/bws/api'
+          bws = '{{BWSURL}}' // //this {{}} is to be replace by shell sed (Jonathan)
           break;
         case 'sta':
         case 'staging':
-          bws = 'https://bws.tiny-calf.com/bws/api'
+          bws =  '{{BWSURL}}'
           break;
         case 'loc':
         case 'local':
-          bws = 'https://bws.tiny-calf.com/bws/api'
+          bws = '{{BWSURL}}'
           break;
       };
       // switch ($scope.bwsurl.value) {

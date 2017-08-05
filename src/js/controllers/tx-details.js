@@ -166,7 +166,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
 
   $scope.viewOnBlockchain = function() {
     var btx = $scope.btx;
-    var url = 'https://' + ($scope.getShortNetworkName() == 'test' ? 'test-' : '') + 'blockchain.browser.tiny-calf.com/insight//tx/' + btx.txid;
+    var url = 'https://' + ($scope.getShortNetworkName() == 'test' ? 'test-' : '') + '{{INSIGHTURL}}/tx/' + btx.txid; //this {{}} is to be replace by shell sed (Jonathan)
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');

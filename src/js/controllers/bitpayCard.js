@@ -183,7 +183,7 @@ angular.module('copayApp.controllers').controller('bitpayCardController', functi
   };
 
   this.viewOnBlockchain = function(transactionId) {
-    var url = 'https://blockchain.browser.tiny-calf.com/insight/tx/' + transactionId;
+    var url = '{{INSIGHTURL}}/tx/' + transactionId;     //this {{INSIGHT}} is to be replace by shell sed (Jonathan)
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');
