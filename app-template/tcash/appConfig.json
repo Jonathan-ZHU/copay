@@ -4,7 +4,7 @@
   "packageNameId": "com.tiny-calf.tcash",
   "userVisibleName": "Tcash",
   "purposeLine": "Tcash Secure Wallet",
-  "bundleName": "tcash",
+  "bundleName": "copay",
   "appUri": "tcash",
   "name": "tcash",
   "nameNoSpace": "tcash",
