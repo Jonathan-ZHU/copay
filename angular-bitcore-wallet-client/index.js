@@ -1,6 +1,5 @@
 var bwcModule = angular.module('bwcModule', []);
 var Client = require('../node_modules/bitcore-wallet-client');
-
 bwcModule.constant('MODULE_VERSION', '1.0.0');
 
 bwcModule.provider("bwcService", function() {
@@ -34,7 +33,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || "{{BWSURL}}", //this {{BWS}} is to be replace by shell sed (Jonathan)
+        baseUrl: opts.bwsurl || bws_url, //this {{BWS}} is to be replace by shell sed (Jonathan)
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],

@@ -1,5 +1,4 @@
 'use strict';
-
 angular.module('copayApp.services').factory('configService', function(storageService, lodash, $log, $timeout, $rootScope, platformInfo) {
   var root = {};
 
@@ -14,7 +13,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: '{{BWSURL}}',   //this {{}} is to be replace by shell sed (Jonathan)
+      url: bws_url,   //this {{}} is to be replace by shell sed (Jonathan)
     },
 
     download: {

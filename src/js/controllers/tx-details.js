@@ -1,5 +1,4 @@
 'use strict';
-
 angular.module('copayApp.controllers').controller('txDetailsController', function($rootScope, $log, $ionicHistory, $scope, $timeout, walletService, lodash, gettextCatalog, profileService, externalLinkService, popupService, ongoingProcess, txFormatService, txConfirmNotification, feeService) {
 
   var txId;
@@ -166,7 +165,8 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
 
   $scope.viewOnBlockchain = function() {
     var btx = $scope.btx;
-    var url = 'https://' + ($scope.getShortNetworkName() == 'test' ? 'test-' : '') + '{{INSIGHTURL}}/tx/' + btx.txid; //this {{}} is to be replace by shell sed (Jonathan)
+   // var url = 'https://' + ($scope.getShortNetworkName() == 'test' ? 'test-' : '') + '{{INSIGHTURL}}/tx/' + btx.txid; 
+   var url = insight_url + '/tx/' + btx.txid; 
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');

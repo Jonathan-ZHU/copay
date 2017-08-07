@@ -1,5 +1,4 @@
 'use strict';
-
 angular.module('copayApp.controllers').controller('bitpayCardController', function($scope, $timeout, $log, $state, lodash, bitpayCardService, moment, popupService, gettextCatalog, $ionicHistory, bitpayService, externalLinkService, timeService) {
 
   var self = this;
@@ -183,7 +182,7 @@ angular.module('copayApp.controllers').controller('bitpayCardController', functi
   };
 
   this.viewOnBlockchain = function(transactionId) {
-    var url = '{{INSIGHTURL}}/tx/' + transactionId;     //this {{INSIGHT}} is to be replace by shell sed (Jonathan)
+    var url = insight_url + transactionId;     //this {{INSIGHT}} is to be replace by shell sed (Jonathan)
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');

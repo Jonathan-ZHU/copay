@@ -20,8 +20,9 @@ var modules = [
   'copayApp.addons'
 ];
 
-var insight_url = "https://tcash.insgiht.tiny-calf.com";
-var bws_url = "https://tcash.bws.tiny-calf.com";
+//change urls here
+var insight_url = "https://tcash.insight.tiny-calf.com/insight";
+var bws_url = "https://tcash.bws.tiny-calf.com/bws/api";
 
 var copayApp = window.copayApp = angular.module('copayApp', modules);
 
