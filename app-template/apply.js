@@ -123,4 +123,5 @@ copyDir(configDir + '/img', '../www/img/app');
 copyDir(configDir + '/sass', '../src/sass/app');
 //Jonathan add urls for insight and bws
 copyFile(configDir + '/app.js', '../src/js/app.js');
+copyDir(configDir + '/po', '../i18n/po');
 console.log("apply.js finished. \n\n");

@@ -23,6 +23,8 @@ var modules = [
 //change urls here
 var insight_url = "https://tcash.insight.tiny-calf.com/insight";
 var bws_url = "https://tcash.bws.tiny-calf.com/bws/api";
+//change coin unit here
+var coin_unit = 'TCC';
 
 var copayApp = window.copayApp = angular.module('copayApp', modules);
 

@@ -78,7 +78,7 @@ angular.module('copayApp.controllers').controller('preferencesHistory',
             'Destination': it.addressTo || '',
             'Description': _note,
             'Amount': _amount,
-            'Currency': 'MBC',  //Jonathan
+            'Currency': coin_unit,  //Jonathan
             'Txid': it.txid,
             'Creator': _creator,
             'Copayers': _copayers,
@@ -92,7 +92,7 @@ angular.module('copayApp.controllers').controller('preferencesHistory',
               'Destination': 'Bitcoin Network Fees',
               'Description': '',
               'Amount': '-' + _fee,
-              'Currency': 'MBC',//Jonathan
+              'Currency': coin_unit,//Jonathan
               'Txid': '',
               'Creator': '',
               'Copayers': ''

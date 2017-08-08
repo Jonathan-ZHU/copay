@@ -10,7 +10,7 @@ angular.module('copayApp.controllers').controller('preferencesAltCurrencyControl
       var unusedCurrencyList = [{
         isoCode: 'LTL'
       }, {
-        isoCode: 'MBC' // Jonathan
+        isoCode: coin_unit // Jonathan
       }];
       rateService.whenAvailable(function() {
 

@@ -10,8 +10,8 @@ angular.module('copayApp.controllers').controller('preferencesUnitController', f
     decimals: 2,
     code: 'bit',
   }, {
-    name: 'MBC',
-    shortName: 'MBC',
+    name: coin_unit,
+    shortName: coin_unit,
     value: 100000000,
     decimals: 8,
     code: 'btc',
