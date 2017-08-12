@@ -6,6 +6,7 @@ src/js/translations.js
 #Jonathan add these
 src/js/app.js
 i18n/po
+.idea
 
 # cordova
 plugins
