@@ -9,6 +9,6 @@ pathOnLinux="${filepath}/../node_modules/bitcore-wallet-client/node_modules/bitc
 if [ -d $pathOnLinux ]; then 
 	cp -f ${filepath}/$1/networks.js $pathOnLinux/networks.js
 else
-	cp -f ${filepath}/$1/networks.js-tcash $pathOnMac/networks.js
+	cp -f ${filepath}/$1/networks.js $pathOnMac/networks.js
 fi
 echo "完成！"
