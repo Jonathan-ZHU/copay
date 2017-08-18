@@ -1,0 +1,144 @@
+#ico-receive {
+  @extend .deflash-blue;
+  .button-share {
+    color: #fff;
+    box-shadow: none;
+    border-color: transparent;
+    background: transparent;
+    padding: 0 10px;
+    .icon:before {
+      font-size: 26px;
+    }
+  }
+
+  .button-request {
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    color: $v-text-accent-color;
+    i.icon {
+      vertical-align: middle;
+      padding-left: 5px;
+    }
+  }
+  .button-address {
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    color: $v-text-accent-color;
+  }
+  .ICOaddress {
+    background: #fff;
+    overflow: auto;
+    height: 100%;
+    &-info {
+      padding-top: 22-8vh;
+      padding-bottom: 17vh;
+      @media(max-height: 800px) {
+        padding-top: 17-8vh;
+      }
+      @media(max-height: 700px) {
+        padding-top: 14-8vh;
+      }
+      @media(max-height: 600px) {
+        padding-top: 7-5vh;
+      }
+      text-align: center;
+      .ICOaddress-label {
+        margin-top: 5%;
+        font-size: 13px;
+      }
+    }
+    &-title {
+      padding-top: 5%;
+      font-size: 25px;
+      color: #444;
+      text-align: center;
+    }
+    .incomplete {
+      .title {
+        padding-top: 10%;
+        font-size: 25px;
+        color: #444;
+        text-align: center;
+      }
+      .subtitle {
+        padding: 20px;
+        color: #444;
+        margin-top: 10%;
+        text-align: center;
+      }
+    }
+  }
+  .setting-title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 0.3rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .setting-value {
+    color: $v-light-gray;
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 3%;
+    text-align: right;
+  }
+  .settings-list {
+    .item {
+      color: $v-dark-gray;
+      padding-top: 0.2rem;
+      padding-bottom: 1.3rem;
+      width:100%;
+      &.has-setting-value {
+        padding-top: 0.65rem;
+        padding-bottom: 0.65rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
+      &.item-divider {
+        color: $v-mid-gray;
+        padding-bottom: .5rem;
+        font-size: .9rem;
+      }
+      .icon {
+        color: $v-light-gray;
+      }
+    }
+    .item-note {
+      color: $v-light-gray;
+    }
+    .item-toggle .toggle,
+    .item-button-right > .button {
+      top: 16px;
+    }
+    .item-button-right > .button {
+      font-size: 16px;
+    }
+  }
+  .backup {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    cursor: pointer;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    i {
+      margin: 0 10px;
+    }
+  }
+  .wallet-selector {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
