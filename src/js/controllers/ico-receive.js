@@ -1,25 +1,23 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('ico-receiveController', function($rootScope, $timeout, $scope, appConfigService, $ionicModal, $log, $http,lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService, gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('ico-receiveController', function($rootScope, $timeout, $scope, $http,appConfigService, $ionicModal, $log,lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService, icoHttpService,gettextCatalog, buyAndSellService) {
+
 
   $scope.clipboard=666
-  $scope.openHttpClick=function () {
 
-    $http({
+  var textHttp=function () {
+
+  var promise=  $http({
       method: 'GET',
-      url: 'http://query.yahooapis.com/v1/public/yqlhttp://query.yahooapis.com/v1/public/yql',
+      url: 'http://120.92.35.170:8080/getBitcoinAddress',
       params: {
-        q: "select * from json where url=\"http://www.runoob.com/try/angularjs/data/Customers_JSON.php\"",
-        format: "json"
+        addr: "1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ"
       }
-    }).then(function successCallback(response) {
-      // 请求成功执行代码
-      $log.log(response)
-    }, function errorCallback(response) {
-      // 请求失败执行代码
-      $log.log(response)
     });
+    return promise;
   }
+
+
   var updateConfig = function() {
 
     $scope.isCordova = platformInfo.isCordova;
@@ -75,6 +73,32 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
     $scope.isDevel = platformInfo.isDevel;
     $scope.appName = appConfigService.nameCase;
+    $scope.tcashAddr ="1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ";
+
+    // icoHttpService.root.icoGet("1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ",function (response) {
+    //
+    //   $scope.icoAddr=response.data.msg;
+    //
+    // },function (error) {
+    //
+    //   $scope.icoAddr=error.data.msg;
+    // });
+
+
+
+     var promise=textHttp();
+      promise.then(function successCallback(response) {
+      // 请求成功执行代码
+      $log.log(response.data.msg)
+        $scope.icoAddr=response.data.msg;
+
+    }, function errorCallback(response) {
+      // 请求失败执行代码
+      $log.log(response.data.msg)
+
+    });
+
+
     configService.whenAvailable(function(config) {
       $scope.locked = config.lock && config.lock.method;
       if (!$scope.locked || $scope.locked == 'none')
@@ -86,7 +110,9 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
 
 
   $scope.$on("$ionicView.enter", function(event, data) {
+
     updateConfig();
+
   });
 
 });

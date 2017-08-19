@@ -1169,7 +1169,8 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       $ionicPlatform.registerBackButtonAction(function(e) {
 
-        //from root tabs view
+
+        //from root tabs viewtabReceiveController
         var matchHome = $ionicHistory.currentStateName() == 'tabs.home' ? true : false;
         var matchReceive = $ionicHistory.currentStateName() == 'tabs.receive' ? true : false;
         var matchScan = $ionicHistory.currentStateName() == 'tabs.scan' ? true : false;
