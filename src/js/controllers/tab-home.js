@@ -180,6 +180,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     };
 
     $scope.openWallet = function(wallet) {
+      $log.log(wallet);
       if (!wallet.isComplete()) {
         return $state.go('tabs.copayers', {
           walletId: wallet.credentials.walletId
@@ -271,8 +272,13 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         })
       });
     };
+      $scope.receivingPurse = function(getAddress)
+      {
+        $state.go('tabs.receivingPurse', {
 
+        });
 
+      };
     $scope.onRefresh = function() {
       $timeout(function() {
         $scope.$broadcast('scroll.refreshComplete');

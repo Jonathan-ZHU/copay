@@ -25,6 +25,13 @@ angular.module('copayApp.controllers').controller('tabReceiveController', functi
       }
 
       $scope.addr = addr;
+
+      $log.log($scope.wallet);
+      $log.log($scope.addr);/////
+
+
+
+
       $timeout(function() {
         $scope.$apply();
       }, 10);

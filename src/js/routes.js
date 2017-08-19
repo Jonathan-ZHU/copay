@@ -213,6 +213,26 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         }
       })
 
+      .state('tabs.receivingPurse', {
+        url: '/receivingPurse',
+        views: {
+          'tab-home@tabs': {
+            controller: 'receivingPurseController',
+            templateUrl: 'views/receivingPurse.html'
+          }
+        }
+      })
+
+      .state('tabs.receivingPurse.choosePurse', {
+        url: '/choosePurse',
+        views: {
+          'tab-home@tabs': {
+            controller: 'choosePurseController',
+            templateUrl: 'views/choosePurse.html'
+          }
+        }
+      })
+
       /*
        *
        * Tabs
