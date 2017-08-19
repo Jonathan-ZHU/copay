@@ -5,6 +5,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     var wallet;
     var listeners = [];
     var notifications = [];
+
     $scope.externalServices = {};
     $scope.openTxpModal = txpModalService.open;
     $scope.version = $window.version;
@@ -15,7 +16,6 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
     $scope.isNW = platformInfo.isNW;
     $scope.showRateCard = {};
-
     $scope.$on("$ionicView.afterEnter", function() {
       startupService.ready();
     });
@@ -150,6 +150,12 @@ angular.module('copayApp.controllers').controller('tabHomeController',
       externalLinkService.open(url, optIn, title, message, okText, cancelText);
     };
 
+
+    $scope.openICOPage = function () {
+
+         $state.go('tabs.ico-receive');
+    }
+
     $scope.openNotificationModal = function(n) {
       wallet = profileService.getWallet(n.walletId);
 
@@ -182,7 +188,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     $scope.openWallet = function(wallet) {
       $log.log(wallet);
       if (!wallet.isComplete()) {
-        return $state.go('tabs.copayers', {
+        return $state.transitionTo('tabs.copayers', {
           walletId: wallet.credentials.walletId
         });
       }
@@ -191,6 +197,9 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         walletId: wallet.credentials.walletId
       });
     };
+
+
+
 
     var updateTxps = function() {
       profileService.getTxps({

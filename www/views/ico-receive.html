@@ -1,0 +1,45 @@
+<ion-view id="ico-receive" show-tabs>
+  <ion-nav-bar class="bar-royal" >
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+    <ion-nav-title>"ICO信息"</ion-nav-title>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content scroll="true">
+
+    <!--<button class="button-primary" ng-click="openHttpClick()">-->
+      <!--<span>上网</span>-->
+    <!--</button>-->
+    <article class="ICOaddress">
+
+      <div copy-to-clipboard="clipboard">
+      <div class="ICOaddress-title">
+        <span translate>请向以下比特币地址汇入款项已完成ICO</span>
+      </div>
+      <div class="ICOaddress-info">
+        <qrcode ng-if="icoAddr"  size="220" data="{{icoAddr}}" color="#334"></qrcode>
+        <div class="ICOaddress-label">
+          <span translate>完成交易后可向客户咨询确认，客服微信：233333</span>
+        </div>
+      </div>
+      </div>
+
+
+      <div class="settings-list">
+        <div class="item has-setting-value">
+          <span class="setting-title">比特币接收地址</span>
+          <span  class="setting-value">{{icoAddr}}</span>
+        </div>
+        <div class="item has-setting-value">
+          <span class="setting-title">Tcash本地钱包地址</span>
+          <span class="setting-value">{{tcashAddr}}</span>
+        </div>
+      </div>
+    </article>
+  </ion-content>
+
+</ion-view>
+
+
+

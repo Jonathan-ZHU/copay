@@ -661,6 +661,22 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       /*
        *
+       * ICOpages
+       *
+       */
+
+      .state('tabs.ico-receive', {
+        url: '/views/ico-receive',
+        views: {
+          'tab-home@tabs': {
+            templateUrl: '/views/ico-receive.html',
+            controller: 'ico-receiveController'
+          }
+        }
+      })
+  // http://localhost:63342/devTcash/www/views/ico-receive.html
+      /*
+       *
        * Addresses
        *
        */
@@ -1173,7 +1189,8 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
       $ionicPlatform.registerBackButtonAction(function(e) {
 
-        //from root tabs view
+
+        //from root tabs viewtabReceiveController
         var matchHome = $ionicHistory.currentStateName() == 'tabs.home' ? true : false;
         var matchReceive = $ionicHistory.currentStateName() == 'tabs.receive' ? true : false;
         var matchScan = $ionicHistory.currentStateName() == 'tabs.scan' ? true : false;
