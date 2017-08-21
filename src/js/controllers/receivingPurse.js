@@ -151,6 +151,7 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
         localStorageService.create("ICOInfolist", arrayObj , function () {
           $log.log("successCreate=", arrayObj)
           jumpToIcoSuccess();
+
         });
       }
 

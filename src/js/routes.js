@@ -676,6 +676,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        */
 
       .state('tabs.ico-receive', {
+        url: '/views/ico-receive',
         url: '/views/ico-receive/:tcashAddr/:icoAddr',
         views: {
           'tab-home@tabs': {
