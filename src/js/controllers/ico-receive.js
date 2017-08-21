@@ -1,56 +1,10 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('ico-receiveController', function($rootScope, $timeout,popupService, $scope, $http,appConfigService, $ionicModal, $log,lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, localStorageService,storageService, glideraService, icoHttpService,gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('ico-receiveController', function($rootScope,$state, $timeout,popupService, $scope, $http,appConfigService, $ionicModal, $log,lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, localStorageService,storageService, glideraService, icoHttpService,gettextCatalog, buyAndSellService) {
 
 
-  $scope.clipboard=666
 
 
-  // var textHttp=function () {
-  //
-  // var promise=  $http({
-  //     method: 'GET',
-  //     url: 'http://120.92.35.170:8080/getBitcoinAddress',
-  //     params: {
-  //       addr: $scope.tcashAddr
-  //     }
-  //   });
-  //   return promise;
-  // }
-  //
-  // var saveIco = function () {
-  //   var icoInfo={};
-  //   icoInfo.icoAddr=$scope.icoAddr;
-  //   icoInfo.tcashAddr=$scope.tcashAddr;
-  //
-  //
-  //   var localInfo=localStorageService.get("ICOInfolist",function (err, datas) {
-  //
-  //     if (datas) {
-  //       var arrObj = JSON.parse(datas);
-  //       $log.log('fuck',arrObj);
-  //       arrObj.push(icoInfo);
-  //         localStorageService.set("ICOInfolist", arrObj, function () {
-  //           $log.log("success=", arrObj)
-  //         })
-  //
-  //     } else {
-  //       $log.log("errorInfo=", err)
-  //       var arrayObj = [];
-  //       arrayObj.push(icoInfo);
-  //       localStorageService.create("ICOInfolist", arrayObj , function () {
-  //         $log.log("create=", arrayObj)
-  //       });
-  //     }
-  //
-  //
-  //
-  //   });
-  //
-  //
-  //
-  //
-  // }
 
 
   var updateConfig = function() {
@@ -109,8 +63,37 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
     $scope.isDevel = platformInfo.isDevel;
     $scope.appName = appConfigService.nameCase;
     $log.log("传过来的",data.stateParams.icoAddr);
-    $scope.icoAddr=data.stateParams.icoAddr;
-    $scope.tcashAddr=data.stateParams.tcashAddr;
+    if(data.stateParams.home==true)
+    {
+      $scope.icoAddr=data.stateParams.icoAddr;
+      $scope.tcashAddr=data.stateParams.tcashAddr;
+      $scope.clipboard=$scope.icoAddr;
+
+    }
+    else
+    {
+      $scope.clipboard=$scope.icoAddr;
+
+        localStorageService.get("ICOInfolist",function (err, datas){
+          if (datas) {
+            var icoList=[];
+            icoList  = JSON.parse(datas);
+            var info={};
+            info=icoList[icoList.length-1];
+            $scope.icoAddr=info.icoAddr;
+            $scope.tcashAddr=info.tcashAddr;
+            $scope.clipboard=$scope.icoAddr;
+
+
+          } else {
+            $log.log("errorInfo=", err);
+          }
+
+        });
+
+
+    }
+
     // icoHttpService.root.icoGet("1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ",function (response) {
     //
     //   $scope.icoAddr=response.data.msg;
@@ -162,6 +145,13 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
     updateConfig();
 
   });
+  $scope.goRoot=function () {
+
+    $state.go('tabs.home', {
+
+
+    });
+  }
 
 });
 

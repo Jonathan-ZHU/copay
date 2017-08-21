@@ -313,7 +313,8 @@ angular.module('copayApp.controllers').controller('tabHomeController',
 
       return $state.transitionTo('tabs.ico-receive', {
         tcashAddr: icoInfo.tcashAddr,
-        icoAddr:icoInfo.icoAddr
+        icoAddr:icoInfo.icoAddr,
+        home:true
       });
     }
 

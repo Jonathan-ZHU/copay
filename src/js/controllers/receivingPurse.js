@@ -1,6 +1,7 @@
 angular.module('copayApp.controllers').controller('receivingPurseController', function($rootScope,$state,$http, $timeout, $scope, appConfigService,popupService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService,localStorageService,walletService,glideraService, gettextCatalog, buyAndSellService) {
 
   var updateConfig = function() {
+    var icoInfo = {};
     $scope.currentLanguageName = uxLanguage.getCurrentLanguageName();
     $scope.feeOpts = feeService.feeOpts;
     $scope.currentFeeLevel = feeService.getCurrentFeeLevel();
@@ -51,10 +52,64 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
   $scope.choosePurse = function(wallet)
   {
 
-      $scope.wallet=wallet;
-      $scope.setAddress();
+    $scope.wallet=wallet;
+    $scope.setAddress();
+
+  };
+var showSuccessWindow=function () {
+
+
+  var scope = $rootScope.$new(true);
+
+  $ionicModal.fromTemplateUrl('views/modals/choosePurse.html', {
+    icoAddr:$scope.icoAddr,
+    tcashAddr:$scope.tcashAddr,
+    scope: scope
+
+
+  }).then(function(modal) {
+    scope.chooseFeeLevelModal = modal;
+    scope.openModal();
+
+  });
+  scope.openModal = function() {
+    scope.chooseFeeLevelModal.show();
   };
 
+  // scope.hideModal = function() {
+  //   scope.chooseFeeLevelModal.hide();
+  //   // $log.debug('Custom fee level choosen:' + customFeeLevel + ' was:' + tx.feeLevel);
+
+  // };
+
+  $scope.closeModal = function() {
+    $scope.chooseFeeLevelModal.hide();
+  };
+  $scope.$on('$destroy', function() {
+    $scope.chooseFeeLevelModal.remove();
+  });
+
+}
+
+var getNewAddress=function () {
+
+  $scope.addr = null;
+  if (!$scope.wallet || $scope.generatingAddress || !$scope.wallet.isComplete()) return;
+  $scope.generatingAddress = true;
+  walletService.getAddress($scope.wallet, true, function(err, addr) {
+    $scope.generatingAddress = false;
+
+    if (err) {
+      //Error is already formated
+      popupService.showAlert(err);
+    }
+
+    $scope.addr = addr;
+    $timeout(function() {
+      $scope.$apply();
+    }, 10);
+  });
+}
   $scope.setAddress = function(newAddr) {
 
     $scope.addr = null;
@@ -70,7 +125,6 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
       else {
 
         $scope.addr = addr;
-        $log.log("aslfjals;dfckick!!!");
         var promise = textHttp();
         promise.then(function successCallback(response) {
           // 请求成功执行代码
@@ -103,23 +157,16 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
       }, 10);
     });
   };
-    $scope.openModal = function () {
-       $scope.chooseFeeLevelModal.show();
-     };
 
-    // scope.hideModal = function() {
-    //   scope.chooseFeeLevelModal.hide();
-    //   // $log.debug('Custom fee level choosen:' + customFeeLevel + ' was:' + tx.feeLevel);
 
-    // };
 
-    $scope.closeModal = function () {
-      $scope.chooseFeeLevelModal.hide();
-    };
+
+
     //跳转到ICO申请成功界面
     var jumpToIcoSuccess = function () {
 
-      $state.go('tabs.receivingPurse.choosePurse', {});
+      getNewAddress();
+      showSuccessWindow();
 
     };
 //通过Tcash Address获取ico Address的网络请求
@@ -137,7 +184,7 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
 
     //保存ico地址到本地
     var saveIco = function () {
-      var icoInfo = {};
+      var icoInfo={};
       icoInfo.icoAddr = $scope.icoAddr;
       icoInfo.tcashAddr = $scope.addr;
 

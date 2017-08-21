@@ -1,4 +1,4 @@
-angular.module('copayApp.controllers').controller('choosePurseController', function($rootScope, $timeout, $scope,$state, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService, gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('choosePurseController', function($rootScope, $timeout, $scope,$state, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService,localStorageService, gettextCatalog, buyAndSellService) {
 
   var updateConfig = function() {
     $scope.currentLanguageName = uxLanguage.getCurrentLanguageName();
@@ -6,6 +6,7 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
     $scope.currentFeeLevel = feeService.getCurrentFeeLevel();
     $scope.wallets = profileService.getWallets();
     $scope.buyAndSellServices = buyAndSellService.getLinked();
+
 
     configService.whenAvailable(function(config) {
       $scope.unitName = config.wallet.settings.unitName;
@@ -53,6 +54,9 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
     $scope.isDevel = platformInfo.isDevel;
     $scope.appName = appConfigService.nameCase;
+    $scope.icoInfo.icoAddr=data.stateParams.icoAddr;
+    $scope.icoInfo.tcashAddr=data.stateParams.tcashAddr;
+
     configService.whenAvailable(function(config) {
       $scope.locked = config.lock && config.lock.method;
       if (!$scope.locked || $scope.locked == 'none')
@@ -68,20 +72,23 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
 
 
 
-  // $scope.jumpHome = function()
-  // {
-  //   $state.go('tabs.home', {
-
-  //   });
-  // };
 
   $scope.jumpHome = function() {
-    
+
+
     $scope.chooseFeeLevelModal.hide();
-    $state.go('tabs.home', {
+    // $state.go('tabs.home', {
+    //
+    // });
+
+
+    return $state.transitionTo('tabs.ico-receive', {
+
+      tcashAddr: $scope.tcashAddr,
+      icoAddr:$scope.icoAddr,
+      home:false
 
     });
-
   };
 
 
