@@ -151,10 +151,10 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     };
 
 
-    $scope.openICOPage = function () {
-
-         $state.go('tabs.ico-receive');
-    }
+    // $scope.openICOPage = function () {
+    //
+    //      $state.go('tabs.ico-receive');
+    // }
 
     $scope.openNotificationModal = function(n) {
       wallet = profileService.getWallet(n.walletId);

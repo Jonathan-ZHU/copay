@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('ico-receiveController', function($rootScope, $timeout, $scope, $http,appConfigService, $ionicModal, $log,lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService, icoHttpService,gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('ico-receiveController', function($rootScope, $timeout,popupService, $scope, $http,appConfigService, $ionicModal, $log,lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, localStorageService,storageService, glideraService, icoHttpService,gettextCatalog, buyAndSellService) {
 
 
   $scope.clipboard=666
@@ -11,10 +11,44 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
       method: 'GET',
       url: 'http://120.92.35.170:8080/getBitcoinAddress',
       params: {
-        addr: "1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ"
+        addr: $scope.tcashAddr
       }
     });
     return promise;
+  }
+
+  var saveIco = function () {
+    var icoInfo={};
+    icoInfo.icoAddr=$scope.icoAddr;
+    icoInfo.tcashAddr=$scope.tcashAddr;
+
+
+    var localInfo=localStorageService.get("ICOInfolist",function (err, datas) {
+
+      if (datas) {
+        var arrObj = JSON.parse(datas);
+        $log.log('fuck',arrObj);
+        arrObj.push(icoInfo);
+          localStorageService.set("ICOInfolist", arrObj, function () {
+            $log.log("success=", arrObj)
+          })
+
+      } else {
+        $log.log("errorInfo=", err)
+        var arrayObj = [];
+        arrayObj.push(icoInfo);
+        localStorageService.create("ICOInfolist", arrayObj , function () {
+          $log.log("create=", arrayObj)
+        });
+      }
+
+
+
+    });
+
+
+
+
   }
 
 
@@ -73,7 +107,7 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
     $scope.isDevel = platformInfo.isDevel;
     $scope.appName = appConfigService.nameCase;
-    $scope.tcashAddr ="1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ";
+    $scope.tcashAddr ="1QLWfenmekVDccb2JsGg2khjouKmXTz2vJ";
 
     // icoHttpService.root.icoGet("1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ",function (response) {
     //
@@ -90,7 +124,19 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
       promise.then(function successCallback(response) {
       // 请求成功执行代码
       $log.log(response.data.msg)
-        $scope.icoAddr=response.data.msg;
+        if(response.data.err==0)
+        {
+          $scope.icoAddr=response.data.msg;
+          saveIco();
+        }
+        else
+        {
+         popupService.showAlert("警告",response.data.msg,function () {
+
+
+
+         },"返回")
+        }
 
     }, function errorCallback(response) {
       // 请求失败执行代码
