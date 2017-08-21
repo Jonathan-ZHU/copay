@@ -1,4 +1,4 @@
-angular.module('copayApp.controllers').controller('choosePurseController', function($rootScope, $timeout, $scope, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService, gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('choosePurseController', function($rootScope, $timeout, $scope,$state, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService, gettextCatalog, buyAndSellService) {
 
   var updateConfig = function() {
     $scope.currentLanguageName = uxLanguage.getCurrentLanguageName();
@@ -34,6 +34,7 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
       //   }, 10);
       // });
     });
+
   };
 
   $scope.openExternalLink = function() {
@@ -67,18 +68,21 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
 
 
 
+  // $scope.jumpHome = function()
+  // {
+  //   $state.go('tabs.home', {
 
-  
+  //   });
+  // };
 
+  $scope.jumpHome = function() {
+    
+    $scope.chooseFeeLevelModal.hide();
+    $state.go('tabs.home', {
 
+    });
 
-
-
-
-
-
-
-
+  };
 
 
 });

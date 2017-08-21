@@ -1,18 +1,45 @@
 #choosePurse {
 	.bg {
-		background-color: green;
+		background-color:#12D1A7;
 		text-align: center;
 		padding-top: 20px;
-		/*height: 500px;*/
-
 	}
-
+	.slide-success__content
+	{
+		padding-top: 100px;
+	}
 	.success{
+		color: white;
 		margin-top: 20px;
-		font-size: 200%;
+		font-size: 150%;
 	}
 	.title{
 		text-align: center;;
+	}
+	.button.button-block.button-calm{
+		background-color:#12D1A7;
+		position: fixed; /*or前面的是absolute就可以用*/  
+       bottom: 0px;
+       font-size: 150%;
+       border: none;
+
+	}
+    .online{
+
+           display: inline-block;
+           height:1px;
+           width:90%;
+           background:white;
+           overflow:hidden;
+           vertical-align: middle;
+    
+       }
+    .choose{
+    	width:100%;
+    	position:fixed;
+    	height: 100px;
+    	bottom:0;
+    	left:0;
 	}
 
 }
