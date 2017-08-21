@@ -15,7 +15,7 @@
 
     <div class="list">
       <div class="item item-icon-right item-heading">
-        <div class="jiucheng">选择您想要用来接收TCC的钱包</div>
+        <div class="jiucheng">选择您想要用来发起ICO的钱包</div>
       </div>
       <div>
         <a ng-if="!wallets[0]" ui-sref="tabs.add" class="item item-icon-left item-big-icon-left item-icon-right next-step">
@@ -26,7 +26,7 @@
         </a>
         <a ng-repeat="wallet in wallets track by $index"
            class="item item-sub item-icon-left item-big-icon-left item-icon-right wallet"
-           ng-click="choosePurse()">
+           ng-click="choosePurse(wallet)">
           <i class="icon big-icon-svg">
             <img src="img/icon-wallet.svg" ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color': wallet.color}" class="bg wallet"/>
           </i>
