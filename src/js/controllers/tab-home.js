@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('copayApp.controllers').controller('tabHomeController',
-  function($rootScope, $timeout, $scope, $state, $stateParams, $ionicModal, $ionicScrollDelegate, $window, gettextCatalog, lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
+  function($rootScope, $timeout, $scope, $state, $stateParams, $ionicModal,localStorageService, $ionicScrollDelegate, $window, gettextCatalog, lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
     var wallet;
     var listeners = [];
     var notifications = [];
@@ -16,6 +16,8 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
     $scope.isNW = platformInfo.isNW;
     $scope.showRateCard = {};
+    $scope.icoInfo = {};
+    $scope.icoList=[];
     $scope.$on("$ionicView.afterEnter", function() {
       startupService.ready();
     });
@@ -120,7 +122,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         } else {
           $scope.nextStepsItems = nextStepsService.get();
         }
-
+        getLocalLists();
         pushNotificationsService.init();
 
         $timeout(function() {
@@ -281,17 +283,45 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         })
       });
     };
-      $scope.receivingPurse = function(getAddress)
-      {
-        $state.go('tabs.receivingPurse', {
 
-        });
-
-      };
     $scope.onRefresh = function() {
       $timeout(function() {
         $scope.$broadcast('scroll.refreshComplete');
       }, 300);
       updateAllWallets();
+    };
+    //ICO 业务处理
+
+    var getLocalLists= function () {
+
+      localStorageService.get("ICOInfolist",function (err, datas){
+        if (datas) {
+          $scope.icoList  = JSON.parse(datas);
+          $log.log('getIcoListSuccess!',$scope.icoList);
+
+
+        } else {
+          $log.log("errorInfo=", err);
+        }
+
+      });
+    }
+
+
+    $scope.openICODetail = function(icoInfo) {
+      $log.log("Icoinfo:",icoInfo);
+
+      return $state.transitionTo('tabs.ico-receive', {
+        tcashAddr: icoInfo.tcashAddr,
+        icoAddr:icoInfo.icoAddr
+      });
+    }
+
+    $scope.receivingPurse = function(getAddress)
+    {
+      $state.go('tabs.receivingPurse', {
+
+      });
+
     };
   });

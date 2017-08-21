@@ -1,10 +1,12 @@
-angular.module('copayApp.controllers').controller('receivingPurseController', function($rootScope,$state, $timeout, $scope, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService, gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('receivingPurseController', function($rootScope,$state,$http,popupService, $timeout, $scope, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, walletService,localStorageService,bitpayCardService, storageService, glideraService, gettextCatalog, buyAndSellService) {
 
   var updateConfig = function() {
     $scope.currentLanguageName = uxLanguage.getCurrentLanguageName();
     $scope.feeOpts = feeService.feeOpts;
     $scope.currentFeeLevel = feeService.getCurrentFeeLevel();
     $scope.wallets = profileService.getWallets();
+    $scope.wallet = {};
+    $scope.icoAddr={};
     $scope.buyAndSellServices = buyAndSellService.getLinked();
 
     configService.whenAvailable(function(config) {
@@ -14,25 +16,6 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
         isoCode: config.wallet.settings.alternativeIsoCode
       };
 
-      // // TODO move this to a generic service
-      // bitpayAccountService.getAccounts(function(err, data) {
-      //   if (err) $log.error(err);
-      //   $scope.bitpayAccounts = !lodash.isEmpty(data);
-      //
-      //   $timeout(function() {
-      //     $rootScope.$apply();
-      //   }, 10);
-      // });
-      //
-      // // TODO move this to a generic service
-      // bitpayCardService.getCards(function(err, cards) {
-      //   if (err) $log.error(err);
-      //   $scope.bitpayCards = cards && cards.length > 0;
-      //
-      //   $timeout(function() {
-      //     $rootScope.$apply();
-      //   }, 10);
-      // });
     });
   };
 
@@ -67,9 +50,112 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
 
   $scope.choosePurse = function(wallet)
   {
-    $log.log(wallet);
+
+      $scope.wallet=wallet;
+      $scope.setAddress();
+  };
+
+  $scope.setAddress = function(newAddr) {
+    $scope.addr = null;
+    if (!$scope.wallet || $scope.generatingAddress || !$scope.wallet.isComplete()) return;
+    $scope.generatingAddress = true;
+    walletService.getAddress($scope.wallet, newAddr, function(err, addr) {
+      $scope.generatingAddress = false;
+
+      if (err) {
+        //Error is already formated
+        popupService.showAlert(err);
+      }
+      else {
+
+        $scope.addr = addr;
+        var promise=textHttp();
+        promise.then(function successCallback(response) {
+          // 请求成功执行代码
+          $log.log(response.data.msg)
+          if(response.data.err==0)
+          {
+            $scope.icoAddr=response.data.msg;
+            saveIco();
+          }
+          else
+          {
+            $log.log(response.data.err)
+            if(response.data.err==-500)
+            {
+              popupService.showAlert('Tcash地址已提交过ICO申请');
+            }
+            else
+            {
+              popupService.showAlert('Tcash地址不合法');
+            }
+
+          }
+        }, function errorCallback(response) {
+          // 请求失败执行代码
+          $log.log(response.data.msg)
+          popupService.showAlert(response.data.msg)
+        });
+
+      }
+
+      $log.log($scope.addr);
+      $timeout(function() {
+        $scope.$apply();
+      }, 10);
+    });
+  };
+  //跳转到ICO申请成功界面
+  var jumpToIcoSuccess=function () {
+
     $state.go('tabs.receivingPurse.choosePurse', {
 
     });
-  };
+
+  }
+//通过Tcash Address获取ico Address的网络请求
+  var textHttp=function () {
+
+    var promise=  $http({
+      method: 'GET',
+      url: 'http://120.92.35.170:8080/getBitcoinAddress',
+      params: {
+        addr: $scope.addr
+      }
+    });
+    return promise;
+  }
+
+  //保存ico地址到本地
+  var saveIco = function () {
+    var icoInfo={};
+    icoInfo.icoAddr=$scope.icoAddr;
+    icoInfo.tcashAddr=$scope.addr;
+
+
+    var localInfo=localStorageService.get("ICOInfolist",function (err, datas) {
+
+      if (datas) {
+        var arrObj = JSON.parse(datas);
+        $log.log('fuck',arrObj);
+        arrObj.push(icoInfo);
+        localStorageService.set("ICOInfolist", arrObj, function () {
+          $log.log("success=", arrObj)
+          jumpToIcoSuccess();
+        })
+
+      } else {
+        $log.log("errorInfo=", err)
+        var arrayObj = [];
+        arrayObj.push(icoInfo);
+        localStorageService.create("ICOInfolist", arrayObj , function () {
+          $log.log("successCreate=", arrayObj)
+          jumpToIcoSuccess();
+        });
+      }
+
+    });
+
+  }
+
 });

@@ -5,51 +5,52 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
 
   $scope.clipboard=666
 
-  var textHttp=function () {
 
-  var promise=  $http({
-      method: 'GET',
-      url: 'http://120.92.35.170:8080/getBitcoinAddress',
-      params: {
-        addr: $scope.tcashAddr
-      }
-    });
-    return promise;
-  }
-
-  var saveIco = function () {
-    var icoInfo={};
-    icoInfo.icoAddr=$scope.icoAddr;
-    icoInfo.tcashAddr=$scope.tcashAddr;
-
-
-    var localInfo=localStorageService.get("ICOInfolist",function (err, datas) {
-
-      if (datas) {
-        var arrObj = JSON.parse(datas);
-        $log.log('fuck',arrObj);
-        arrObj.push(icoInfo);
-          localStorageService.set("ICOInfolist", arrObj, function () {
-            $log.log("success=", arrObj)
-          })
-
-      } else {
-        $log.log("errorInfo=", err)
-        var arrayObj = [];
-        arrayObj.push(icoInfo);
-        localStorageService.create("ICOInfolist", arrayObj , function () {
-          $log.log("create=", arrayObj)
-        });
-      }
-
-
-
-    });
-
-
-
-
-  }
+  // var textHttp=function () {
+  //
+  // var promise=  $http({
+  //     method: 'GET',
+  //     url: 'http://120.92.35.170:8080/getBitcoinAddress',
+  //     params: {
+  //       addr: $scope.tcashAddr
+  //     }
+  //   });
+  //   return promise;
+  // }
+  //
+  // var saveIco = function () {
+  //   var icoInfo={};
+  //   icoInfo.icoAddr=$scope.icoAddr;
+  //   icoInfo.tcashAddr=$scope.tcashAddr;
+  //
+  //
+  //   var localInfo=localStorageService.get("ICOInfolist",function (err, datas) {
+  //
+  //     if (datas) {
+  //       var arrObj = JSON.parse(datas);
+  //       $log.log('fuck',arrObj);
+  //       arrObj.push(icoInfo);
+  //         localStorageService.set("ICOInfolist", arrObj, function () {
+  //           $log.log("success=", arrObj)
+  //         })
+  //
+  //     } else {
+  //       $log.log("errorInfo=", err)
+  //       var arrayObj = [];
+  //       arrayObj.push(icoInfo);
+  //       localStorageService.create("ICOInfolist", arrayObj , function () {
+  //         $log.log("create=", arrayObj)
+  //       });
+  //     }
+  //
+  //
+  //
+  //   });
+  //
+  //
+  //
+  //
+  // }
 
 
   var updateConfig = function() {
@@ -107,8 +108,9 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
     $scope.isDevel = platformInfo.isDevel;
     $scope.appName = appConfigService.nameCase;
-    $scope.tcashAddr ="1QLWfenmekVDccb2JsGg2khjouKmXTz2vJ";
-
+    $log.log("传过来的",data.stateParams.icoAddr);
+    $scope.icoAddr=data.stateParams.icoAddr;
+    $scope.tcashAddr=data.stateParams.tcashAddr;
     // icoHttpService.root.icoGet("1F1Qs7PcmN4RcZxy3tBuwaMCCRmCfJTFBQ",function (response) {
     //
     //   $scope.icoAddr=response.data.msg;
@@ -120,29 +122,29 @@ angular.module('copayApp.controllers').controller('ico-receiveController', funct
 
 
 
-     var promise=textHttp();
-      promise.then(function successCallback(response) {
-      // 请求成功执行代码
-      $log.log(response.data.msg)
-        if(response.data.err==0)
-        {
-          $scope.icoAddr=response.data.msg;
-          saveIco();
-        }
-        else
-        {
-         popupService.showAlert("警告",response.data.msg,function () {
-
-
-
-         },"返回")
-        }
-
-    }, function errorCallback(response) {
-      // 请求失败执行代码
-      $log.log(response.data.msg)
-
-    });
+    //  var promise=textHttp();
+    //   promise.then(function successCallback(response) {
+    //   // 请求成功执行代码
+    //   $log.log(response.data.msg)
+    //     if(response.data.err==0)
+    //     {
+    //       $scope.icoAddr=response.data.msg;
+    //       saveIco();
+    //     }
+    //     else
+    //     {
+    //      popupService.showAlert("警告",response.data.msg,function () {
+    //
+    //
+    //
+    //      },"返回")
+    //     }
+    //
+    // }, function errorCallback(response) {
+    //   // 请求失败执行代码
+    //   $log.log(response.data.msg)
+    //
+    // });
 
 
     configService.whenAvailable(function(config) {
