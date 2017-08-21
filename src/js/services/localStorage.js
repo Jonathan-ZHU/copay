@@ -103,7 +103,5 @@ angular.module('copayApp.services')
         $log.info('# Data already migrated to Chrome storage on ' + ts);
       }
     }
-
-
     return root;
   });
