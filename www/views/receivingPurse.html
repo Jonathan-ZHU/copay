@@ -26,7 +26,7 @@
         </a>
         <a ng-repeat="wallet in wallets track by $index"
            class="item item-sub item-icon-left item-big-icon-left item-icon-right wallet"
-           ng-click="choosePurse(wallet)">
+           ng-click="choosePurse()">
           <i class="icon big-icon-svg">
             <img src="img/icon-wallet.svg" ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color': wallet.color}" class="bg wallet"/>
           </i>

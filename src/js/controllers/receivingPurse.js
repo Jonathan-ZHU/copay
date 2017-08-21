@@ -65,11 +65,88 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
     updateConfig();
   });
 
-  $scope.choosePurse = function(wallet)
-  {
-    $log.log(wallet);
-    $state.go('tabs.receivingPurse.choosePurse', {
+   // $scope.choosePurse = function(wallet)
+   // {
+   //   $log.log(wallet);
+   //   $state.go('tabs.receivingPurse.choosePurse', {
+   //
+   //   });
+   // };
+  // $scope.choosePurse = function(wallet)
+  // {
+  //   $log.log(wallet);
+  //   $state.go('tabs.receivingPurse.choosePurse', {
+  //
+  //   });
+  // };
 
+  //
+  // $scope.choosePurse = function() {
+  //
+  //
+  //   $ionicModal.fromTemplateUrl('views/modals/choosePurse.html', {
+  //     scope: $scope,
+  //     animation: 'slide-in-up'
+  //   }).then(function(modal) {
+  //     $scope.modal = modal;
+  //
+  //   });
+  //   $scope.openModal = function() {
+  //     $scope.modal.show();
+  //   };
+  //   // $scope.closeModal = function() {
+  //   //   $scope.modal.hide();
+  //   // };
+  //   // $scope.$on('$destroy', function() {
+  //   //   $scope.modal.remove();
+  //   // });
+  //   // $scope.$on('modal.removed', function() {
+  //   //   // Execute action
+  //   // });
+  //
+  // };
+
+
+  $scope.choosePurse = function() {
+
+    var scope = $rootScope.$new(true);
+
+    $ionicModal.fromTemplateUrl('views/modals/choosePurse.html', {
+      scope: scope,
+    }).then(function(modal) {
+      scope.chooseFeeLevelModal = modal;
+      scope.openModal();
     });
+    scope.openModal = function() {
+      scope.chooseFeeLevelModal.show();
+    };
+
+    // scope.hideModal = function() {
+    //   scope.chooseFeeLevelModal.hide();
+    //   // $log.debug('Custom fee level choosen:' + customFeeLevel + ' was:' + tx.feeLevel);
+
+    // };
+   
+  $scope.closeModal = function() {
+    $scope.chooseFeeLevelModal.hide();
   };
+  $scope.$on('$destroy', function() {
+    $scope.chooseFeeLevelModal.remove();
+  });
+
+
+
+
+
+
+
+
+
+
+  };
+
+
+
+
+
 });

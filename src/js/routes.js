@@ -228,7 +228,17 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         views: {
           'tab-home@tabs': {
             controller: 'choosePurseController',
-            templateUrl: 'views/choosePurse.html'
+            templateUrl: 'views/modals/choosePurse.html'
+          }
+        }
+      })
+
+      .state('tabs.receivingPurse.choosePurse.ico-receive', {
+        url: '/ico-receive',
+        views: {
+          'tab-home@tabs': {
+            controller: 'ico-receiveController',
+            templateUrl: 'views/ico-receive.html'
           }
         }
       })
