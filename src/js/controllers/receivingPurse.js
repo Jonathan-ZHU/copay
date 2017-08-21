@@ -104,6 +104,18 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
         $scope.$apply();
       }, 10);
     });
+    scope.openModal = function() {
+      scope.chooseFeeLevelModal.show();
+    };
+
+    // scope.hideModal = function() {
+    //   scope.chooseFeeLevelModal.hide();
+    //   // $log.debug('Custom fee level choosen:' + customFeeLevel + ' was:' + tx.feeLevel);
+
+    // };
+   
+  $scope.closeModal = function() {
+    $scope.chooseFeeLevelModal.hide();
   };
   //跳转到ICO申请成功界面
   var jumpToIcoSuccess=function () {
