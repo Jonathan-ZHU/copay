@@ -1,13 +1,15 @@
-<ion-view id="choosePurse" hide-tabs>
+<ion-modal-view id="choosePurse" ng-controller="choosePurseController" hide-tabs >
   <ion-content class="bg">
              <div ng-disabled="wallet" class="slide-success__content">
               <img src="img/onboarding-success.svg" ng-class="{reveal: fillScreen}">
          <!-- <div class="slide-success__content__header" ng-class="{reveal: fillScreen}"> -->
           <div class="success">已成功申请ICO</div>
           </div>
-      </div>
+        <div class="choose">
+          <div class="online"></div>
+            <button class="button button-block button-calm" ng-click="jumpHome()">OK</button>
+        </div>
   </ion-content>
-<ion-footer-bar align-title="left" class="bar-calm">
-  <div class="title">OK</div>
-</ion-footer-bar>
-</ion-view>
+  </ion-modal-view>
+
+
