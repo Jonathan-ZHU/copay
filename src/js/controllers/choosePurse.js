@@ -82,11 +82,11 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
     // });
 
 
-    return $state.transitionTo('tabs.ico-receive', {
+    return $state.transitionTo('tabs.icoreceive', {
 
       tcashAddr: $scope.tcashAddr,
       icoAddr:$scope.icoAddr,
-      home:false
+      home:"no"
 
     });
   };

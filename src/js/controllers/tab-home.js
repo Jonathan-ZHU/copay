@@ -193,13 +193,25 @@ angular.module('copayApp.controllers').controller('tabHomeController',
         return $state.transitionTo('tabs.copayers', {
           walletId: wallet.credentials.walletId
         });
-      }
 
+      }
       $state.go('tabs.wallet', {
         walletId: wallet.credentials.walletId
       });
+
+
     };
 
+    $scope.Test=function(){
+
+      // $state.go('tabs.myTest', {
+      //
+      // });
+      $state.go('tabs.receivingPurse', {
+
+      });
+
+    }
 
 
 
@@ -311,11 +323,19 @@ angular.module('copayApp.controllers').controller('tabHomeController',
     $scope.openICODetail = function(icoInfo) {
       $log.log("Icoinfo:",icoInfo);
 
-      return $state.transitionTo('tabs.ico-receive', {
+      return $state.transitionTo('tabs.icoreceive', {
         tcashAddr: icoInfo.tcashAddr,
         icoAddr:icoInfo.icoAddr,
-        home:true
+        home:"yes"
       });
+
+      // return $state.transitionTo('tabs.myIcoReceive', {
+      //   tcashAddr: icoInfo.tcashAddr,
+      //   icoAddr:icoInfo.icoAddr,
+      //   home:"yes"
+      // });
+
+
     }
 
     $scope.receivingPurse = function(getAddress)

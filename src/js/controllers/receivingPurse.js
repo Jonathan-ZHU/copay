@@ -1,7 +1,7 @@
-angular.module('copayApp.controllers').controller('receivingPurseController', function($rootScope,$state,$http, $timeout, $scope, appConfigService,popupService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService,localStorageService,walletService,glideraService, gettextCatalog, buyAndSellService) {
+angular.module('copayApp.controllers').controller('receivingPurseController', function($rootScope,$state,$http, $timeout, $scope, appConfigService,popupService, $ionicModal, $log,lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService,localStorageService,walletService,glideraService, gettextCatalog, buyAndSellService) {
 
   var updateConfig = function() {
-    var icoInfo = {};
+
     $scope.currentLanguageName = uxLanguage.getCurrentLanguageName();
     $scope.feeOpts = feeService.feeOpts;
     $scope.currentFeeLevel = feeService.getCurrentFeeLevel();
@@ -146,7 +146,7 @@ var getNewAddress=function () {
         }, function errorCallback(response) {
           // 请求失败执行代码
           $log.log(response.data.msg)
-          popupService.showAlert(response.data.msg)
+          popupService.showAlert('网络请求失败');
         });
 
       }
@@ -172,9 +172,10 @@ var getNewAddress=function () {
 //通过Tcash Address获取ico Address的网络请求
     var textHttp = function () {
 
+
       var promise = $http({
         method: 'GET',
-        url: 'http://120.92.35.170:8080/getBitcoinAddress',
+        url: 'http://tcash.ico.tiny-calf.com/getBitcoinAddress',
         params: {
           addr: $scope.addr
         }

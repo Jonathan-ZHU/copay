@@ -224,7 +224,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
       })
 
       .state('tabs.receivingPurse.choosePurse', {
-        url: '/choosePurse/:icoAddr/:tcashAddr/:home',
+        url: '/choosePurse/:icoAddr/:tcashAddr',
         views: {
           'tab-home@tabs': {
             controller: 'choosePurseController',
@@ -675,14 +675,37 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        *
        */
 
-      .state('tabs.ico-receive', {
-        url: '/views/ico-receive/:tcashAddr/:icoAddr',
+      .state('tabs.icoreceive', {
+        url: '/icoreceive/:tcashAddr/:icoAddr/:home',
         views: {
           'tab-home@tabs': {
             templateUrl: '/views/ico-receive.html',
-            controller: 'ico-receiveController'
+            controller: 'icoreceiveController'
           }
         }
+      })
+
+  .state('tabs.myIcoReceive', {
+        url: '/myIcoReceive/:tcashAddr/:icoAddr/:home',
+        views: {
+          'tab-home@tabs': {
+            templateUrl: '/views/myIcoReceive.html',
+            controller: 'myIcoReceiveController'
+          }
+        }
+      })
+    
+      
+      .state('tabs.helloWord',{
+
+        url: '/helloWord',
+        views: {
+          'tab-home@tabs': {
+            templateUrl: '/views/helloWord.html',
+            controller: 'helloWordController'
+          }
+        }
+
       })
   // http://localhost:63342/devTcash/www/views/ico-receive.html
       /*
