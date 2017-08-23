@@ -1,6 +1,6 @@
 #onboard-welcome {
   & > ion-content {
-    background: $v-onboarding-welcome-bg;
+    background: #0d486d;
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color:#ffffff;
   }
   #logo {
     width: 40%;

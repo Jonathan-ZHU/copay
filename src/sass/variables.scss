@@ -14,7 +14,7 @@ $v-mid-gray:                                         #667 !default;
 $v-light-gray:                                       #9b9bab !default;
 $v-subtle-gray:                                      darken(#ffffff, 5%) !default;
 
-$v-primary-color:                                    #f6f0db !default;
+$v-primary-color:                                    #0d486d !default;
 $v-secondary-color:                                  #111b49 !default;
 $v-accent-color:                                     #647ce8 !default;
 
@@ -43,7 +43,7 @@ $v-wallet-color-map: (
   13: (color: #7a8c9e, name: 'Light Slate Grey')
 ) !default;
 
-/* Theme */ 
+/* Theme */
 $v-default-wallet-color-index:                       6 !default; // See $v-wallet-color-map
 $v-subtle-box-shadow:                                0 1px 2px rgba(0, 0, 0, 0.25) !default;
 $v-hovering-box-shadow:                              0px 6px 12px 0px rgba(0, 0, 0, 0.3) !default;
@@ -118,7 +118,7 @@ $v-onboarding-tour-phone-bg:                         url(../img/onboarding-tour-
 $v-onboarding-tour-currency-bg:                      url(../img/onboarding-tour-currency-bg.svg) !default;
 $v-onboarding-tour-control-bg:                       url(../img/onboarding-tour-control.svg) !default;
 $v-onboarding-backup-warning-bg:                     url(../img/backup-warning.svg) !default;
-
+$v-onboarding-welcome-center:                         url(../img/onboarding-ico1.svg) !default;
 $v-onboarding-button-back-color:                     #ffffff !default;
 
 $v-onboarding-button-secondary-bg:                   rgba($v-light-gray, 0.1) !default;

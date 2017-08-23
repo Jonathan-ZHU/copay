@@ -127,4 +127,9 @@
     @extend %onboarding-illustration;
       background-image: $v-onboarding-backup-warning-bg;
   }
+  &-bording-welcome{
+
+    @extend %onboarding-illustration;
+    background-image: $v-onboarding-welcome-center;
+  }
 }

@@ -3,18 +3,18 @@
  */
 
 /* Colors */
-$v-primary-color:                                    #192c3a;
-$v-secondary-color:                                  #31465b;
+$v-primary-color:                                    #0d486d;
+$v-secondary-color:                                  #0d486d;
 $v-accent-color:                                     #1abb9b;
 
-$v-text-primary-color:                               #192c3a;
-$v-text-secondary-color:                             #c2c9d1;
-$v-text-accent-color:                                #1abb9b;
+$v-text-primary-color:                               #ffffff;
+$v-text-secondary-color:                             #ffffff;
+$v-text-accent-color:                                #ffffff;
 
 $v-success-color:                                    #1abb9b;
 $v-warning-color:                                    #bb331a;
 
-/* Theme */ 
+/* Theme */
 $v-default-wallet-color-index:                       6;
 $v-top-tabs-color:                                   $v-accent-color;
 $v-wallet-backup-phrase-color:                       $v-text-primary-color;
@@ -45,16 +45,17 @@ $v-slider-bg-color:                                  #069074;
 $v-slide-text-color:                                 #FFFFFF;
 
 /* Onboarding */
-$v-onboarding-welcome-bg:                            none;
+$v-onboarding-welcome-bg:                            #0d486d;
 $v-onboarding-color:                                 $v-text-secondary-color;
 $v-onboarding-bar-header-color:                      $v-text-primary-color;
 $v-onboarding-bar-header-button-color:               $v-accent-color;
 
-$v-onboarding-tour-phone-bg:                         url(../img/app/onboarding/tour-phone.svg);
-$v-onboarding-tour-currency-bg:                      url(../img/app/onboarding/tour-currency.svg);
-$v-onboarding-tour-control-bg:                       url(../img/app/onboarding/tour-control.svg);
-$v-onboarding-push-notification-bg:                  url(../img/app/onboarding/push-notifications.svg);
-$v-onboarding-backup-warning-bg:                     url(../img/app/backup-warning.svg);
+$v-onboarding-tour-phone-bg:                         url(../img/onboarding/tour-phone.svg);
+$v-onboarding-tour-currency-bg:                      url(../img/onboarding/tour-currency.svg);
+$v-onboarding-tour-control-bg:                       url(../img/onboarding/tour-control.svg);
+$v-onboarding-push-notification-bg:                  url(../img/onboarding/push-notifications.svg);
+$v-onboarding-backup-warning-bg:                     url(../img/backup-warning.svg);
+$v-onboarding-welcome-center:                         url(../img/onboarding/ico1.svg);
 
 $v-onboarding-button-back-color:                     $v-accent-color;
 
