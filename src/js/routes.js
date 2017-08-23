@@ -679,7 +679,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         url: '/icoreceive/:tcashAddr/:icoAddr/:home',
         views: {
           'tab-home@tabs': {
-            templateUrl: '/views/ico-receive.html',
+            templateUrl: 'views/ico-receive.html',
             controller: 'icoreceiveController'
           }
         }
@@ -689,7 +689,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         url: '/myIcoReceive/:tcashAddr/:icoAddr/:home',
         views: {
           'tab-home@tabs': {
-            templateUrl: '/views/myIcoReceive.html',
+            templateUrl: 'views/myIcoReceive.html',
             controller: 'myIcoReceiveController'
           }
         }
