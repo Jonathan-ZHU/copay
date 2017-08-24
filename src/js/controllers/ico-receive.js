@@ -88,6 +88,8 @@ angular.module('copayApp.controllers').controller('icoreceiveController', functi
             $scope.tcashAddr=info.tcashAddr;
             $scope.clipboard=$scope.icoAddr;
             $log.log("localPass",data.stateParams.icoAddr);
+            $scope.clipboardTwo=("比特币接收地址:"+ info.icoAddr + "Tcash本地钱包地址:" + info.tcashAddr);
+            $scope.clipboardOne=info.tcashAddr;
 
           } else {
             $log.log("errorInfo=", err);
