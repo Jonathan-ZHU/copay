@@ -5,11 +5,11 @@
 /* Colors */
 $v-primary-color:                                    #0d486d;
 $v-secondary-color:                                  #0d486d;
-$v-accent-color:                                     #1abb9b;
+$v-accent-color:                                     #326784;
 
-$v-text-primary-color:                               #ffffff;
+$v-text-primary-color:                               #1abb9b;
 $v-text-secondary-color:                             #ffffff;
-$v-text-accent-color:                                #ffffff;
+$v-text-accent-color:                                #1abb9b;
 
 $v-success-color:                                    #1abb9b;
 $v-warning-color:                                    #bb331a;
@@ -50,12 +50,12 @@ $v-onboarding-color:                                 $v-text-secondary-color;
 $v-onboarding-bar-header-color:                      $v-text-primary-color;
 $v-onboarding-bar-header-button-color:               $v-accent-color;
 
-$v-onboarding-tour-phone-bg:                         url(../img/onboarding/tour-phone.svg);
-$v-onboarding-tour-currency-bg:                      url(../img/onboarding/tour-currency.svg);
-$v-onboarding-tour-control-bg:                       url(../img/onboarding/tour-control.svg);
+$v-onboarding-tour-phone-bg:                         url(../img/onboarding/ico2.png);
+$v-onboarding-tour-currency-bg:                      url(../img/onboarding/ico4.png);
+$v-onboarding-tour-control-bg:                       url(../img/onboarding/ico5.png);
 $v-onboarding-push-notification-bg:                  url(../img/onboarding/push-notifications.svg);
 $v-onboarding-backup-warning-bg:                     url(../img/backup-warning.svg);
-$v-onboarding-welcome-center:                        url(../img/onboarding/tour-phone.svg);
+$v-onboarding-welcome-center:                        url(../img/onboarding/ico1.png);
 
 $v-onboarding-button-back-color:                     $v-accent-color;
 
