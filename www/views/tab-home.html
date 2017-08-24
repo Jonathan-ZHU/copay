@@ -141,7 +141,7 @@
 
         <a ng-if="!icoList[0]" ui-sref="tabs.receivingPurse" class="item item-icon-left item-big-icon-left item-icon-right next-step">
           <i class="icon big-icon-svg">
-            <img src="img/icon-wallet.svg" class="bg wallet icon-create-wallet"/>
+            <img src="img/choose2.svg" class="bg wallet icon-create-wallet"/>
           </i>
           <span translate>Create ICO</span>
           <i class="icon bp-arrow-right"></i>
@@ -150,7 +150,7 @@
            class="item item-sub item-icon-left item-big-icon-left item-icon-right wallet"
            ng-click="openICODetail(icoInfo)">
           <i class="icon big-icon-svg">
-            <img src="img/icon-wallet.svg" ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color': wallet.color}" class="bg wallet"/>
+            <img src="img/choose2.svg" ng-class="{'wallet-background-color-defaults': !wallet.color}" ng-style="{'background-color': wallet.color}" class="bg wallet"/>
           </i>
           <span>
             {{"ICO" || "正在进行"}}

@@ -35,7 +35,7 @@
     height: 100%;
     &-info {
       padding-top: 22-8vh;
-      padding-bottom: 17vh;
+      padding-bottom: 10vh;
       @media(max-height: 800px) {
         padding-top: 17-8vh;
       }
@@ -53,7 +53,7 @@
     }
     &-title {
       padding-top: 5%;
-      font-size: 25px;
+      font-size: 20px;
       color: #444;
       text-align: center;
     }
@@ -140,5 +140,11 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+  }
+  .button.button.button-positive{
+    width: 300px;
+    margin: auto;
+    background-color: #32465C;
+    color: #21BB9A;
   }
 }
