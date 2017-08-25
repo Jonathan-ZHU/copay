@@ -21,6 +21,8 @@ msgstr "(Trusted)"
 msgid "Tcash Safety Wallet"
 msgstr "Tcash Safety Wallet"
 
+
+
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
 msgid "(possible double spend)"
