@@ -22,6 +22,10 @@ msgid "(Tcash Safety Wallet)"
 msgstr "安全钱包 Tcash"
 
 
+#: www/views/tab-home.html:146
+msgid "ICO involved in Tcash"
+msgstr "參與Tcash的ICO"
+
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
 msgid "(possible double spend)"

@@ -22,6 +22,9 @@ msgid "Tcash Safety Wallet"
 msgstr "Tcash Safety Wallet"
 
 
+#: www/views/tab-home.html:146
+msgid "ICO involved in Tcash"
+msgstr "ICO involved in Tcash"
 
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
