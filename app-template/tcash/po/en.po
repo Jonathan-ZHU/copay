@@ -3230,3 +3230,8 @@ msgstr ""
 #: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:55
 msgid "Cancel"
 msgstr ""
+
+
+#: www/views/ico-receive.html:20
+msgid "Please remit the payment to the following address"
+msgstr ""
