@@ -8,7 +8,7 @@ msgid "(Trusted)"
 msgstr ""
 
 #: www/views/onboardijng/welcome.html:4
-msgid "(Tcash Safety Wallet)"
+msgid "(Tcash Safety Wallet <br />Manage your TCC)"
 msgstr ""
 
 #: www/views/includes/txp.html:23
