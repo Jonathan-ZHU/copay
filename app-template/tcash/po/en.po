@@ -3252,6 +3252,7 @@ msgstr ""
 msgid "Successful application ICO"
 msgstr ""
 
+#: www/views/ico-receive.html:29
 #: src/js/controllers/ico-receive.js:91
 msgid "("Bitcoin receives the address:"+ info.icoAddr + "Tcash Local wallet address:" + info.tcashAddr)"
 msgstr ""
