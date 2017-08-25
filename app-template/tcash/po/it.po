@@ -3210,3 +3210,7 @@ msgstr "下載的 {{updatingTxHistoryProgress}} 交易"
 #: www/views/includes/walletInfo.html:12
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}{{wallet.n}}"
+
+#: www/views/ico-receive.html:20
+msgid "Please remit the payment to the following address"
+msgstr "請向以下地址彙入款項已完成"
