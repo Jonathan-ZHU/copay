@@ -371,8 +371,8 @@ msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web
 msgstr "TCC是不同 — — 它不能安全地舉行以銀行或 web 服務。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Mobicoin is secure,<br>digital money."
-msgstr "TCC是一種 <br>數字貨幣。"
+msgid "Mobicoin is a,<br/>digital currency."
+msgstr "TCC是一種 <br/>數字貨幣。"
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."

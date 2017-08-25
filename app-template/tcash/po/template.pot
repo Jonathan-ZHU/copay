@@ -1437,7 +1437,7 @@ msgid "Joining Wallet..."
 msgstr ""
 
 #: www/views/onboarding/tour.html:22
-msgid "Just scan the code to pay."
+msgid "It's a safe and reliable digital asset."
 msgstr ""
 
 #: src/js/services/bwcError.js:116
