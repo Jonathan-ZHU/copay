@@ -372,7 +372,7 @@ msgstr "TCC是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
 msgid "Mobicoin is secure,<br>digital money."
-msgstr "TCC是安全的 <br>数字货币。"
+msgstr "TCC是一种 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."
@@ -1451,8 +1451,8 @@ msgid "Joining Wallet..."
 msgstr "正在加入钱包..."
 
 #: www/views/onboarding/tour.html:22
-msgid "Just scan the code to pay."
-msgstr "只是扫描代码来支付。"
+msgid "It's a safe and reliable digital asset."
+msgstr "是安全可靠的数字资产。"
 
 #: src/js/services/bwcError.js:116
 msgid "Key already associated with an existing wallet"
@@ -3090,8 +3090,8 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程序通过在 GitHub 上访问我们的项目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend Mobicoin at millions of websites and stores worldwide."
-msgstr "你可以花TCC在数以百万计的网站和世界各地的商店。"
+msgid "Mature block chaining technology and encryption technology.."
+msgstr "基于成熟的区块链技术和加密技术。"
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."

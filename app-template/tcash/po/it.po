@@ -22,9 +22,8 @@ msgid "(Tcash Safety Wallet)"
 msgstr "安全钱包 Tcash"
 
 
-#: www/views/tab-home.html:146
-msgid "ICO involved in Tcash"
-msgstr "參與Tcash的ICO"
+
+
 
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
@@ -373,7 +372,7 @@ msgstr "TCC是不同 — — 它不能安全地舉行以銀行或 web 服務。"
 
 #: www/views/onboarding/tour.html:18
 msgid "Mobicoin is secure,<br>digital money."
-msgstr "TCC是安全的 <br>數字貨幣。"
+msgstr "TCC是一種 <br>數字貨幣。"
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."
@@ -1452,8 +1451,8 @@ msgid "Joining Wallet..."
 msgstr "正在加入錢包..."
 
 #: www/views/onboarding/tour.html:22
-msgid "Just scan the code to pay."
-msgstr "只是掃描代碼來支付。"
+msgid "It's a safe and reliable digital asset."
+msgstr "是安全可靠的數位資產。"
 
 #: src/js/services/bwcError.js:116
 msgid "Key already associated with an existing wallet"
@@ -3091,8 +3090,8 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "你可以看到最新的事態發展和貢獻這個開放源碼應用程序通過在 GitHub 上訪問我們的項目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend Mobicoin at millions of websites and stores worldwide."
-msgstr "你可以花TCC在數以百萬計的網站和世界各地的商店。"
+msgid "Mature block chaining technology and encryption technology."
+msgstr "基於成熟的區塊鏈科技和加密技術。"
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
