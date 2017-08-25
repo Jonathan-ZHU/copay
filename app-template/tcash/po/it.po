@@ -3235,7 +3235,6 @@ msgstr "Tcash本地錢包地址"
 msgid "Successful application ICO"
 msgstr "已成功申請ICO"
 
-#: www/views/ico-receive.html:29
 #: src/js/controllers/ico-receive.js:91
-msgid "("Bitcoin receives the address:"+ info.icoAddr + "Tcash Local wallet address:" + info.tcashAddr)"
+msgid ""Bitcoin receives the address:"+ info.icoAddr + "Tcash Local wallet address:" + info.tcashAddr"
 msgstr "("比特幣接收地址:"+ info.icoAddr + "Tcash本地錢包地址:" + info.tcashAddr)"
