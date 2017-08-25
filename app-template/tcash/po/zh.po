@@ -3234,3 +3234,35 @@ msgstr "复制到剪贴板"
 #: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:55
 msgid "Cancel"
 msgstr "取消"
+
+#: www/views/ico-receive.html:20
+msgid "Please remit the payment to the following address ICO"
+msgstr "请向以下地址汇入款项已完成ICO"
+
+#: www/views/ico-receive.html:25
+msgid "After completing the transaction, you can confirm with the customer service consultant, customer service WeChat：2333333"
+msgstr "完成交易后可向客服咨询确认,客服微信：2333333"
+
+#: www/views/ico-receive.html:29
+msgid "Click on the copy"
+msgstr "点击复制"
+
+#: www/views/ico-receive.html:32
+msgid "Bitcoin receives the address"
+msgstr "比特币接收地址"
+
+#: www/views/ico-receive.html:36
+msgid "Tcash Local wallet address"
+msgstr "Tcash本地钱包地址"
+
+#: www/modals/choosePurse.html:6
+msgid "Successful application ICO"
+msgstr "已成功申请ICO"
+
+#: src/js/controllers/ico-receive.js:91
+msgid "Bitcoin receives the address:"
+msgstr "比特币接收地址:"
+
+#: www/views/receivingPurse.html:18
+msgid "Select the wallet you want to use to launch the ICO"
+msgstr "选择您想要用来发起ICO的钱包"
