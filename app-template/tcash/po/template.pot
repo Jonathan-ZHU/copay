@@ -3221,7 +3221,6 @@ msgstr ""
 msgid "Successful application ICO"
 msgstr ""
 
-
-#: src/js/controllers/ico-receive.js:91
-msgid "Bitcoin receives the address:"
+#: www/views/receivingPurse.html:18
+msgid "Select the wallet you want to use to launch the ICO"
 msgstr ""

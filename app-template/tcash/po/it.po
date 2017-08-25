@@ -3238,3 +3238,7 @@ msgstr "已成功申請ICO"
 #: src/js/controllers/ico-receive.js:91
 msgid "Bitcoin receives the address:"
 msgstr "比特幣接收地址:"
+
+#: www/views/receivingPurse.html:18
+msgid "Select the wallet you want to use to launch the ICO"
+msgstr "選擇您想要用來發起ICO的錢包"
