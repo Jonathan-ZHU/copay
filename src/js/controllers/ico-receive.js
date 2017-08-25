@@ -70,7 +70,7 @@ angular.module('copayApp.controllers').controller('icoreceiveController', functi
       $scope.clipboard=$scope.icoAddr;
       $log.log("routePass",data.stateParams.icoAddr);
       
-      $scope.clipboardTwo=("Bitcoin receives the address:"+ data.stateParams.icoAddr + "Tcash Local wallet address:" + data.stateParams.tcashAddr);
+      $scope.clipboardTwo=('Bitcoin receives the address:'+ data.stateParams.icoAddr + 'Tcash Local wallet address:' + data.stateParams.tcashAddr);
       $scope.clipboardOne=data.stateParams.tcashAddr;
     }
     else
@@ -88,7 +88,7 @@ angular.module('copayApp.controllers').controller('icoreceiveController', functi
             $scope.tcashAddr=info.tcashAddr;
             $scope.clipboard=$scope.icoAddr;
             $log.log("localPass",data.stateParams.icoAddr);
-            $scope.clipboardTwo=("Bitcoin receives the address:"+ info.icoAddr + "Tcash Local wallet address:" + info.tcashAddr);
+            $scope.clipboardTwo=('Bitcoin receives the address:'+ info.icoAddr + 'Tcash Local wallet address:' + info.tcashAddr);
             $scope.clipboardOne=info.tcashAddr;
 
           } else {

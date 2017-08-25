@@ -3256,5 +3256,5 @@ msgid "Successful application ICO"
 msgstr "已成功申请ICO"
 
 #: src/js/controllers/ico-receive.js:91
-msgid ""Bitcoin receives the address:"+ info.icoAddr + "Tcash Local wallet address:" + info.tcashAddr"
-msgstr "("比特币接收地址:"+ info.icoAddr + "Tcash本地钱包地址:" + info.tcashAddr)"
+msgid "Bitcoin receives the address:"
+msgstr "比特币接收地址:"
