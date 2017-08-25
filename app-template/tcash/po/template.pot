@@ -3198,5 +3198,5 @@ msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr ""
 
 #: www/views/ico-receive.html:20
-msgid "Please remit the payment to the following address"
+msgid "Please remit the payment to the following address ICO"
 msgstr ""

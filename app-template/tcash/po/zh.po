@@ -3232,5 +3232,5 @@ msgid "Cancel"
 msgstr "取消"
 
 #: www/views/ico-receive.html:20
-msgid "Please remit the payment to the following address"
-msgstr "请向以下地址汇入款项已完成"
+msgid "Please remit the payment to the following address ICO"
+msgstr "请向以下地址汇入款项已完成ICO"

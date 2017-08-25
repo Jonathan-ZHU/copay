@@ -3212,5 +3212,5 @@ msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}{{wallet.n}}"
 
 #: www/views/ico-receive.html:20
-msgid "Please remit the payment to the following address"
-msgstr "請向以下地址彙入款項已完成"
+msgid "Please remit the payment to the following address ICO"
+msgstr "請向以下地址彙入款項已完成ICO"
