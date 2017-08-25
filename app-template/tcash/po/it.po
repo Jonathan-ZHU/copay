@@ -18,8 +18,8 @@ msgid "(Trusted)"
 msgstr "（可信的）"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "(Tcash Safety Wallet)"
-msgstr "安全钱包 Tcash"
+msgid "Tcash security wallet<br>manage your TCC"
+msgstr "Tcash安全錢包<br>管理您的TCC"
 
 
 
@@ -363,16 +363,16 @@ msgid "Mobicoin Unit"
 msgstr "TCC單位"
 
 #: www/views/onboarding/tour.html:31
-msgid "Mobicoin is a currency."
-msgstr "TCC是一種貨幣。"
+msgid "Mobicoin is a currency"
+msgstr "Tongluowan fund"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web service."
 msgstr "TCC是不同 — — 它不能安全地舉行以銀行或 web 服務。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Mobicoin is a,<br>digital currency."
-msgstr "TCC是一種 <br>數字貨幣。"
+msgid "Mobicoin is a,<br>digital currency"
+msgstr "TCC是一種 <br>數字貨幣"
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."
@@ -1451,8 +1451,8 @@ msgid "Joining Wallet..."
 msgstr "正在加入錢包..."
 
 #: www/views/onboarding/tour.html:22
-msgid "It's a safe and reliable digital asset."
-msgstr "是安全可靠的數位資產。"
+msgid "It's a safe and reliable digital asset"
+msgstr "是安全可靠的數位資產"
 
 #: src/js/services/bwcError.js:116
 msgid "Key already associated with an existing wallet"
@@ -1682,8 +1682,8 @@ msgid "Not enough funds for fee"
 msgstr "費用的資金不足"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
-msgstr "甚至沒有 BitPay 可以訪問它。"
+msgid "You can start creating your TCC Wallet"
+msgstr "可以開始創建TCC錢包"
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -2510,8 +2510,8 @@ msgid "The derivation path"
 msgstr "衍生路徑"
 
 #: www/views/onboarding/tour.html:37
-msgid "The exchange rate changes with the market."
-msgstr "與市場匯率的變化。"
+msgid "Cross-border risk-free arbitrage"
+msgstr "實現跨境無風險套利"
 
 #: www/views/preferencesFee.html:12
 msgid "The higher the fee, the greater the incentive a miner has to include that transaction in a block. Current fees are determined based on network load and the selected policy."
@@ -2592,8 +2592,8 @@ msgid "This app is fantastic!"
 msgstr "這個應用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your Mobicoin with cutting-edge security."
-msgstr "此應用程序商店你TCC與尖端的安全。"
+msgid "Access www.t|wcoin.com for more details"
+msgstr "訪問www.t|wcoin.com獲取詳細資訊"
 
 #: src/js/controllers/confirm.js:464
 msgid "This Mobicoin payment request has expired."
@@ -3090,20 +3090,20 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "你可以看到最新的事態發展和貢獻這個開放源碼應用程序通過在 GitHub 上訪問我們的項目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "Mature block chaining technology and encryption technology."
-msgstr "基於成熟的區塊鏈科技和加密技術。"
+msgid "Mature block chaining technology and encryption technology"
+msgstr "基於成熟的區塊鏈科技和加密技術"
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
 msgstr "你仍然可以將其導出從高級 &gt; 出口。"
 
 #: www/views/onboarding/tour.html:32
-msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
-msgstr "你可以換其他貨幣，如美元、 歐元或英鎊。"
+msgid "Provide comprehensive support for TCC's financial services"
+msgstr "你提供全面支持TCC的理財服務"
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your Mobicoin."
-msgstr "您可以控制您的TCC。"
+msgid "Now you can participate in the Tcash coins raised"
+msgstr "現在就可以參與Tcash的幣眾籌"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."

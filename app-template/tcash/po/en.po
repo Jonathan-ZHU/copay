@@ -18,8 +18,8 @@ msgid "(Trusted)"
 msgstr "(Trusted)"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "Tcash Safety Wallet"
-msgstr "Tcash Safety Wallet"
+msgid "Tcash security wallet<br>manage your TCC"
+msgstr "Tcash security wallet<br>manage your TCC"
 
 
 #: www/views/tab-home.html:146
@@ -364,16 +364,16 @@ msgid "Mobicoin Unit"
 msgstr "Tcash Unit"
 
 #: www/views/onboarding/tour.html:31
-msgid "Mobicoin is a currency."
-msgstr "Tcash is a currency."
+msgid "Mobicoin is a currency"
+msgstr "Tcash"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web service."
 msgstr "Mobi is different &ndash; it cannot be safely held with a bank or web service."
 
 #: www/views/onboarding/tour.html:18
-msgid "Mobicoin is a,<br>digital currency."
-msgstr "Tcash is a,<br>digital currency."
+msgid "Mobicoin is a,<br>digital currency"
+msgstr "Tcash is a,<br>digital currency"
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."
@@ -1683,7 +1683,7 @@ msgid "Not enough funds for fee"
 msgstr ""
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
+msgid "You can start creating your TCC Wallet"
 msgstr ""
 
 #: src/js/controllers/paperWallet.js:47
@@ -2511,7 +2511,7 @@ msgid "The derivation path"
 msgstr ""
 
 #: www/views/onboarding/tour.html:37
-msgid "The exchange rate changes with the market."
+msgid "Cross-border risk-free arbitrage"
 msgstr ""
 
 #: www/views/preferencesFee.html:12
@@ -2593,8 +2593,8 @@ msgid "This app is fantastic!"
 msgstr ""
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your Mobicoin with cutting-edge security."
-msgstr "This app stores your Tcash with cutting-edge security."
+msgid "Access www.t|wcoin.com for more details"
+msgstr "Access www.t|wcoin.com for more details"
 
 #: src/js/controllers/confirm.js:464
 msgid "This Mobicoin payment request has expired."
@@ -3091,20 +3091,20 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr ""
 
 #: www/views/onboarding/tour.html:19
-msgid "Mature block chaining technology and encryption technology."
-msgstr "Mature block chaining technology and encryption technology."
+msgid "Mature block chaining technology and encryption technology"
+msgstr "Mature block chaining technology and encryption technology"
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
 msgstr ""
 
 #: www/views/onboarding/tour.html:32
-msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
-msgstr ""
+msgid "Provide comprehensive support for TCC's financial services"
+msgstr "Provide comprehensive support for TCC's financial services"
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your Mobicoin."
-msgstr "You control your Tcash."
+msgid "Now you can participate in the Tcash coins raised"
+msgstr "Now you can participate in the Tcash coins raised"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
