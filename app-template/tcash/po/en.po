@@ -373,7 +373,7 @@ msgstr "Mobi is different &ndash; it cannot be safely held with a bank or web se
 
 #: www/views/onboarding/tour.html:18
 msgid "Mobicoin is a,<br/>digital currency."
-msgstr "Tcash is a,<br/>digital currency."
+msgstr "Tcash is a,<br>digital currency."
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."
