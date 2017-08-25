@@ -371,7 +371,7 @@ msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web
 msgstr "TCC是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Mobicoin is a,<br/>digital currency."
+msgid "Mobicoin is a,<br>digital currency."
 msgstr "TCC是一种 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11

@@ -372,7 +372,7 @@ msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web
 msgstr "Mobi is different &ndash; it cannot be safely held with a bank or web service."
 
 #: www/views/onboarding/tour.html:18
-msgid "Mobicoin is a,<br/>digital currency."
+msgid "Mobicoin is a,<br>digital currency."
 msgstr "Tcash is a,<br>digital currency."
 
 #: www/views/preferencesFee.html:11
@@ -2446,7 +2446,7 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr ""
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<Mobicoin is a,<br/>digital currency>get started with Mobicoin."
+msgid "Take control of your money,<br>get started with Mobicoin."
 msgstr "Take control of your money,<br>get started with Tcash."
 
 #: www/views/walletDetails.html:140
