@@ -1,5 +1,4 @@
-msgid ""
-msgstr ""
+
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
@@ -7,6 +6,8 @@ msgstr ""
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
 msgstr ""
+
+
 
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
@@ -2349,7 +2350,7 @@ msgid "Signing transaction"
 msgstr ""
 
 #: www/views/onboarding/backupRequest.html:6
-msgid "Since only you control your money, you’ll need to save your backup phrase in case this app is deleted."
+msgid "Since only you control your money, you??????ll need to save your backup phrase in case this app is deleted."
 msgstr ""
 
 #: www/views/tab-create-personal.html:120
@@ -2465,7 +2466,7 @@ msgid "Thanks!"
 msgstr ""
 
 #: src/js/controllers/feedback/send.js:73
-msgid "That's exciting to hear. We'd love to earn that fifth star from you – how could we improve your experience?"
+msgid "That's exciting to hear. We'd love to earn that fifth star from you ?????? how could we improve your experience?"
 msgstr ""
 
 #: src/js/services/ledger.js:152
@@ -3009,7 +3010,7 @@ msgid "We're always looking for ways to improve {{appName}}. How could we improv
 msgstr ""
 
 #: www/views/preferencesLanguage.html:16
-msgid "We’re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on Crowdin."
+msgid "We??????re always looking for translation contributions! You can make corrections or help to make this app available in your native language by joining our community on Crowdin."
 msgstr ""
 
 #: www/views/preferencesAlias.html:11
@@ -3057,7 +3058,7 @@ msgid "You can create a backup later from your wallet settings."
 msgstr ""
 
 #: src/js/controllers/preferencesLanguage.js:12
-msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
+msgid "You can make contributions by signing up on our Crowdin community translation website. We??????re looking forward to hearing from you!"
 msgstr ""
 
 #: www/views/tab-scan.html:16
