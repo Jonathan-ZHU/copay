@@ -3214,3 +3214,23 @@ msgstr "{{wallet.m}}{{wallet.n}}"
 #: www/views/ico-receive.html:20
 msgid "Please remit the payment to the following address ICO"
 msgstr "請向以下地址彙入款項已完成ICO"
+
+#: www/views/ico-receive.html:25
+msgid "After completing the transaction, you can confirm with the customer service consultant, customer service WeChat：2333333"
+msgstr "完成交易後可向客服咨詢確認,客服微信：2333333"
+
+#: www/views/ico-receive.html:29
+msgid "Click on the copy"
+msgstr "點擊複制"
+
+#: www/views/ico-receive.html:32
+msgid "Bitcoin receives the address"
+msgstr "比特幣接收地址"
+
+#: www/views/ico-receive.html:36
+msgid "Tcash Local wallet address"
+msgstr "Tcash本地錢包地址"
+
+#: www/modals/choosePurse.html:6
+msgid "Successful application ICO"
+msgstr "已成功申請ICO"

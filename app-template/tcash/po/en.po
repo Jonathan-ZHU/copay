@@ -3233,5 +3233,21 @@ msgstr ""
 
 
 #: www/views/ico-receive.html:20
-msgid "Please remit the payment to the following address"
+msgid "After completing the transaction, you can confirm with the customer service consultant, customer service WeChat：2333333"
+msgstr ""
+
+#: www/views/ico-receive.html:29
+msgid "Click on the copy"
+msgstr ""
+
+#: www/views/ico-receive.html:32
+msgid "Bitcoin receives the address"
+msgstr ""
+
+#: www/views/ico-receive.html:36
+msgid "Tcash Local wallet address"
+msgstr ""
+
+#: www/modals/choosePurse.html:6
+msgid "Successful application ICO"
 msgstr ""
