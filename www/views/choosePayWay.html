@@ -1,0 +1,38 @@
+<ion-view id="choosePayWay" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <ion-nav-title>Tcash</ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-content>
+    <ion-refresher
+      ng-if="isAndroid"
+      pulling-icon="ion-ios-refresh"
+      spinner="ios-small"
+      on-refresh="onRefresh()">
+    </ion-refresher>
+
+    <div class="list">
+      <div class="item item-icon-right item-heading">
+        <div class="jiucheng" translate>Select the coin you want to use to launch the ICO</div>
+      </div>
+      <div>
+
+        <a ng-repeat="coin in coins track by $index"
+           class="item item-sub item-icon-left item-big-icon-left item-icon-right wallet"
+           ng-click="choosePurse(coin)">
+          <i class="icon big-icon-svg">
+            <img src="img/icon-wallet.svg" ng-class="{'wallet-background-color-default': !wallet.color}" ng-style="{'background-color': wallet.color}" class="bg wallet"/>
+          </i>
+          <span>
+            {{coin.name }}
+          </span>
+          <i class="icon bp-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- <div class="ng-hide list card" ng-show="nextStepsItems.length>0 && !isWindowsPhoneApp" ng-include="'views/includes/nextSteps.html'"></div> -->
+    <!-- MBC Jonathan  hide the next steps page -->
+  </ion-content>
+</ion-view>

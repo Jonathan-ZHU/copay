@@ -233,6 +233,16 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         }
       })
 
+      .state('tabs.receivingPurse.choosePayWay', {
+        url: '/choosePayWay/:tcashAddr/:walletId',
+        views: {
+          'tab-home@tabs': {
+            controller: 'choosePayWayController',
+            templateUrl: 'views/choosePayWay.html'
+          }
+        }
+      })
+
       .state('tabs.receivingPurse.choosePurse.ico-receive', {
         url: '/ico-receive',
         views: {
@@ -694,8 +704,8 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         }
       })
-    
-      
+
+
       .state('tabs.helloWord',{
 
         url: '/helloWord',
