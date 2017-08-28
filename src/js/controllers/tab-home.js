@@ -1,5 +1,4 @@
 'use strict';
-
 angular.module('copayApp.controllers').controller('tabHomeController',
   function($rootScope, $timeout, $scope, $state, $stateParams, $ionicModal,localStorageService, $ionicScrollDelegate, $window, gettextCatalog, lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
     var wallet;
@@ -202,7 +201,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
 
     };
 
-  
+
 
 
     var updateTxps = function() {
