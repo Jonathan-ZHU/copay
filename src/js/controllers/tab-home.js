@@ -1,6 +1,6 @@
 'use strict';
 angular.module('copayApp.controllers').controller('tabHomeController',
-  function($rootScope, $timeout,$scope, $state, $stateParams, $ionicModal,localStorageService,$ionicActionSheet,$ionicScrollDelegate, $window, gettextCatalog,lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
+  function($rootScope, $timeout,$scope, $state, $stateParams,$ionicModal,localStorageService,$ionicActionSheet,$ionicScrollDelegate, $window, gettextCatalog,lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
     var wallet;
     var listeners = [];
     var notifications = [];
@@ -362,7 +362,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
                 correctOrientation: true
 
               };
-              $cordovaCamera.getPicture(options).then(function (imageData) {
+              $Camera.getPicture(options).then(function (imageData) {
                 $scope.data.imageSrc = "data:image/jpeg;base64," + imageData;
               }, function (err) {
                 // error
@@ -381,7 +381,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
                 targetHeight: 200
               };
 
-              $cordovaCamera.getPicture(options).then(function (imageURI) {
+              $Camera.getPicture(options).then(function (imageURI) {
                 $scope.data.imageSrc = imageURI;
               }, function (err) {
                 // error
