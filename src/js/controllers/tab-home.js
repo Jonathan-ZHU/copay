@@ -1,6 +1,6 @@
 'use strict';
 angular.module('copayApp.controllers').controller('tabHomeController',
-  function($rootScope, $timeout, $scope, $state, $stateParams, $ionicModal,localStorageService, $ionicScrollDelegate, $window, gettextCatalog, lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
+  function($rootScope, $timeout,$scope, $state, $stateParams, $ionicModal,localStorageService,$ionicActionSheet,$ionicScrollDelegate, $window, gettextCatalog,lodash, popupService, ongoingProcess, externalLinkService, latestReleaseService, profileService, walletService, configService, $log, platformInfo, storageService, txpModalService, appConfigService, startupService, addressbookService, feedbackService, bwcError, nextStepsService, buyAndSellService, homeIntegrationsService, bitpayCardService, pushNotificationsService, timeService) {
     var wallet;
     var listeners = [];
     var notifications = [];
@@ -324,14 +324,79 @@ angular.module('copayApp.controllers').controller('tabHomeController',
       //   home:"yes"
       // });
 
-
     }
 
-    $scope.receivingPurse = function(getAddress)
+    $scope.receivingPurse = function()
     {
       $state.go('tabs.receivingPurse', {
 
       });
 
+
     };
+    $scope.changeHeadIcon=function () {
+
+      var hideSheet = $ionicActionSheet.show({
+
+        buttons:[{test:'拍照'},{text:'从相册选择'}],
+        cancelText:'取消',
+        cancel:function () {
+
+        },
+
+        buttonClicked: function (index) {
+          console.log(index);
+          if (index == '0') {
+            document.addEventListener("deviceready", function () {
+              //拍照
+              var options = {
+                quality: 50,
+                destinationType: Camera.DestinationType.DATA_URL,
+                sourceType: Camera.PictureSourceType.CAMERA,
+                allowEdit: true,
+                encodingType: Camera.EncodingType.JPEG,
+                targetWidth: 100,
+                targetHeight: 100,
+                popoverOptions: CameraPopoverOptions,
+                saveToPhotoAlbum: true,
+                correctOrientation: true
+
+              };
+              $cordovaCamera.getPicture(options).then(function (imageData) {
+                $scope.data.imageSrc = "data:image/jpeg;base64," + imageData;
+              }, function (err) {
+                // error
+              });
+            }, false);
+
+          } else if (index == '1') {
+            document.addEventListener("deviceready", function () {
+              //从手机相册选择
+              var options = {
+                destinationType: Camera.DestinationType.FILE_URI,
+                sourceType: 2,     //设为0或2，调用的就是系统的图库
+                quality: 50,
+                allowEdit: true,
+                targetWidth: 200,
+                targetHeight: 200
+              };
+
+              $cordovaCamera.getPicture(options).then(function (imageURI) {
+                $scope.data.imageSrc = imageURI;
+              }, function (err) {
+                // error
+              });
+
+
+              //$cordovaCamera.cleanup().then(); // only for FILE_URI
+
+            }, false);
+
+
+          }
+          return true;
+        }
+
+      })
+    }
   });

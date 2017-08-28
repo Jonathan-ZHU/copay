@@ -22,3 +22,4 @@ angular.module('copayApp.controllers').controller('welcomeController', function(
   };
 
 });
+
