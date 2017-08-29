@@ -352,10 +352,10 @@ angular.module('copayApp.controllers').controller('tabHomeController',
               //拍照
               var options = {
                 quality: 50,
-                destinationType: Camera.DestinationType.DATA_URL,
-                sourceType: Camera.PictureSourceType.CAMERA,
+                destinationType: navigator.camera.DestinationType.DATA_URL,
+                sourceType: navigator.camera.PictureSourceType.CAMERA,
                 allowEdit: true,
-                encodingType: Camera.EncodingType.JPEG,
+                encodingType: navigator.camera.EncodingType.JPEG,
                 targetWidth: 100,
                 targetHeight: 100,
                 popoverOptions: CameraPopoverOptions,
@@ -363,7 +363,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
                 correctOrientation: true
 
               };
-              $Camera.getPicture(options).then(function (imageData) {
+              navigator.camera.getPicture(options).then(function (imageData) {
                 $scope.data.imageSrc = "data:image/jpeg;base64," + imageData;
               }, function (err) {
                 // error
@@ -374,7 +374,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
             document.addEventListener("deviceready", function () {
               //从手机相册选择
               var options = {
-                destinationType: Camera.DestinationType.FILE_URI,
+                destinationType: navigator.camera.DestinationType.FILE_URI,
                 sourceType: 2,     //设为0或2，调用的就是系统的图库
                 quality: 50,
                 allowEdit: true,
@@ -382,7 +382,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
                 targetHeight: 200
               };
 
-              $Camera.getPicture(options).then(function (imageURI) {
+              navigator.camera.getPicture(options).then(function (imageURI) {
                 $scope.data.imageSrc = imageURI;
               }, function (err) {
                 // error

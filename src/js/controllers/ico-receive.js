@@ -93,11 +93,10 @@ angular.module('copayApp.controllers').controller('icoreceiveController', functi
             $scope.clipboardOne=info.tcashAddr;
 
           } else {
-            $log.log("errorInfo=", err);
+            $log.log("errorInfo：", err);
           }
 
         });
-
 
     }
 
