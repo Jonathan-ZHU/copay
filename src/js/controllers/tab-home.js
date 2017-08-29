@@ -335,69 +335,16 @@ angular.module('copayApp.controllers').controller('tabHomeController',
 
 
     };
-    $scope.changeHeadIcon=function () {
-
-      var hideSheet = $ionicActionSheet.show({
-
-        buttons:[{test:'拍照'},{text:'从相册选择'}],
-        cancelText:'取消',
-        cancel:function () {
-
-        },
-
-        buttonClicked: function (index) {
-          console.log(index);
-          if (index == '0') {
-            document.addEventListener("deviceready", function () {
-              //拍照
-              var options = {
-                quality: 50,
-                destinationType: navigator.camera.DestinationType.DATA_URL,
-                sourceType: navigator.camera.PictureSourceType.CAMERA,
-                allowEdit: true,
-                encodingType: navigator.camera.EncodingType.JPEG,
-                targetWidth: 100,
-                targetHeight: 100,
-                popoverOptions: CameraPopoverOptions,
-                saveToPhotoAlbum: true,
-                correctOrientation: true
-
-              };
-              navigator.camera.getPicture(options).then(function (imageData) {
-                $scope.data.imageSrc = "data:image/jpeg;base64," + imageData;
-              }, function (err) {
-                // error
-              });
-            }, false);
-
-          } else if (index == '1') {
-            document.addEventListener("deviceready", function () {
-              //从手机相册选择
-              var options = {
-                destinationType: navigator.camera.DestinationType.FILE_URI,
-                sourceType: 2,     //设为0或2，调用的就是系统的图库
-                quality: 50,
-                allowEdit: true,
-                targetWidth: 200,
-                targetHeight: 200
-              };
-
-              navigator.camera.getPicture(options).then(function (imageURI) {
-                $scope.data.imageSrc = imageURI;
-              }, function (err) {
-                // error
-              });
 
 
-              //$cordovaCamera.cleanup().then(); // only for FILE_URI
+    //camera test
+    $scope.openCamera = function()
+    {
+      $state.go('tabs.openCamera', {
 
-            }, false);
+      });
+
+    };
 
 
-          }
-          return true;
-        }
-
-      })
-    }
   });

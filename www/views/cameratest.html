@@ -1,0 +1,44 @@
+<ion-view id="cameratest" show-tabs>
+  <ion-nav-bar class="bar-royal">
+    <!--     <ion-nav-title><img class="tab-home__logo" src="img/app/logo-negative.png"></ion-nav-title> -->
+    <ion-nav-title>Tcash</ion-nav-title>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-content>
+    <div data-role="page">
+
+      <div data-role="header">
+
+      </div>
+
+      <div data-role="content">
+
+        <div class="has-header padding" align="center">
+
+          <img src="" id="getImage" alt="getImage"
+               style="border: 1px solid #ddd;border-radius: 4px;padding: 10px;display: none;max-width: 100%;height: auto"/>
+
+          <img src="" id="getImageLocal" alt="getImageLocal"
+               style="border: 1px solid #ddd;border-radius: 4px;padding: 10px;display: none;max-width: 100%;height: auto"/>
+
+          <!--<img src="" id="getImageUpload" alt="getImageUpload"/>-->
+        </div>
+        <div class=" has-header padding" align="center">
+          <p>
+            <button class="button button-positive" ng-click="loadTakeImage();">相机拍照</button>
+
+            <button class="button button-calm" ng-click="loadImageLocal();">本地图片</button>
+
+            <!--<button class="button button-calm" ng-click="loadImageUpload();">上传图片</button>-->
+
+
+          </p>
+
+        </div>
+      </div>
+
+
+    </div>
+  </ion-content>
+</ion-view>

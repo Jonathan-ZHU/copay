@@ -3200,7 +3200,7 @@ msgstr ""
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for Mobicoin networking fees."
-msgstr ""{{fee}} will be deducted for Tcash networking fees."
+msgstr "{{fee}} will be deducted for Tcash networking fees."
 
 #: www/views/confirm.html:87
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
