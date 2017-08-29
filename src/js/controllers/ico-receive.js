@@ -89,7 +89,7 @@ angular.module('copayApp.controllers').controller('icoreceiveController', functi
             $scope.tcashAddr=info.tcashAddr;
             $scope.coinName=info.coinName;
             $scope.clipboard=$scope.icoAddr;
-            $scope.clipboardTwo=('Bitcoin receives the address:'+ info.icoAddr + 'Tcash Local wallet address:' + info.tcashAddr);
+            $scope.clipboardTwo=(info.coinName+'receives the address:'+ info.icoAddr + 'Tcash Local wallet address:' + info.tcashAddr);
             $scope.clipboardOne=info.tcashAddr;
 
           } else {
