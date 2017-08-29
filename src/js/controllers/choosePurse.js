@@ -1,5 +1,6 @@
 angular.module('copayApp.controllers').controller('choosePurseController', function($rootScope, $timeout, $scope,$state, appConfigService, $ionicModal, $log, lodash, uxLanguage, platformInfo, profileService, feeService, configService, externalLinkService, bitpayAccountService, bitpayCardService, storageService, glideraService,localStorageService, gettextCatalog, buyAndSellService) {
 
+  $scope.info={};
   var updateConfig = function() {
     $scope.currentLanguageName = uxLanguage.getCurrentLanguageName();
     $scope.feeOpts = feeService.feeOpts;
@@ -15,25 +16,6 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
         isoCode: config.wallet.settings.alternativeIsoCode
       };
 
-      // // TODO move this to a generic service
-      // bitpayAccountService.getAccounts(function(err, data) {
-      //   if (err) $log.error(err);
-      //   $scope.bitpayAccounts = !lodash.isEmpty(data);
-      //
-      //   $timeout(function() {
-      //     $rootScope.$apply();
-      //   }, 10);
-      // });
-      //
-      // // TODO move this to a generic service
-      // bitpayCardService.getCards(function(err, cards) {
-      //   if (err) $log.error(err);
-      //   $scope.bitpayCards = cards && cards.length > 0;
-      //
-      //   $timeout(function() {
-      //     $rootScope.$apply();
-      //   }, 10);
-      // });
     });
 
   };
@@ -56,7 +38,8 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
     $scope.appName = appConfigService.nameCase;
     $scope.icoInfo.icoAddr=data.stateParams.icoAddr;
     $scope.icoInfo.tcashAddr=data.stateParams.tcashAddr;
-
+    $scope.icoInfo.coinName=data.stateParams.coinName;
+    $log.log("传参数：",data.stateParams.coinName)
     configService.whenAvailable(function(config) {
       $scope.locked = config.lock && config.lock.method;
       if (!$scope.locked || $scope.locked == 'none')
@@ -86,6 +69,7 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
 
       tcashAddr: $scope.tcashAddr,
       icoAddr:$scope.icoAddr,
+      coinName:"",
       home:"no"
 
     });

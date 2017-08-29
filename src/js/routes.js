@@ -224,7 +224,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
       })
 
       .state('tabs.receivingPurse.choosePurse', {
-        url: '/choosePurse/:icoAddr/:tcashAddr',
+        url: '/choosePurse/:icoAddr/:tcashAddr/:coinName',
         views: {
           'tab-home@tabs': {
             controller: 'choosePurseController',
@@ -686,7 +686,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        */
 
       .state('tabs.icoreceive', {
-        url: '/icoreceive/:tcashAddr/:icoAddr/:home',
+        url: '/icoreceive/:tcashAddr/:icoAddr/:coinName/:home',
         views: {
           'tab-home@tabs': {
             templateUrl: 'views/ico-receive.html',

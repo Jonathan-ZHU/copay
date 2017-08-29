@@ -315,6 +315,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
       return $state.transitionTo('tabs.icoreceive', {
         tcashAddr: icoInfo.tcashAddr,
         icoAddr:icoInfo.icoAddr,
+        coinName:icoInfo.coinName,
         home:"yes"
       });
 

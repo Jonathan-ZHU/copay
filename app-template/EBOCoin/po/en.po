@@ -17,7 +17,7 @@ msgstr ""
 msgid "(Trusted)"
 msgstr "(Trusted)"
 
-#: www/views/choosePayWay.html:17
+#: www/views/choosePayWay.html:34
 msgid "Select the coin which you want to use to launch the ICO"
 msgstr "Select the coin which you want to use to launch the ICO"
 
@@ -3256,7 +3256,7 @@ msgid "Bitcoin receives the address"
 msgstr ""
 
 #: www/views/ico-receive.html:36
-msgid "Tcash Local wallet address"
+msgid "{{coinName}} receives the address"
 msgstr ""
 
 #: www/modals/choosePurse.html:6

@@ -3252,8 +3252,8 @@ msgid "Click on the copy"
 msgstr "点击复制"
 
 #: www/views/ico-receive.html:32
-msgid "Bitcoin receives the address"
-msgstr "比特币接收地址"
+msgid "{{coinName}} receives the address"
+msgstr "{{coinName}}接收地址"
 
 #: www/views/ico-receive.html:36
 msgid "Tcash Local wallet address"
