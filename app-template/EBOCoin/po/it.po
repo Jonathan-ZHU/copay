@@ -22,7 +22,9 @@ msgid "Tcash security wallet<br>manage your TCC"
 msgstr "Tcash安全錢包<br>管理您的TCC"
 
 
-
+#: www/views/choosePayWay.html:17
+msgid "Select the coin which you want to use to launch the ICO"
+msgstr "選擇您想使用的ICO的硬幣"
 
 
 #: www/views/includes/txp.html:23

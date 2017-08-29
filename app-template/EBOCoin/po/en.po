@@ -17,6 +17,12 @@ msgstr ""
 msgid "(Trusted)"
 msgstr "(Trusted)"
 
+#: www/views/choosePayWay.html:17
+msgid "Select the coin which you want to use to launch the ICO"
+msgstr "Select the coin which you want to use to launch the ICO"
+
+
+
 #: www/views/onboardijng/welcome.html:4
 msgid "Tcash security wallet<br>manage your TCC"
 msgstr "Tcash security wallet<br>manage your TCC"
