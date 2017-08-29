@@ -5,7 +5,6 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
   $scope.walletI={};
   var updateConfig = function() {
 
-
     var coin={};
     coin.index=0;
     coin.name="BTC Bitcoin";
@@ -48,7 +47,6 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
 
     $scope.tcashAddr=data.stateParams.tcashAddr;
     $scope.walletId=data.stateParams.walletId;
-    $log.log("传过来的",$scope.walletId);
     $scope.isCordova = platformInfo.isCordova;
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
     $scope.isDevel = platformInfo.isDevel;
@@ -60,18 +58,16 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
       else
         $scope.method = $scope.locked.charAt(0).toUpperCase() + config.lock.method.slice(1);
     });
-
-
   });
 
   $scope.$on("$ionicView.enter", function(event, data) {
 
     updateConfig();
+
   });
 
   $scope.choosePurse = function(coin)
   {
-
     $log.log("select",coin);
     $scope.payCoin=coin;
     $scope.getIcoAddres();
@@ -87,7 +83,6 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
       tcashAddr:$scope.tcashAddr,
       scope: scope
 
-
     }).then(function(modal) {
       scope.chooseFeeLevelModal = modal;
       scope.openModal();
@@ -96,12 +91,6 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
     scope.openModal = function() {
       scope.chooseFeeLevelModal.show();
     };
-
-    // scope.hideModal = function() {
-    //   scope.chooseFeeLevelModal.hide();
-    //   // $log.debug('Custom fee level choosen:' + customFeeLevel + ' was:' + tx.feeLevel);
-
-    // };
 
     $scope.closeModal = function() {
       $scope.chooseFeeLevelModal.hide();
@@ -163,9 +152,6 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
   };
 
 
-
-
-
   //跳转到ICO申请成功界面
   var jumpToIcoSuccess = function () {
 
@@ -213,10 +199,6 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
 
         });
       }
-
     });
-
   };
-
-
 });
