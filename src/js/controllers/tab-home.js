@@ -202,7 +202,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
 
     };
 
-  
+
 
 
     var updateTxps = function() {
@@ -328,11 +328,23 @@ angular.module('copayApp.controllers').controller('tabHomeController',
 
     }
 
-    $scope.receivingPurse = function(getAddress)
+    $scope.receivingPurse = function()
     {
       $state.go('tabs.receivingPurse', {
 
       });
 
     };
+
+
+    //camera test
+    $scope.openCamera = function()
+    {
+      $state.go('tabs.openCamera', {
+
+      });
+
+    };
+
+
   });
