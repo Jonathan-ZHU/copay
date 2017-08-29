@@ -12,6 +12,7 @@
     "apply:tcash": "npm i fs-extra@0.30 && cd app-template && node apply.js tcash && cd .. && npm i && app-template/setupNetwork.sh tcash",
     "apply:copay": "npm i fs-extra@0.30 && cd app-template && node apply.js copay && cd .. && npm i ",
     "apply:bitpay": "npm i fs-extra@0.30 && cd app-template && node apply.js bitpay && cd .. && npm i",
+    "apply:EBOCoin": "npm i fs-extra@0.30 && cd app-template && node apply.js EBOCoin && cd .. && npm i && app-template/setupNetwork.sh EBOCoin",
     "unstage-package": "git reset package.json",
     "clean-all": "git clean -dfx"
   },
