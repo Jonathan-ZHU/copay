@@ -51,42 +51,43 @@ angular.module('copayApp.controllers').controller('receivingPurseController', fu
 
   $scope.choosePurse = function(wallet)
   {
-
-    $scope.wallet=wallet;
-    $scope.setAddress();
+     $scope.wallet=wallet;
+     $scope.setAddress();
 
   };
 var showSuccessWindow=function () {
 
 
-  var scope = $rootScope.$new(true);
+  // var scope = $rootScope.$new(true);
 
-  $ionicModal.fromTemplateUrl('views/modals/choosePurse.html', {
-    icoAddr:$scope.icoAddr,
-    tcashAddr:$scope.tcashAddr,
-    scope: scope
-
-
-  }).then(function(modal) {
-    scope.chooseFeeLevelModal = modal;
-    scope.openModal();
-
-  });
-  scope.openModal = function() {
-    scope.chooseFeeLevelModal.show();
-  };
-
-  // scope.hideModal = function() {
-  //   scope.chooseFeeLevelModal.hide();
-  //   // $log.debug('Custom fee level choosen:' + customFeeLevel + ' was:' + tx.feeLevel);
-
+  // $ionicModal.fromTemplateUrl('views/modals/choosePurse.html', {
+  //   icoAddr:$scope.icoAddr,
+  //   tcashAddr:$scope.tcashAddr,
+  //   scope: scope
+  //
+  //
+  // }).then(function(modal) {
+  //   scope.chooseFeeLevelModal = modal;
+  //   scope.openModal();
+  //
+  // });
+  // scope.openModal = function() {
+  //   scope.chooseFeeLevelModal.show();
   // };
+  //
+  //
+  //
+  // $scope.closeModal = function() {
+  //   $scope.chooseFeeLevelModal.hide();
+  // };
+  // $scope.$on('$destroy', function() {
+  //   $scope.chooseFeeLevelModal.remove();
+  // });
+  $state.go('tabs.receivingPurse.choosePayWay', {
 
-  $scope.closeModal = function() {
-    $scope.chooseFeeLevelModal.hide();
-  };
-  $scope.$on('$destroy', function() {
-    $scope.chooseFeeLevelModal.remove();
+
+      tcashAddr:$scope.addr,
+      walletId:$scope.wallet.id
   });
 
 }
@@ -114,6 +115,8 @@ var getNewAddress=function () {
 
     $scope.addr = null;
     if (!$scope.wallet || $scope.generatingAddress || !$scope.wallet.isComplete()) return;
+
+
     $scope.generatingAddress = true;
 
     walletService.getAddress($scope.wallet, newAddr, function (err, addr) {
@@ -125,33 +128,37 @@ var getNewAddress=function () {
       else {
 
         $scope.addr = addr;
-        var promise = textHttp();
-        promise.then(function successCallback(response) {
-          // 请求成功执行代码
-          $log.log(response.data.msg)
-          if (response.data.err == 0) {
-            $scope.icoAddr = response.data.msg;
-            saveIco();
-          }
-          else {
-            $log.log(response.data.err)
-            if (response.data.err == -500) {
-              popupService.showAlert('Tcash地址已提交过ICO申请');
-            }
-            else {
-              popupService.showAlert('Tcash地址不合法');
-            }
+        //跳转到ICO申请成功界面
+        jumpToIcoSuccess();
 
-          }
-        }, function errorCallback(response) {
-          // 请求失败执行代码
-          $log.log(response.data.msg)
-          popupService.showAlert('网络请求失败');
-        });
 
+
+        // var promise = textHttp();
+        // promise.then(function successCallback(response) {
+        //   // 请求成功执行代码
+        //   $log.log(response.data.msg)
+        //   if (response.data.err == 0) {
+        //     $scope.icoAddr = response.data.msg;
+        //     saveIco();
+        //   }
+        //   else {
+        //     $log.log(response.data.err)
+        //     if (response.data.err == -500) {
+        //       popupService.showAlert('Tcash地址已提交过ICO申请');
+        //     }
+        //     else {
+        //       popupService.showAlert('Tcash地址不合法');
+        //     }
+        //
+        //   }
+        // }, function errorCallback(response) {
+        //   // 请求失败执行代码
+        //   $log.log(response.data.msg)
+        //   popupService.showAlert('网络请求失败');
+        // });
       }
 
-      $log.log($scope.addr);
+
       $timeout(function () {
         $scope.$apply();
       }, 10);
@@ -165,7 +172,7 @@ var getNewAddress=function () {
     //跳转到ICO申请成功界面
     var jumpToIcoSuccess = function () {
 
-      getNewAddress();
+     // getNewAddress();
       showSuccessWindow();
 
     };
@@ -193,7 +200,6 @@ var getNewAddress=function () {
 
         if (datas) {
           var arrObj = JSON.parse(datas);
-          $log.log('fuck', arrObj);
           arrObj.push(icoInfo);
           localStorageService.set("ICOInfolist", arrObj, function () {
             $log.log("success=", arrObj)

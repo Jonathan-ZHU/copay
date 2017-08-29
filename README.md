@@ -1,4 +1,4 @@
-ztr
+
 
 <img src="https://raw.githubusercontent.com/bitpay/copay/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="Copay" width="79">
 
