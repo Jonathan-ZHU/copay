@@ -46,40 +46,45 @@ angular.module('copayApp.controllers').controller('cameratestController',
 
     // 1.拍照并显示在屏幕
     function loadImage() {
-      navigator.camera.getPicture(onLoadImageSuccess, onLoadImageFail, {destinationType: Camera.DestinationType.FILE_URI});
+      navigator.camera.getPicture(onLoadImageSuccess, onLoadImageFail, {
+
+        destinationType: Camera.DestinationType.DATA_URL,
+        sourceType: Camera.PictureSourceType.CAMERA
+
+      });
     }
 
     //拍照成功后回调
     function onLoadImageSuccess(imageURI) {
 
-      var smallImage = document.getElementById('getImageLocal');
-      smallImage.style.display = 'none';
-      var smallImage = document.getElementById('getImage');
+      // var smallImage = document.getElementById('getImageLocal');
+      // smallImage.style.display = 'none';
+      var smallImage = document.getElementById('myImage');
       smallImage.style.display = 'block';
-      smallImage.src = imageURI;
+      smallImage.src = "data:image/jpeg;base64,"+imageURI;
+      $log.log("图片链接",imageURI)
 
     }
+
+
 
 
     //2.获取本地图片并显示在屏幕
     $scope.loadImageLocal = function () {
+
       navigator.camera.getPicture(onLoadImageLocalSuccess, onLoadImageFail, {
-
-        destinationType: Camera.DestinationType.FILE_URI,
-
+        destinationType: Camera.DestinationType.DATA_URL,
         sourceType: Camera.PictureSourceType.PHOTOLIBRARY
-
       });
-
     }
 
     //本地图片选择成功后回调此函数
     function onLoadImageLocalSuccess(imageURI) {
-      var smallImage = document.getElementById('getImage');
-      smallImage.style.display = 'none';
-      var smallImage = document.getElementById('getImageLocal');
+
+      var smallImage = document.getElementById('myImageLocal');
       smallImage.style.display = 'block';
-      smallImage.src = imageURI;
+      smallImage.src = "data:image/jpeg;base64,"+imageURI;
+      $log.log("图片链接",imageURI)
 
     }
 
