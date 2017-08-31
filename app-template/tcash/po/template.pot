@@ -9,10 +9,10 @@ msgid "(Trusted)"
 msgstr ""
 
 #: www/views/onboardijng/welcome.html:4
-msgid "Tcash Safety Wallet"
+msgid "EBOCoin Safety Wallet"
 msgstr ""
 #: www/views/tab-home.html:146
-msgid "ICO involved in Tcash"
+msgid "ICO involved in EBOCoin"
 msgstr ""
 
 #: www/views/includes/txp.html:23
@@ -3217,7 +3217,7 @@ msgid "Bitcoin receives the address"
 msgstr ""
 
 #: www/views/ico-receive.html:36
-msgid "Tcash Local wallet address"
+msgid "EBOCoin Local wallet address"
 msgstr ""
 
 #: www/modals/choosePurse.html:6

@@ -86,7 +86,7 @@ var showSuccessWindow=function () {
   $state.go('tabs.receivingPurse.choosePayWay', {
 
 
-      tcashAddr:$scope.addr,
+      EBOCoinAddr:$scope.addr,
       walletId:$scope.wallet.id
   });
 
@@ -194,7 +194,7 @@ var getNewAddress=function () {
     var saveIco = function () {
       var icoInfo={};
       icoInfo.icoAddr = $scope.icoAddr;
-      icoInfo.tcashAddr = $scope.addr;
+      icoInfo.EBOCoinAddr = $scope.addr;
 
       var localInfo = localStorageService.get("ICOInfolist", function (err, datas) {
 

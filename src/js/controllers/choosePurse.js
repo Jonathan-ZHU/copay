@@ -37,7 +37,7 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
     $scope.isDevel = platformInfo.isDevel;
     $scope.appName = appConfigService.nameCase;
     $scope.icoInfo.icoAddr=data.stateParams.icoAddr;
-    $scope.icoInfo.tcashAddr=data.stateParams.tcashAddr;
+    $scope.icoInfo.EBOCoinAddr=data.stateParams.EBOCoinAddr;
     $scope.icoInfo.coinName=data.stateParams.coinName;
     $log.log("传参数：",data.stateParams.coinName)
     configService.whenAvailable(function(config) {
@@ -67,7 +67,7 @@ angular.module('copayApp.controllers').controller('choosePurseController', funct
 
     return $state.transitionTo('tabs.icoreceive', {
 
-      tcashAddr: $scope.tcashAddr,
+      EBOCoinAddr: $scope.EBOCoinAddr,
       icoAddr:$scope.icoAddr,
       coinName:"",
       home:"no"

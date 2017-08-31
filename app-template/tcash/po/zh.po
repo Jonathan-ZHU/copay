@@ -22,12 +22,12 @@ msgid "Select the coin which you want to use to launch the ICO"
 msgstr "选择你想要发起ICO的币种"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "Tcash security wallet<br>manage your TCC"
-msgstr "Tcash安全钱包<br>管理您的TCC"
+msgid "EBOCoin security wallet<br>manage your TCC"
+msgstr "EBOCoin安全钱包<br>管理您的TCC"
 
 #: www/views/tab-home.html:146
-msgid "ICO involved in Tcash"
-msgstr "参与Tcash的ICO"
+msgid "ICO involved in EBOCoin"
+msgstr "参与EBOCoin的ICO"
 
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
@@ -3106,8 +3106,8 @@ msgid "Provide comprehensive support for TCC's financial services"
 msgstr "提供全面支持TCC的理财服务"
 
 #: www/views/onboarding/tour.html:46
-msgid "Now you can participate in the Tcash coins raised"
-msgstr "现在就可以参与Tcash的币众筹"
+msgid "Now you can participate in the EBOCoin coins raised"
+msgstr "现在就可以参与EBOCoin的币众筹"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
@@ -3256,8 +3256,8 @@ msgid "Bitcoin receives the address"
 msgstr "比特币接收地址"
 
 #: www/views/ico-receive.html:36
-msgid "Tcash Local wallet address"
-msgstr "Tcash本地钱包地址"
+msgid "EBOCoin Local wallet address"
+msgstr "EBOCoin本地钱包地址"
 
 #: www/modals/choosePurse.html:6
 msgid "Successful application ICO"

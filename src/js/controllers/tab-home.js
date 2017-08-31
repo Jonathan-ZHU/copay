@@ -313,7 +313,7 @@ angular.module('copayApp.controllers').controller('tabHomeController',
       $log.log("Icoinfo:",icoInfo);
 
       return $state.transitionTo('tabs.icoreceive', {
-        tcashAddr: icoInfo.tcashAddr,
+        EBOCoinAddr: icoInfo.EBOCoinAddr,
         icoAddr:icoInfo.icoAddr,
         coinName:icoInfo.coinName,
         home:"yes"

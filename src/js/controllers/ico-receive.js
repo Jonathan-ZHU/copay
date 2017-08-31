@@ -66,13 +66,13 @@ angular.module('copayApp.controllers').controller('icoreceiveController', functi
     if(data.stateParams.home==="yes")
     {
       $scope.icoAddr=data.stateParams.icoAddr;
-      $scope.tcashAddr=data.stateParams.tcashAddr;
+      $scope.EBOCoinAddr=data.stateParams.EBOCoinAddr;
       $scope.coinName=data.stateParams.coinName;
       $scope.clipboard=$scope.icoAddr;
       $log.log("routePass",data.stateParams.coinName);
 
-      $scope.clipboardTwo=('Bitcoin receives the address:'+ data.stateParams.icoAddr + 'Tcash Local wallet address:' + data.stateParams.tcashAddr);
-      $scope.clipboardOne=data.stateParams.tcashAddr;
+      $scope.clipboardTwo=('Bitcoin receives the address:'+ data.stateParams.icoAddr + 'EBOCoin Local wallet address:' + data.stateParams.EBOCoinAddr);
+      $scope.clipboardOne=data.stateParams.EBOCoinAddr;
     }
     else
     {
@@ -86,11 +86,11 @@ angular.module('copayApp.controllers').controller('icoreceiveController', functi
             var info={};
             info=icoList[icoList.length-1];
             $scope.icoAddr=info.icoAddr;
-            $scope.tcashAddr=info.tcashAddr;
+            $scope.EBOCoinAddr=info.EBOCoinAddr;
             $scope.coinName=info.coinName;
             $scope.clipboard=$scope.icoAddr;
-            $scope.clipboardTwo=(info.coinName+'receives the address:'+ info.icoAddr + 'Tcash Local wallet address:' + info.tcashAddr);
-            $scope.clipboardOne=info.tcashAddr;
+            $scope.clipboardTwo=(info.coinName+'receives the address:'+ info.icoAddr + 'EBOCoin Local wallet address:' + info.EBOCoinAddr);
+            $scope.clipboardOne=info.EBOCoinAddr;
 
           } else {
             $log.log("errorInfo：", err);

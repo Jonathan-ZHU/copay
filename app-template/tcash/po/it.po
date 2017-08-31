@@ -18,8 +18,8 @@ msgid "(Trusted)"
 msgstr "（可信的）"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "Tcash security wallet<br>manage your TCC"
-msgstr "Tcash安全錢包<br>管理您的TCC"
+msgid "EBOCoin security wallet<br>manage your TCC"
+msgstr "EBOCoin安全錢包<br>管理您的TCC"
 
 
 
@@ -3102,8 +3102,8 @@ msgid "Provide comprehensive support for TCC's financial services"
 msgstr "你提供全面支持TCC的理財服務"
 
 #: www/views/onboarding/tour.html:46
-msgid "Now you can participate in the Tcash coins raised"
-msgstr "現在就可以參與Tcash的幣眾籌"
+msgid "Now you can participate in the EBOCoin coins raised"
+msgstr "現在就可以參與EBOCoin的幣眾籌"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
@@ -3231,8 +3231,8 @@ msgid "Bitcoin receives the address"
 msgstr "比特幣接收地址"
 
 #: www/views/ico-receive.html:36
-msgid "Tcash Local wallet address"
-msgstr "Tcash本地錢包地址"
+msgid "EBOCoin Local wallet address"
+msgstr "EBOCoin本地錢包地址"
 
 #: www/modals/choosePurse.html:6
 msgid "Successful application ICO"

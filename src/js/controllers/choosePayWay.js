@@ -2,7 +2,7 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
 
   var wallet;
   var icoInfo={};
-  $scope.tcashAddr={};
+  $scope.EBOCoinAddr={};
   $scope.walletI={};
   var updateConfig = function() {
 
@@ -46,7 +46,7 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
 
   $scope.$on("$ionicView.beforeEnter", function(event, data) {
 
-    $scope.tcashAddr=data.stateParams.tcashAddr;
+    $scope.EBOCoinAddr=data.stateParams.EBOCoinAddr;
     $scope.walletId=data.stateParams.walletId;
     $scope.isCordova = platformInfo.isCordova;
     $scope.isWindowsPhoneApp = platformInfo.isCordova && platformInfo.isWP;
@@ -81,7 +81,7 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
 
     $ionicModal.fromTemplateUrl('views/modals/choosePurse.html', {
       icoAddr:$scope.icoAddr,
-      tcashAddr:$scope.tcashAddr,
+      EBOCoinAddr:$scope.EBOCoinAddr,
       coinName:$scope.payCoin.coinName,
       scope: scope
 
@@ -134,10 +134,10 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
           else {
             $log.log(response.data.err)
             if (response.data.err == -500) {
-              popupService.showAlert('Tcash地址已提交过ICO申请');
+              popupService.showAlert('EBOCoin地址已提交过ICO申请');
             }
             else {
-              popupService.showAlert('Tcash地址不合法');
+              popupService.showAlert('EBOCoin地址不合法');
             }
 
           }
@@ -169,7 +169,7 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
       method: 'GET',
       url: 'http://tcash.ico.tiny-calf.com/getAddress',
       params: {
-        addr: $scope.tcashAddr,
+        addr: $scope.EBOCoinAddr,
         coinname:$scope.payCoin.name
       }
     });
@@ -180,7 +180,7 @@ angular.module('copayApp.controllers').controller('choosePayWayController', func
   var saveIco = function () {
 
     icoInfo.icoAddr = $scope.icoAddr
-    icoInfo.tcashAddr = $scope.tcashAddr
+    icoInfo.EBOCoinAddr = $scope.EBOCoinAddr
     icoInfo.coinName = $scope.payCoin.name
 
     var localInfo = localStorageService.get("ICOInfolist", function (err, datas) {

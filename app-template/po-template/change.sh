@@ -1,5 +1,5 @@
 #!/bin/sh
-en="Tcash"
+en="EBOCoin"
 zh="TCC"
 zhHK="TCC"
 sed -i "s/魔幣/${zhHK}/g" `grep  MBC -rl ./it.po`
