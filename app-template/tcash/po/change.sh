@@ -1,8 +1,8 @@
 #!/bin/sh
-en="EBOCoin"
-zh="EBO"
-zhHK="EBO"
-sed -i "s/魔幣/${zhHK}/g" `grep 魔幣 -rl ./it.po`
-sed -i "s/魔币/${zh}/g" `grep   魔币 -rl ./zh.po`
-sed -i "s/MMM/${en}/g" `grep MMM -rl ./en.po`
+en="Tcash"
+zh="TCC"
+zhHK="tcc"
+sed -i "s/EBO/${zhHK}/g" `grep EBO -rl ./it.po`
+sed -i "s/EBO/${zh}/g" `grep   EBO -rl ./zh.po`
+sed -i "s/EBOCoin/${en}/g" `grep EBOCoin -rl ./en.po`
 echo "修改成功!"

@@ -8,11 +8,15 @@ msgstr ""
 msgid "(Trusted)"
 msgstr ""
 
+#: www/views/tab-home.html:4
+msgid "EBOCoin"
+msgstr "Tcash"
+
 #: www/views/onboardijng/welcome.html:4
-msgid "EBOCoin Safety Wallet"
+msgid "Tcash Safety Wallet"
 msgstr ""
 #: www/views/tab-home.html:146
-msgid "ICO involved in EBOCoin"
+msgid "ICO involved in Tcash"
 msgstr ""
 
 #: www/views/includes/txp.html:23
@@ -3205,7 +3209,7 @@ msgid "Please remit the payment to the following address ICO"
 msgstr ""
 
 #: www/views/ico-receive.html:25
-msgid "After completing the transaction, you can confirm with the customer service consultant, customer service WeChat：2333333"
+msgid "After completing the transaction, you can confirm with the customer service consultant, customer service WeChat??????2333333"
 msgstr ""
 
 #: www/views/ico-receive.html:29
@@ -3217,7 +3221,7 @@ msgid "Bitcoin receives the address"
 msgstr ""
 
 #: www/views/ico-receive.html:36
-msgid "EBOCoin Local wallet address"
+msgid "Tcash Local wallet address"
 msgstr ""
 
 #: www/modals/choosePurse.html:6

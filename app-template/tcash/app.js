@@ -32,7 +32,7 @@ var ico_Testserver="https://120.92.35.170:8080";
 var ico_NormalUrl="http://tcash.ico.tiny-calf.com/";
 var ico_server=ico_NormalUrl;
 //change coin unit here
-var coin_unit = 'EBO';
+var coin_unit = 'TCC';
 
 var copayApp = window.copayApp = angular.module('copayApp', modules);
 

@@ -18,13 +18,18 @@ msgid "(Trusted)"
 msgstr "(Trusted)"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "EBOCoin security wallet<br>manage your EBO"
-msgstr "EBOCoin security wallet<br>manage your EBO"
+msgid "Tcash security wallet<br>manage your TCC"
+msgstr "Tcash security wallet<br>manage your TCC"
+
+#: www/views/tab-home.html:4
+msgid "EBOCoin"
+msgstr "Tcash"
+
 
 
 #: www/views/tab-home.html:146
-msgid "ICO involved in EBOCoin"
-msgstr "ICO involved in EBOCoin"
+msgid "ICO involved in Tcash"
+msgstr "ICO involved in Tcash"
 
 #: www/views/includes/txp.html:23
 #: www/views/includes/walletHistory.html:64
@@ -180,11 +185,11 @@ msgstr ""
 
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your Mobicoin wallet balance may not be available for immediate spending."
-msgstr "All of your EBOCoin wallet balance may not be available for immediate spending."
+msgstr "All of your Tcash wallet balance may not be available for immediate spending."
 
 #: www/views/tab-receive.html:25
 msgid "All signing devices must be added to this multisig wallet before Mobicoin addresses can be created."
-msgstr "All signing devices must be added to this multisig wallet before EBOCoin addresses can be created."
+msgstr "All signing devices must be added to this multisig wallet before Tcash addresses can be created."
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -228,11 +233,11 @@ msgstr ""
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your Mobicoin."
-msgstr "Anyone with your backup phrase can access or spend your EBOCoin."
+msgstr "Anyone with your backup phrase can access or spend your Tcash."
 
 #: www/views/addresses.html:94
 msgid "Approximate Mobicoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "Approximate EBOCoin network fee to transfer wallet's balance (with normal priority)"
+msgstr "Approximate Tcash network fee to transfer wallet's balance (with normal priority)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -240,7 +245,7 @@ msgstr ""
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your Mobicoin."
-msgstr "Are you being watched? Anyone with your recovery phrase can access or spend your EBOCoin."
+msgstr "Are you being watched? Anyone with your recovery phrase can access or spend your Tcash."
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -347,25 +352,25 @@ msgstr ""
 
 #: www/views/addressbook.add.html:38
 msgid "Mobicoin Address"
-msgstr "EBOCoin Address"
+msgstr "Tcash Address"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
 msgid "Mobicoin Network Fee Policy"
-msgstr "EBOCoin Network Fee Policy"
+msgstr "Tcash Network Fee Policy"
 
 #: www/views/paymentUri.html:10
 msgid "Mobicoin URI is NOT valid!"
-msgstr "EBOCoin is NOT valid!"
+msgstr "Tcash is NOT valid!"
 
 #: www/views/tab-settings.html:63
 msgid "Mobicoin Unit"
-msgstr "EBOCoin Unit"
+msgstr "Tcash Unit"
 
 #: www/views/onboarding/tour.html:31
 msgid "Mobicoin is a currency"
-msgstr "EBOCoin"
+msgstr "Tcash"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web service."
@@ -373,11 +378,11 @@ msgstr "Mobi is different &ndash; it cannot be safely held with a bank or web se
 
 #: www/views/onboarding/tour.html:18
 msgid "Mobicoin is a,<br>digital currency"
-msgstr "EBOCoin is a,<br>digital currency"
+msgstr "Tcash is a,<br>digital currency"
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."
-msgstr "EBOCoin transactions include a fee collected by miners on the network."
+msgstr "Tcash transactions include a fee collected by miners on the network."
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -398,15 +403,15 @@ msgstr ""
 
 #: www/views/includes/buyAndSellCard.html:4
 msgid "Buy &amp; Sell Mobicoin"
-msgstr "Buy &amp; Sell EBOCoin"
+msgstr "Buy &amp; Sell Tcash"
 
 #: www/views/tab-send.html:35
 msgid "Buy Mobicoin"
-msgstr "Buy EBOCoin"
+msgstr "Buy Tcash"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying Mobicoin..."
-msgstr "Buying EBOCoin..."
+msgstr "Buying Tcash..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -724,7 +729,7 @@ msgstr ""
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
 msgid "Create Mobicoin wallet"
-msgstr "Create EBOCoin wallet"
+msgstr "Create Tcash wallet"
 
 #: www/views/tab-create-personal.html:129
 msgid "Create new wallet"
@@ -830,7 +835,7 @@ msgstr ""
 
 #: www/views/addresses.html:19
 msgid "Each Mobicoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "Each EBOCoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgstr "Each Tcash wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -1285,7 +1290,7 @@ msgstr ""
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my Mobicoin can only be recovered with the backup phrase."
-msgstr "I understand that if this app is moved to another device or deleted, my EBOCoin can only be recovered with the backup phrase."
+msgstr "I understand that if this app is moved to another device or deleted, my Tcash can only be recovered with the backup phrase."
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1428,7 +1433,7 @@ msgstr ""
 
 #: www/views/addresses.html:25
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your Mobicoins secure against hypothetical attacks by quantum computers."
-msgstr "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your EBOCoins secure against hypothetical attacks by quantum computers."
+msgstr "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your Tcashs secure against hypothetical attacks by quantum computers."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1624,7 +1629,7 @@ msgstr ""
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no Mobicoin."
-msgstr "No backup, no EBOCoin."
+msgstr "No backup, no Tcash."
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1683,7 +1688,7 @@ msgid "Not enough funds for fee"
 msgstr ""
 
 #: www/views/onboarding/tour.html:50
-msgid "You can start creating your EBO Wallet"
+msgid "You can start creating your TCC Wallet"
 msgstr ""
 
 #: src/js/controllers/paperWallet.js:47
@@ -1701,7 +1706,7 @@ msgstr ""
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell Mobicoin"
-msgstr "Notice: only 1-1 (single signature) wallets can be used for sell EBOCoin"
+msgstr "Notice: only 1-1 (single signature) wallets can be used for sell Tcash"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:46
@@ -1816,7 +1821,7 @@ msgstr ""
 
 #: www/views/bitpayCardIntro.html:28
 msgid "Pay 0% fees to turn Mobicoin into dollars."
-msgstr "Pay 0% fees to turn EBOCoin into dollars."
+msgstr "Pay 0% fees to turn Tcash into dollars."
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2187,7 +2192,7 @@ msgstr ""
 
 #: www/views/tab-send.html:13
 msgid "Search or enter Mobicoin address"
-msgstr "EBOCoin"
+msgstr "Tcash"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2216,7 +2221,7 @@ msgstr ""
 
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling Mobicoin..."
-msgstr "Selling EBOCoin..."
+msgstr "Selling Tcash..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2356,7 +2361,7 @@ msgstr ""
 
 #: www/views/tab-send.html:37
 msgid "Show Mobicoin address"
-msgstr "Show EBOCoin address"
+msgstr "Show Tcash address"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
@@ -2407,11 +2412,11 @@ msgstr ""
 
 #: www/views/walletDetails.html:162
 msgid "Spending this balance will need significant Mobicoin network fees"
-msgstr "Spending this balance will need significant EBOCoin network fees"
+msgstr "Spending this balance will need significant Tcash network fees"
 
 #: www/views/tab-send.html:28
 msgid "Start sending Mobicoin"
-msgstr "Start sending EBOCoin"
+msgstr "Start sending Tcash"
 
 #: src/js/routes.js:118
 msgid "Starting..."
@@ -2447,7 +2452,7 @@ msgstr ""
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your money,<br>get started with Mobicoin."
-msgstr "Take control of your money,<br>get started with EBOCoin."
+msgstr "Take control of your money,<br>get started with Tcash."
 
 #: www/views/walletDetails.html:140
 #: www/views/walletDetails.html:60
@@ -2496,15 +2501,15 @@ msgstr ""
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of Mobicoin immediately spendable from this wallet."
-msgstr "The amount of EBOCoin immediately spendable from this wallet."
+msgstr "The amount of Tcash immediately spendable from this wallet."
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of Mobicoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "The amount of EBOCoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "The amount of Tcash stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of Mobicoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "The amount of EBOCoin stored in this wallet with less than 1 blockchain confirmation."
+msgstr "The amount of Tcash stored in this wallet with less than 1 blockchain confirmation."
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2559,7 +2564,7 @@ msgstr ""
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of Mobicoin stored in this wallet."
-msgstr "The total amount of EBOCoin stored in this wallet."
+msgstr "The total amount of Tcash stored in this wallet."
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2598,7 +2603,7 @@ msgstr "Access www.t|wcoin.com for more details"
 
 #: src/js/controllers/confirm.js:464
 msgid "This Mobicoin payment request has expired."
-msgstr "This EBOCoin payment request has expired."
+msgstr "This Tcash payment request has expired."
 
 #: www/views/join.html:130
 #: www/views/tab-create-personal.html:101
@@ -2612,7 +2617,7 @@ msgstr ""
 
 #: www/views/tx-details.html:93
 msgid "This transaction amount is too small compared to current Mobicoin network fees. Spending these funds will need a Mobicoin network fee cost comparable to the funds itself."
-msgstr "This transaction amount is too small compared to current EBOCoin network fees. Spending these funds will need a EBOCoin network fee cost comparable to the funds itself."
+msgstr "This transaction amount is too small compared to current Tcash network fees. Spending these funds will need a Tcash network fee cost comparable to the funds itself."
 
 #: www/views/tx-details.html:89
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
@@ -2639,11 +2644,11 @@ msgstr ""
 
 #: www/views/tab-send.html:32
 msgid "To get started, buy Mobicoin or share your address. You can receive Mobicoin from any wallet or service."
-msgstr "To get started, buy EBOCoin or share your address. You can receive EBOCoin from any wallet or service."
+msgstr "To get started, buy Tcash or share your address. You can receive Tcash from any wallet or service."
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a Mobicoin wallet and get some Mobicoin."
-msgstr "To get started, you'll need to create a EBOCoin wallet and get some EBOCoin."
+msgstr "To get started, you'll need to create a Tcash wallet and get some Tcash."
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -2727,7 +2732,7 @@ msgstr ""
 
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn Mobicoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Turn EBOCoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "Turn Tcash into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3084,7 +3089,7 @@ msgstr ""
 
 #: www/views/tab-scan.html:16
 msgid "You can scan Mobicoin addresses, payment requests, paper wallets, and more."
-msgstr "You can scan EBOCoin addresses, payment requests, paper wallets, and more."
+msgstr "You can scan Tcash addresses, payment requests, paper wallets, and more."
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3099,12 +3104,12 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr ""
 
 #: www/views/onboarding/tour.html:32
-msgid "Provide comprehensive support for EBO's financial services"
-msgstr "Provide comprehensive support for EBO's financial services"
+msgid "Provide comprehensive support for TCC's financial services"
+msgstr "Provide comprehensive support for TCC's financial services"
 
 #: www/views/onboarding/tour.html:46
-msgid "Now you can participate in the EBOCoin coins raised"
-msgstr "Now you can participate in the EBOCoin coins raised"
+msgid "Now you can participate in the Tcash coins raised"
+msgstr "Now you can participate in the Tcash coins raised"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your BitPay Card."
@@ -3120,11 +3125,11 @@ msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your Mobicoin wallet is backed up!"
-msgstr "Your EBOCoin wallet is backed up!"
+msgstr "Your Tcash wallet is backed up!"
 
 #: www/views/tab-home.html:36
 msgid "Your Mobicoin wallet is ready!"
-msgstr "Your EBOCoin wallet is ready!"
+msgstr "Your Tcash wallet is ready!"
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
@@ -3200,7 +3205,7 @@ msgstr ""
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for Mobicoin networking fees."
-msgstr "{{fee}} will be deducted for EBOCoin networking fees."
+msgstr "{{fee}} will be deducted for Tcash networking fees."
 
 #: www/views/confirm.html:87
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
@@ -3218,7 +3223,7 @@ msgstr "{{wallet.m}}{{wallet.n}}"
 
 #: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:29
 msgid "Bitcoin Address"
-msgstr "EBOCoin Address"
+msgstr "Tcash Address"
 
 #: /home/jonathan/copay/www/views/includes/incomingDataMenu.html:41
 msgid "Add as a contact"
@@ -3250,7 +3255,7 @@ msgid "Bitcoin receives the address"
 msgstr ""
 
 #: www/views/ico-receive.html:36
-msgid "EBOCoin Local wallet address"
+msgid "Tcash Local wallet address"
 msgstr ""
 
 #: www/modals/choosePurse.html:6
