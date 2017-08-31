@@ -66,9 +66,6 @@ angular.module('copayApp.controllers').controller('cameratestController',
 
     }
 
-
-
-
     //2.获取本地图片并显示在屏幕
     $scope.loadImageLocal = function () {
 
