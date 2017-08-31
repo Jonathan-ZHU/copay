@@ -127,11 +127,6 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
       return;
     }
 
-    $scope.clickScan=function () {
-
-      $log.log("点击识别相册二维码")
-
-    }
 
     scannerService.useOldScanner(function(err, contents) {
       if (err) {
@@ -205,6 +200,31 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
     });
   };
 
+  //2.获取本地图片并显示在屏幕
+  $scope.loadImageLocal = function () {
+
+    navigator.camera.getPicture(onLoadImageLocalSuccess, onLoadImageFail, {
+      destinationType: Camera.DestinationType.DATA_URL,
+      sourceType: Camera.PictureSourceType.PHOTOLIBRARY
+    });
+  }
+
+  //本地图片选择成功后回调此函数
+  function onLoadImageLocalSuccess(imageURI) {
+
+    var QRScanner = $window.QRScanner;
+    $scope.qr
+    $log.log("data:image/jpeg;base64,"+imageURI)
+
+  }
+
+  //所有获取图片失败都回调此函数
+
+  function onLoadImageFail(message) {
+
+    navigator.notification.alert("操作失败，原因：" + message, null, "警告");
+
+  }
   $scope.buyBitcoin = function() {
     $state.go('tabs.home').then(function() {
       $state.go('tabs.buyandsell');
@@ -233,4 +253,7 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
       updateList();
     });
   });
+
+
+
 });

@@ -699,7 +699,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
       .state('tabs.openCamera', {
           url: '/openCamera',
           views: {
-            'tab-home@tabs': {
+            'tab-send@tabs': {
               controller: 'cameratestController',
               templateUrl: 'views/cameratest.html'
             }
