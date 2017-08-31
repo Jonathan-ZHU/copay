@@ -17,6 +17,10 @@ msgstr ""
 msgid "(Trusted)"
 msgstr "（可信的）"
 
+#: www/views/choosePayWay.html:17
+msgid "Select the coin which you want to use to launch the ICO"
+msgstr "选择你想要发起ICO的币种"
+
 #: www/views/onboardijng/welcome.html:4
 msgid "Tcash security wallet<br>manage your TCC"
 msgstr "Tcash安全钱包<br>管理您的TCC"

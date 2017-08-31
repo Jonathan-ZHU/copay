@@ -3205,3 +3205,7 @@ msgstr "下載的 {{updatingTxHistoryProgress}} 交易"
 #: www/views/includes/walletInfo.html:12
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}{{wallet.n}}"
+
+#: www/views/choosePayWay.html:17
+msgid "Select the coin which you want to use to launch the ICO"
+msgstr "選擇你想要發起的ICO的幣種"
