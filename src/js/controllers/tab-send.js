@@ -127,6 +127,12 @@ angular.module('copayApp.controllers').controller('tabSendController', function(
       return;
     }
 
+    $scope.clickScan=function () {
+
+      $log.log("点击识别相册二维码")
+
+    }
+
     scannerService.useOldScanner(function(err, contents) {
       if (err) {
         popupService.showAlert(gettextCatalog.getString('Error'), err);

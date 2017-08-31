@@ -224,7 +224,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
       })
 
       .state('tabs.receivingPurse.choosePurse', {
-        url: '/choosePurse/:icoAddr/:tcashAddr/:coinName',
+        url: '/choosePurse/:icoAddr/:EBOCoinAddr/:coinName',
         views: {
           'tab-home@tabs': {
             controller: 'choosePurseController',
@@ -234,7 +234,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
       })
 
       .state('tabs.receivingPurse.choosePayWay', {
-        url: '/choosePayWay/:tcashAddr/:walletId',
+        url: '/choosePayWay/:EBOCoinAddr/:walletId',
         views: {
           'tab-home@tabs': {
             controller: 'choosePayWayController',
@@ -686,7 +686,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        */
 
       .state('tabs.icoreceive', {
-        url: '/icoreceive/:tcashAddr/:icoAddr/:coinName/:home',
+        url: '/icoreceive/:EBOCoinAddr/:icoAddr/:coinName/:home',
         views: {
           'tab-home@tabs': {
             templateUrl: 'views/ico-receive.html',
@@ -707,7 +707,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
     })
 
 .state('tabs.myIcoReceive', {
-      url: '/myIcoReceive/:tcashAddr/:icoAddr/:home',
+      url: '/myIcoReceive/:EBOCoinAddr/:icoAddr/:home',
       views: {
         'tab-home@tabs': {
           templateUrl: 'views/myIcoReceive.html',

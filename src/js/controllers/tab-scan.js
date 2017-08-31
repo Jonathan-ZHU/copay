@@ -105,7 +105,7 @@ angular.module('copayApp.controllers').controller('tabScanController', function(
   }
 
   $rootScope.$on('incomingDataMenu.menuHidden', function() {
-    activate();
+      activate();
   });
 
   $scope.openSettings = function(){
