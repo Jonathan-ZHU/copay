@@ -24,8 +24,8 @@ msgstr "Select the coin which you want to use to launch the ICO"
 
 
 #: www/views/onboardijng/welcome.html:4
-msgid "EBOCoin security wallet<br>manage your TCC"
-msgstr "EBOCoin security wallet<br>manage your TCC"
+msgid "EBOCoin security wallet<br>manage your EBO"
+msgstr "EBOCoin security wallet<br>manage your EBO"
 
 
 #: www/views/tab-home.html:146
@@ -1689,7 +1689,7 @@ msgid "Not enough funds for fee"
 msgstr ""
 
 #: www/views/onboarding/tour.html:50
-msgid "You can start creating your TCC Wallet"
+msgid "You can start creating your EBO Wallet"
 msgstr ""
 
 #: src/js/controllers/paperWallet.js:47
@@ -3105,8 +3105,8 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr ""
 
 #: www/views/onboarding/tour.html:32
-msgid "Provide comprehensive support for TCC's financial services"
-msgstr "Provide comprehensive support for TCC's financial services"
+msgid "Provide comprehensive support for EBO's financial services"
+msgstr "Provide comprehensive support for EBO's financial services"
 
 #: www/views/onboarding/tour.html:46
 msgid "Now you can participate in the EBOCoin coins raised"

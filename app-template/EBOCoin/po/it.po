@@ -18,8 +18,8 @@ msgid "(Trusted)"
 msgstr "（可信的）"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "EBOCoin security wallet<br>manage your TCC"
-msgstr "EBOCoin安全錢包<br>管理您的TCC"
+msgid "EBOCoin security wallet<br>manage your EBO"
+msgstr "EBOCoin安全錢包<br>管理您的EBO"
 
 
 #: www/views/choosePayWay.html:17
@@ -181,11 +181,11 @@ msgstr "所有地址"
 
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your Mobicoin wallet balance may not be available for immediate spending."
-msgstr "所有您的TCC的錢包餘額可能無法用於直接支出。"
+msgstr "所有您的EBO的錢包餘額可能無法用於直接支出。"
 
 #: www/views/tab-receive.html:25
 msgid "All signing devices must be added to this multisig wallet before Mobicoin addresses can be created."
-msgstr "TCC地址可以創建之前，簽名的所有設備都必須都添加到這個對數錢包。"
+msgstr "EBO地址可以創建之前，簽名的所有設備都必須都添加到這個對數錢包。"
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -229,7 +229,7 @@ msgstr "本程序有一個可用的更新。為了您的安全，請更新到最
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your Mobicoin."
-msgstr "任何人只要持有你的備份短語，就可以訪問或者花掉你的TCC。"
+msgstr "任何人只要持有你的備份短語，就可以訪問或者花掉你的EBO。"
 
 #: www/views/addresses.html:94
 msgid "Approximate Mobicoin network fee to transfer wallet's balance (with normal priority)"
@@ -348,21 +348,21 @@ msgstr "BitPay Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
 msgid "Mobicoin Address"
-msgstr "TCC地址"
+msgstr "EBO地址"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
 msgid "Mobicoin Network Fee Policy"
-msgstr "TCC網絡手續費策略"
+msgstr "EBO網絡手續費策略"
 
 #: www/views/paymentUri.html:10
 msgid "Mobicoin URI is NOT valid!"
-msgstr "TCC URI 無效！"
+msgstr "EBO URI 無效！"
 
 #: www/views/tab-settings.html:63
 msgid "Mobicoin Unit"
-msgstr "TCC單位"
+msgstr "EBO單位"
 
 #: www/views/onboarding/tour.html:31
 msgid "Mobicoin is a currency"
@@ -370,15 +370,15 @@ msgstr "Tongluowan fund"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Mobicoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "TCC是不同 — — 它不能安全地舉行以銀行或 web 服務。"
+msgstr "EBO是不同 — — 它不能安全地舉行以銀行或 web 服務。"
 
 #: www/views/onboarding/tour.html:18
 msgid "Mobicoin is a,<br>digital currency"
-msgstr "TCC是一種 <br>數字貨幣"
+msgstr "EBO是一種 <br>數字貨幣"
 
 #: www/views/preferencesFee.html:11
 msgid "Mobicoin transactions include a fee collected by miners on the network."
-msgstr "TCC交易包括在網絡上被礦工所收取的費用。"
+msgstr "EBO交易包括在網絡上被礦工所收取的費用。"
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -399,15 +399,15 @@ msgstr "不受支持的瀏覽器"
 
 #: www/views/includes/buyAndSellCard.html:4
 msgid "Buy &amp; Sell Mobicoin"
-msgstr "購買或出售TCC"
+msgstr "購買或出售EBO"
 
 #: www/views/tab-send.html:35
 msgid "Buy Mobicoin"
-msgstr "購買TCC"
+msgstr "購買EBO"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying Mobicoin..."
-msgstr "正在發送 TCC..."
+msgstr "正在發送 EBO..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -725,7 +725,7 @@ msgstr "創建自己的免費錢包"
 #: www/views/tab-home.html:77
 #: www/views/tab-send.html:36
 msgid "Create Mobicoin wallet"
-msgstr "創建TCC的錢包"
+msgstr "創建EBO的錢包"
 
 #: www/views/tab-create-personal.html:129
 msgid "Create new wallet"
@@ -831,7 +831,7 @@ msgstr "下載"
 
 #: www/views/addresses.html:19
 msgid "Each Mobicoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "每個TCC錢包可以從您的 12 字備份生成億萬個地址。一個新的地址是自動生成和顯示每個時間你收到付款。"
+msgstr "每個EBO錢包可以從您的 12 字備份生成億萬個地址。一個新的地址是自動生成和顯示每個時間你收到付款。"
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -1286,7 +1286,7 @@ msgstr "我知道了"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my Mobicoin can only be recovered with the backup phrase."
-msgstr "我明白是否這個應用程序是搬到另一個設備或刪除，我TCC可以只能進行恢復與備份的短語。"
+msgstr "我明白是否這個應用程序是搬到另一個設備或刪除，我EBO可以只能進行恢復與備份的短語。"
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1429,7 +1429,7 @@ msgstr "此電子郵件地址是正確的？"
 
 #: www/views/addresses.html:25
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your Mobicoins secure against hypothetical attacks by quantum computers."
-msgstr "它是一個好主意，以避免重用地址 — — 這既能保護您的隱私又保持您的TCC安全假設攻擊由量子計算機。"
+msgstr "它是一個好主意，以避免重用地址 — — 這既能保護您的隱私又保持您的EBO安全假設攻擊由量子計算機。"
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1625,7 +1625,7 @@ msgstr "沒錢包"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no Mobicoin."
-msgstr "沒有備份，沒有TCC。"
+msgstr "沒有備份，沒有EBO。"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1684,8 +1684,8 @@ msgid "Not enough funds for fee"
 msgstr "費用的資金不足"
 
 #: www/views/onboarding/tour.html:50
-msgid "You can start creating your TCC Wallet"
-msgstr "可以開始創建TCC錢包"
+msgid "You can start creating your EBO Wallet"
+msgstr "可以開始創建EBO錢包"
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -1702,7 +1702,7 @@ msgstr "備註"
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell Mobicoin"
-msgstr "注意︰ 只有 1-1 （單簽名） 錢包可以用於賣TCC"
+msgstr "注意︰ 只有 1-1 （單簽名） 錢包可以用於賣EBO"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:46
@@ -1817,7 +1817,7 @@ msgstr "粘貼備份的純文本代碼"
 
 #: www/views/bitpayCardIntro.html:28
 msgid "Pay 0% fees to turn Mobicoin into dollars."
-msgstr "0%付費以TCC變成美元。"
+msgstr "0%付費以EBO變成美元。"
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2188,7 +2188,7 @@ msgstr "搜索交易"
 
 #: www/views/tab-send.html:13
 msgid "Search or enter Mobicoin address"
-msgstr "搜索或輸入TCC地址"
+msgstr "搜索或輸入EBO地址"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2217,7 +2217,7 @@ msgstr "自簽名證書"
 
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling Mobicoin..."
-msgstr "出售TCC......"
+msgstr "出售EBO......"
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2357,7 +2357,7 @@ msgstr "顯示高級選項"
 
 #: www/views/tab-send.html:37
 msgid "Show Mobicoin address"
-msgstr "顯示TCC地址"
+msgstr "顯示EBO地址"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
@@ -2412,7 +2412,7 @@ msgstr ""
 
 #: www/views/tab-send.html:28
 msgid "Start sending Mobicoin"
-msgstr "開始發送TCC"
+msgstr "開始發送EBO"
 
 #: src/js/routes.js:118
 msgid "Starting..."
@@ -2448,7 +2448,7 @@ msgstr "此操作無法撤消"
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your money,<br>get started with Mobicoin."
-msgstr "把你的錢，<br>得到控制開始用TCC。"
+msgstr "把你的錢，<br>得到控制開始用EBO。"
 
 #: www/views/walletDetails.html:140
 #: www/views/walletDetails.html:60
@@ -2497,15 +2497,15 @@ msgstr "Ledger Chrome 應用程序未安裝"
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of Mobicoin immediately spendable from this wallet."
-msgstr "TCC立即可從這個錢包的金額。"
+msgstr "EBO立即可從這個錢包的金額。"
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of Mobicoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "TCC存儲在分配作為你掛起的事務建議的輸入這個錢包中的金額。量確定使用未用餘額交易記錄輸出與這個錢包關聯，可能會與您掛起的事務建議相關聯的實際數額超過。"
+msgstr "EBO存儲在分配作為你掛起的事務建議的輸入這個錢包中的金額。量確定使用未用餘額交易記錄輸出與這個錢包關聯，可能會與您掛起的事務建議相關聯的實際數額超過。"
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of Mobicoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "TCC存儲在與小於 1 blockchain 確認這個錢包中的金額。"
+msgstr "EBO存儲在與小於 1 blockchain 確認這個錢包中的金額。"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2560,7 +2560,7 @@ msgstr "花費提議不是未決"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of Mobicoin stored in this wallet."
-msgstr "TCC存儲在這個錢包的總量。"
+msgstr "EBO存儲在這個錢包的總量。"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2599,7 +2599,7 @@ msgstr "訪問www.t|wcoin.com獲取詳細資訊"
 
 #: src/js/controllers/confirm.js:464
 msgid "This Mobicoin payment request has expired."
-msgstr "這TCC付款請求已過期。"
+msgstr "這EBO付款請求已過期。"
 
 #: www/views/join.html:130
 #: www/views/tab-create-personal.html:101
@@ -2640,11 +2640,11 @@ msgstr "發送到"
 
 #: www/views/tab-send.html:32
 msgid "To get started, buy Mobicoin or share your address. You can receive Mobicoin from any wallet or service."
-msgstr "若要開始，請買TCC或共享您的地址。你可以從任何錢包或服務接收TCC。"
+msgstr "若要開始，請買EBO或共享您的地址。你可以從任何錢包或服務接收EBO。"
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a Mobicoin wallet and get some Mobicoin."
-msgstr "若要開始，您將需要創建一個TCC的錢包，並獲得一些TCC。"
+msgstr "若要開始，您將需要創建一個EBO的錢包，並獲得一些EBO。"
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your BitPay account - {{email}}"
@@ -2728,7 +2728,7 @@ msgstr ""
 
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn Mobicoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "TCC變成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
+msgstr "EBO變成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3085,7 +3085,7 @@ msgstr "您可以通過簽約我們 Crowdin 社區翻譯網站作出貢獻。我
 
 #: www/views/tab-scan.html:16
 msgid "You can scan Mobicoin addresses, payment requests, paper wallets, and more."
-msgstr "您可以掃描TCC地址、 付款申請、 紙錢包和更多。"
+msgstr "您可以掃描EBO地址、 付款申請、 紙錢包和更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3100,8 +3100,8 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr "你仍然可以將其導出從高級 &gt; 出口。"
 
 #: www/views/onboarding/tour.html:32
-msgid "Provide comprehensive support for TCC's financial services"
-msgstr "你提供全面支持TCC的理財服務"
+msgid "Provide comprehensive support for EBO's financial services"
+msgstr "你提供全面支持EBO的理財服務"
 
 #: www/views/onboarding/tour.html:46
 msgid "Now you can participate in the EBOCoin coins raised"
@@ -3121,11 +3121,11 @@ msgstr ""
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your Mobicoin wallet is backed up!"
-msgstr "你的TCC錢包被備份 ！"
+msgstr "你的EBO錢包被備份 ！"
 
 #: www/views/tab-home.html:36
 msgid "Your Mobicoin wallet is ready!"
-msgstr "你的TCC錢包是準備好了 ！"
+msgstr "你的EBO錢包是準備好了 ！"
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
@@ -3201,7 +3201,7 @@ msgstr "{{appName}} 中的區塊鏈信息依賴於 Bitcore Wallet Service (BWS)�
 
 #: src/js/controllers/confirm.js:354
 msgid "{{fee}} will be deducted for Mobicoin networking fees."
-msgstr "{{fee}} 將TCC網絡費用中扣除。"
+msgstr "{{fee}} 將EBO網絡費用中扣除。"
 
 #: www/views/confirm.html:87
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
