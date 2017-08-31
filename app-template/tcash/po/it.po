@@ -18,7 +18,7 @@ msgid "(Trusted)"
 msgstr "（可信的）"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "Tcash security wallet<br>manage your TCC"
+msgid EBOCoin security wallet<br>manage your EBO"
 msgstr "Tcash安全錢包<br>管理您的TCC"
 
 
@@ -1684,7 +1684,7 @@ msgid "Not enough funds for fee"
 msgstr "費用的資金不足"
 
 #: www/views/onboarding/tour.html:50
-msgid "You can start creating your TCC Wallet"
+msgid "You can start creating your EBO Wallet"
 msgstr "可以開始創建TCC錢包"
 
 #: src/js/controllers/paperWallet.js:47
@@ -1699,6 +1699,11 @@ msgstr "不是現在"
 #: www/views/includes/output.html:15
 msgid "Note"
 msgstr "備註"
+
+
+#: www/views/tab-home.html:146
+msgid "ICO involved in EBOCoin"
+msgstr "參與Tcash的ICO"
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell Mobicoin"
@@ -3100,11 +3105,11 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr "你仍然可以將其導出從高級 &gt; 出口。"
 
 #: www/views/onboarding/tour.html:32
-msgid "Provide comprehensive support for TCC's financial services"
+msgid "Provide comprehensive support for EBO's financial services"
 msgstr "你提供全面支持TCC的理財服務"
 
 #: www/views/onboarding/tour.html:46
-msgid "Now you can participate in the Tcash coins raised"
+msgid "Now you can participate in the EBOCoin coins raised"
 msgstr "現在就可以參與Tcash的幣眾籌"
 
 #: www/views/modals/bitpay-card-confirmation.html:5

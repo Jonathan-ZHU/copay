@@ -18,7 +18,7 @@ msgid "(Trusted)"
 msgstr "(Trusted)"
 
 #: www/views/onboardijng/welcome.html:4
-msgid "Tcash security wallet<br>manage your TCC"
+msgid "EBOCoin security wallet<br>manage your EBO"
 msgstr "Tcash security wallet<br>manage your TCC"
 
 #: www/views/tab-home.html:4
@@ -28,7 +28,7 @@ msgstr "Tcash"
 
 
 #: www/views/tab-home.html:146
-msgid "ICO involved in Tcash"
+msgid "ICO involved in EBOCoin"
 msgstr "ICO involved in Tcash"
 
 #: www/views/includes/txp.html:23
@@ -1688,7 +1688,7 @@ msgid "Not enough funds for fee"
 msgstr ""
 
 #: www/views/onboarding/tour.html:50
-msgid "You can start creating your TCC Wallet"
+msgid "You can start creating your EBO Wallet"
 msgstr ""
 
 #: src/js/controllers/paperWallet.js:47
@@ -3104,11 +3104,11 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr ""
 
 #: www/views/onboarding/tour.html:32
-msgid "Provide comprehensive support for TCC's financial services"
+msgid "Provide comprehensive support for EBO's financial services"
 msgstr "Provide comprehensive support for TCC's financial services"
 
 #: www/views/onboarding/tour.html:46
-msgid "Now you can participate in the Tcash coins raised"
+msgid "Now you can participate in the EBOCoin coins raised"
 msgstr "Now you can participate in the Tcash coins raised"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
